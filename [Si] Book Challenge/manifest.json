@@ -1,0 +1,22 @@
+{
+	"Name": "[Si] Book Challenge",
+	"Author": "SiTheGreat",
+	"Description": "Collect books hidden around the valley!",
+	"Version": "1.0.0",
+	"UniqueID": "Si.BC",
+	"UpdateKeys": [ "Nexus:" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
+	"Dependencies": [
+		{
+		"UniqueID": "spacechase0.SpaceCore",
+		"IsRequired": true
+		},
+		{
+		"UniqueID": "ichortower.SecretNoteFramework",
+		"IsRequired": true
+		},
+		
+	]
+}

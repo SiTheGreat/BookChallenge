@@ -1,0 +1,37 @@
+{
+
+	"Changes": [
+
+	// Content //////////////////////////////////////////////////////////
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/[Base]/Objects.json",
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/[Base]/GiftTastes.json",
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/[Base]/GiftResponses.json",
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/[Base]/SecretNotes.json",
+		},
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/[Base]/MapEntries.json",
+		},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

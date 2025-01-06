@@ -1,0 +1,22 @@
+{
+
+	"Format": "2.0.0",
+
+	// Content //////////////////////////////////////////////////////////
+
+	"Changes": [
+
+		{
+			"Action": "Include",
+			"FromFile": "Data/Compats/Base.json",
+			// "When": {
+			// 	"HasSeenEvent:hostPlayer |contains=29": true,
+			// }
+		},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

@@ -1,0 +1,52 @@
+{
+
+	"Changes": [
+
+	// Content //////////////////////////////////////////////////////////
+
+		// Each book:
+		// Trigger action
+		// Map property
+		// SNF entry
+		// Object entry
+		// Book texture
+		// Gift tastes
+		// Gift responses
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_Test1": {
+					"Id": "{{ModId}}_Test1",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Test2",
+					"Actions": [
+						"AddItem 199",
+						"AddMail Current {{ModId}}_Test2"
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Test1"
+					}
+				},
+			],
+		},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
