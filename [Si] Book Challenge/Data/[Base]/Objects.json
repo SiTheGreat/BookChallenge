@@ -4,14 +4,150 @@
 
 	// Content //////////////////////////////////////////////////////////
 
-		// Each book:
-		// Trigger action
-		// Map property
-		// SNF entry
-		// Object entry
-		// Book texture
-		// Gift tastes
-		// Gift responses
+		// AstroBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/AstroBook",
+			"FromFile": "Data/[Base]/Assets/AstroBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_AstroBook": {
+					"Name": "{{ModId}}_AstroBook",
+					"DisplayName": "{{i18n:Si.BC.AstroBookName}}",
+					"Description": "{{i18n:Si.BC.AstroBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/AstroBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// DMGBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/DMGBook",
+			"FromFile": "Data/[Base]/Assets/DMGBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_DMGBook": {
+					"Name": "{{ModId}}_DMGBook",
+					"DisplayName": "{{i18n:Si.BC.DMGBookName}}",
+					"Description": "{{i18n:Si.BC.DMGBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/DMGBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// NatGeoBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/NatGeoBook",
+			"FromFile": "Data/[Base]/Assets/NatGeoBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_NatGeoBook": {
+					"Name": "{{ModId}}_NatGeoBook",
+					"DisplayName": "{{i18n:Si.BC.NatGeoBookName}}",
+					"Description": "{{i18n:Si.BC.NatGeoBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/NatGeoBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// PennyBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/PennyBook",
+			"FromFile": "Data/[Base]/Assets/PennyBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PennyBook": {
+					"Name": "{{ModId}}_PennyBook",
+					"DisplayName": "{{i18n:Si.BC.PennyBookName}}",
+					"Description": "{{i18n:Si.BC.PennyBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/PennyBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// PHBBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/PHBBook",
+			"FromFile": "Data/[Base]/Assets/PHBBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_PHBBook": {
+					"Name": "{{ModId}}_PHBBook",
+					"DisplayName": "{{i18n:Si.BC.PHBBookName}}",
+					"Description": "{{i18n:Si.BC.PHBBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/PHBBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
 
 	// End //////////////////////////////////////////////////////////
 

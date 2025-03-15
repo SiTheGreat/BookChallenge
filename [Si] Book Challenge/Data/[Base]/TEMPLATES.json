@@ -1,0 +1,117 @@
+{
+
+	"Changes": [
+
+	// Content //////////////////////////////////////////////////////////
+
+		// i18n
+
+		{
+			"Si.BC.insertBookName": "Book name here",
+			"Si.BC.insertBookDesc": "Book description here",
+			"Si.BC.insertBookContent": "Book contents here",
+		},
+
+		// insertBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/insertBook",
+			"FromFile": "Data/[Base]/Assets/insertBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_insertBook": {
+					"Name": "{{ModId}}_insertBook",
+					"DisplayName": "{{i18n:Si.BC.insertBookName}}",
+					"Description": "{{i18n:Si.BC.insertBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/insertBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// insertBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_insertBookTrigger": {
+					"Id": "{{ModId}}_insertBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasinsertBook",
+					"Actions": [
+						"AddItem {{ModId}}_insertBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_insertBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_insertBookTrigger"
+					}
+				},
+			],
+		},
+
+		// insertBook
+
+		"{{ModId}}_insertBook": {
+			"Title": "{{i18n:Si.BC.insertBookName}}",
+			"Contents": "{{i18n:Si.BC.insertBookContent}}",
+			"ObjectId": "(O){{ModId}}_insertBook",
+			"Location": "null",
+			"NoteTexture": "Mods/{{ModId}}/blankbook",
+			"NoteTextureIndex": 0,
+			"NoteTextColor": "rgb(12, 12, 80)",
+			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+			"ActionsOnFirstRead": [
+				"AddMail Current {{ModId}}_HasinsertBook"
+			]
+		},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

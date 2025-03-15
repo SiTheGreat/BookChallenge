@@ -1,6 +1,12 @@
 Once found, can no longer be fouund there (except enviro ones like bottle message); marcello will have rotating/random stock of fouund ones
 
 Vanilla
+- Astronomic Magazine [Maru]
+- National Geography [Demetrius]
+- DMG [Sebastian]
+- PHB [Sebastian]
+- The Fine Art Of Wood Joinery [Robin] (also loved by Leah)
+
 - Message in a Bottle [Leo]
 - Welcome Home: A Soldier's Guide to Returning to Civilian Life [Kent]
 - Leah's Sketchbook [Leah]
@@ -15,16 +21,12 @@ Vanilla
 - How to Train Your Guinea Pig [Abigail]
 - The Amazing Aardvark-Man [Sam]; comic book
 - Gridball Rulebook [Alex]
-- DMG [Sebastian]
-- PHB [Sebastian]
 - C# Essentials [Sebastian] (make this book yellow)
 - Archaeology Field Guide [Gunther]
 - 101 Gourmand Tomato Salt Recipes [Gus]
 - The Bat On The Mat [Vincent]
 - The Book Of Books [Penny]
-- The Engineer's Toolbox: Material properties, steam tables, and more! [Maru] (also loved by clint)
-- Astronomic Magazine [Maru]
-- National Geography [Demetrius]
+- The Engineer's Toolbox: Material properties, steam tables, and more! [Maru] (also loved by clint) (basement?)
 - Guide to Goldsmithing [Lewis]
 - Fish of Ferngill [Willy]
 - Campfire Cooking: A Field Guide To Freshly Foraged Foods [Linus] (also loved by Leah)
@@ -32,8 +34,7 @@ Vanilla
 - Reader's Digest [George]
 - Adventures In Healing: The Field Medic's Handbook: 'Some choose to brave the dangers of the world, fighting monsters, spirits, and the very essence of evil itself. Others prefer the safety and comfort of their clinics, where they can enjoy some nice coffee, read a good book, and wait for members of the first group to be rolled in on stretchers, wounded and regretting every decision they’ve ever made. If you are a member of the second group, this book is for you.' [Harvey]
 - Crystallic Symbolism [Emily]
-- ??? Magazine [Haley]
-- The Fine Art Of Wood Joinery [Robin] (also loved by Leah)
+- Style Magazine [Haley]
 - [Pierre]
 - A Tale Of Two Chimneys [Caroline]
 - Fern Island Travel Brochure [Caroline]

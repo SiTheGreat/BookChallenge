@@ -4,27 +4,20 @@
 
 	// Content //////////////////////////////////////////////////////////
 
-		// Each book:
-		// Trigger action
-		// Map property
-		// SNF entry
-		// Object entry
-		// Book texture
-		// Gift tastes
-		// Gift responses
+		// AstroBook
 
 		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
-				"{{ModId}}_Test1": {
-					"Id": "{{ModId}}_Test1",
+				"{{ModId}}_AstroBookTrigger": {
+					"Id": "{{ModId}}_AstroBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Test2",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAstroBook",
 					"Actions": [
-						"AddItem 199",
-						"AddMail Current {{ModId}}_Test2"
+						"AddItem {{ModId}}_AstroBook",
+						// "AddMail Current {{ModId}}_HasAstroBook"
 					]
 				}
 			},
@@ -32,13 +25,241 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 4, "Y": 3 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Test1"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AstroBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 4, "Y": 3 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AstroBookTrigger"
+					}
+				},
+			],
+		},
+
+		// DMGBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_DMGBookTrigger": {
+					"Id": "{{ModId}}_DMGBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasDMGBook",
+					"Actions": [
+						"AddItem {{ModId}}_DMGBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 11, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DMGBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 11, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DMGBookTrigger"
+					}
+				},
+			],
+		},
+
+		// NatGeoBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_NatGeoBookTrigger": {
+					"Id": "{{ModId}}_NatGeoBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNatGeoBook",
+					"Actions": [
+						"AddItem {{ModId}}_NatGeoBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+					}
+				},
+			],
+		},
+
+		// PennyBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_PennyBookTrigger": {
+					"Id": "{{ModId}}_PennyBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPennyBook",
+					"Actions": [
+						"AddItem {{ModId}}_PennyBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 3, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PennyBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 3, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PennyBookTrigger"
+					}
+				},
+			],
+		},
+
+		// PHBBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_PHBBookTrigger": {
+					"Id": "{{ModId}}_PHBBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPHBBook",
+					"Actions": [
+						"AddItem {{ModId}}_PHBBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 4, "Y": 8 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 4, "Y": 8 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
 					}
 				},
 			],

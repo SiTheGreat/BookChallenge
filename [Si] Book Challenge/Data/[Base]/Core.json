@@ -9,15 +9,15 @@
 			"FromFile": "Data/[Base]/Objects.json",
 		},
 
-		{
-			"Action": "Include",
-			"FromFile": "Data/[Base]/GiftTastes.json",
-		},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Data/[Base]/GiftTastes.json",
+		// },
 
-		{
-			"Action": "Include",
-			"FromFile": "Data/[Base]/GiftResponses.json",
-		},
+		// {
+		// 	"Action": "Include",
+		// 	"FromFile": "Data/[Base]/GiftResponses.json",
+		// },
 
 		{
 			"Action": "Include",
