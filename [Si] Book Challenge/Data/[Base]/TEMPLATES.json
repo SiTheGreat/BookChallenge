@@ -102,7 +102,7 @@
 			"Location": "null",
 			"NoteTexture": "Mods/{{ModId}}/blankbook",
 			"NoteTextureIndex": 0,
-			"NoteTextColor": "rgb(12, 12, 80)",
+			"NoteTextColor": "{{TextColor}}",
 			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 			"ActionsOnFirstRead": [
 				"AddMail Current {{ModId}}_HasinsertBook"
