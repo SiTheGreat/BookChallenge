@@ -4,6 +4,266 @@
 
 	// Content //////////////////////////////////////////////////////////
 
+		// SaltBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_SaltBookTrigger": {
+					"Id": "{{ModId}}_SaltBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSaltBook",
+					"Actions": [
+						"AddItem {{ModId}}_SaltBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SaltBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SaltBookTrigger"
+					}
+				},
+			],
+		},
+
+		// AdvMagBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_AdvMagBookTrigger": {
+					"Id": "{{ModId}}_AdvMagBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAdvMagBook",
+					"Actions": [
+						"AddItem {{ModId}}_AdvMagBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvMagBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvMagBookTrigger"
+					}
+				},
+			],
+		},
+
+		// AdvHealBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_AdvHealBookTrigger": {
+					"Id": "{{ModId}}_AdvHealBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAdvHealBook",
+					"Actions": [
+						"AddItem {{ModId}}_AdvHealBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
+					}
+				},
+			],
+		},
+
+		// AardvarkBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_AardvarkBookTrigger": {
+					"Id": "{{ModId}}_AardvarkBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAardvarkBook",
+					"Actions": [
+						"AddItem {{ModId}}_AardvarkBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AardvarkBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AardvarkBookTrigger"
+					}
+				},
+			],
+		},
+
+		// ArchGuide
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_ArchGuideTrigger": {
+					"Id": "{{ModId}}_ArchGuideTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasArchGuide",
+					"Actions": [
+						"AddItem {{ModId}}_ArchGuide",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ArchGuideTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ArchGuideTrigger"
+					}
+				},
+			],
+		},
+
 		// AstroBook
 
 		{
@@ -52,6 +312,422 @@
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AstroBookTrigger"
+					}
+				},
+			],
+		},
+
+		// BatMatBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_BatMatBookTrigger": {
+					"Id": "{{ModId}}_BatMatBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBatMatBook",
+					"Actions": [
+						"AddItem {{ModId}}_BatMatBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BatMatBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BatMatBookTrigger"
+					}
+				},
+			],
+		},
+
+		// BetterHomesBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_BetterHomesBookTrigger": {
+					"Id": "{{ModId}}_BetterHomesBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBetterHomesBook",
+					"Actions": [
+						"AddItem {{ModId}}_BetterHomesBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BetterHomesBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BetterHomesBookTrigger"
+					}
+				},
+			],
+		},
+
+		// YobaBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_YobaBookTrigger": {
+					"Id": "{{ModId}}_YobaBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasYobaBook",
+					"Actions": [
+						"AddItem {{ModId}}_YobaBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_YobaBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_YobaBookTrigger"
+					}
+				},
+			],
+		},
+
+		// BookkeepingBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_BookkeepingBookTrigger": {
+					"Id": "{{ModId}}_BookkeepingBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBookkeepingBook",
+					"Actions": [
+						"AddItem {{ModId}}_BookkeepingBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CSharpBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CSharpBookTrigger": {
+					"Id": "{{ModId}}_CSharpBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCSharpBook",
+					"Actions": [
+						"AddItem {{ModId}}_CSharpBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CampfireBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CampfireBookTrigger": {
+					"Id": "{{ModId}}_CampfireBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCampfireBook",
+					"Actions": [
+						"AddItem {{ModId}}_CampfireBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CampfireBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CampfireBookTrigger"
+					}
+				},
+			],
+		},
+
+		// ChickenBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_ChickenBookTrigger": {
+					"Id": "{{ModId}}_ChickenBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasChickenBook",
+					"Actions": [
+						"AddItem {{ModId}}_ChickenBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChickenBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChickenBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CrystalBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CrystalBookTrigger": {
+					"Id": "{{ModId}}_CrystalBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCrystalBook",
+					"Actions": [
+						"AddItem {{ModId}}_CrystalBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
 					}
 				},
 			],
@@ -109,19 +785,19 @@
 			],
 		},
 
-		// NatGeoBook
+		// ToolboxBook
 
 		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
-				"{{ModId}}_NatGeoBookTrigger": {
-					"Id": "{{ModId}}_NatGeoBookTrigger",
+				"{{ModId}}_ToolboxBookTrigger": {
+					"Id": "{{ModId}}_ToolboxBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNatGeoBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasToolboxBook",
 					"Actions": [
-						"AddItem {{ModId}}_NatGeoBook",
+						"AddItem {{ModId}}_ToolboxBook",
 					]
 				}
 			},
@@ -129,16 +805,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/ScienceHouse",
+			"Target": "Maps/BusStop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 22, "Y": 4 },
+					"Position": { "X": 26, "Y": 21 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ToolboxBookTrigger"
 					}
 				},
 			],
@@ -146,16 +822,796 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/ScienceHouse",
+			"Target": "Maps/BusStop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 22, "Y": 4 },
+					"Position": { "X": 26, "Y": 21 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ToolboxBookTrigger"
+					}
+				},
+			],
+		},
+
+		// FernBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_FernBookTrigger": {
+					"Id": "{{ModId}}_FernBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFernBook",
+					"Actions": [
+						"AddItem {{ModId}}_FernBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
+					}
+				},
+			],
+		},
+
+		// WoodBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_WoodBookTrigger": {
+					"Id": "{{ModId}}_WoodBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasWoodBook",
+					"Actions": [
+						"AddItem {{ModId}}_WoodBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WoodBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WoodBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CloakBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CloakBookTrigger": {
+					"Id": "{{ModId}}_CloakBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCloakBook",
+					"Actions": [
+						"AddItem {{ModId}}_CloakBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CloakBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CloakBookTrigger"
+					}
+				},
+			],
+		},
+
+		// FireproofingBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_FireproofingBookTrigger": {
+					"Id": "{{ModId}}_FireproofingBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFireproofingBook",
+					"Actions": [
+						"AddItem {{ModId}}_FireproofingBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FireproofingBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FireproofingBookTrigger"
+					}
+				},
+			],
+		},
+
+		// GridballBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_GridballBookTrigger": {
+					"Id": "{{ModId}}_GridballBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGridballBook",
+					"Actions": [
+						"AddItem {{ModId}}_GridballBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GridballBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GridballBookTrigger"
+					}
+				},
+			],
+		},
+
+		// GoldBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_GoldBookTrigger": {
+					"Id": "{{ModId}}_GoldBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGoldBook",
+					"Actions": [
+						"AddItem {{ModId}}_GoldBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GoldBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GoldBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CleanSpellsBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CleanSpellsBookTrigger": {
+					"Id": "{{ModId}}_CleanSpellsBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCleanSpellsBook",
+					"Actions": [
+						"AddItem {{ModId}}_CleanSpellsBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CleanSpellsBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CleanSpellsBookTrigger"
+					}
+				},
+			],
+		},
+
+		// GuineaBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_GuineaBookTrigger": {
+					"Id": "{{ModId}}_GuineaBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGuineaBook",
+					"Actions": [
+						"AddItem {{ModId}}_GuineaBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GuineaBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GuineaBookTrigger"
+					}
+				},
+			],
+		},
+
+		// Human101Book
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_Human101BookTrigger": {
+					"Id": "{{ModId}}_Human101BookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHuman101Book",
+					"Actions": [
+						"AddItem {{ModId}}_Human101Book",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
+					}
+				},
+			],
+		},
+
+		// HumanLingoBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_HumanLingoBookTrigger": {
+					"Id": "{{ModId}}_HumanLingoBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHumanLingoBook",
+					"Actions": [
+						"AddItem {{ModId}}_HumanLingoBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HumanLingoBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HumanLingoBookTrigger"
+					}
+				},
+			],
+		},
+
+		// FlowerLingoBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_FlowerLingoBookTrigger": {
+					"Id": "{{ModId}}_FlowerLingoBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFlowerLingoBook",
+					"Actions": [
+						"AddItem {{ModId}}_FlowerLingoBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FlowerLingoBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FlowerLingoBookTrigger"
+					}
+				},
+			],
+		},
+
+		// BusBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_BusBookTrigger": {
+					"Id": "{{ModId}}_BusBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBusBook",
+					"Actions": [
+						"AddItem {{ModId}}_BusBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BusBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BusBookTrigger"
+					}
+				},
+			],
+		},
+
+		// HomeownerBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_HomeownerBookTrigger": {
+					"Id": "{{ModId}}_HomeownerBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHomeownerBook",
+					"Actions": [
+						"AddItem {{ModId}}_HomeownerBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HomeownerBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HomeownerBookTrigger"
+					}
+				},
+			],
+		},
+
+		// MarketArtBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_MarketArtBookTrigger": {
+					"Id": "{{ModId}}_MarketArtBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasMarketArtBook",
+					"Actions": [
+						"AddItem {{ModId}}_MarketArtBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarketArtBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarketArtBookTrigger"
+					}
+				},
+			],
+		},
+
+		// MarnieLogBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_MarnieLogBookTrigger": {
+					"Id": "{{ModId}}_MarnieLogBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasMarnieLogBook",
+					"Actions": [
+						"AddItem {{ModId}}_MarnieLogBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarnieLogBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarnieLogBookTrigger"
 					}
 				},
 			],
@@ -213,6 +1669,110 @@
 			],
 		},
 
+		// NatGeoBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_NatGeoBookTrigger": {
+					"Id": "{{ModId}}_NatGeoBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNatGeoBook",
+					"Actions": [
+						"AddItem {{ModId}}_NatGeoBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NatGeoBookTrigger"
+					}
+				},
+			],
+		},
+
+		// NavBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_NavBookTrigger": {
+					"Id": "{{ModId}}_NavBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNavBook",
+					"Actions": [
+						"AddItem {{ModId}}_NavBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NavBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NavBookTrigger"
+					}
+				},
+			],
+		},
+
 		// PHBBook
 
 		{
@@ -260,6 +1820,318 @@
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
+					}
+				},
+			],
+		},
+
+		// PrincessBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_PrincessBookTrigger": {
+					"Id": "{{ModId}}_PrincessBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPrincessBook",
+					"Actions": [
+						"AddItem {{ModId}}_PrincessBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PrincessBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PrincessBookTrigger"
+					}
+				},
+			],
+		},
+
+		// ReadersDigestBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_ReadersDigestBookTrigger": {
+					"Id": "{{ModId}}_ReadersDigestBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasReadersDigestBook",
+					"Actions": [
+						"AddItem {{ModId}}_ReadersDigestBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ReadersDigestBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ReadersDigestBookTrigger"
+					}
+				},
+			],
+		},
+
+		// StyleBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_StyleBookTrigger": {
+					"Id": "{{ModId}}_StyleBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasStyleBook",
+					"Actions": [
+						"AddItem {{ModId}}_StyleBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StyleBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StyleBookTrigger"
+					}
+				},
+			],
+		},
+
+		// CareBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_CareBookTrigger": {
+					"Id": "{{ModId}}_CareBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCareBook",
+					"Actions": [
+						"AddItem {{ModId}}_CareBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CareBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CareBookTrigger"
+					}
+				},
+			],
+		},
+
+		// ChimneyBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_ChimneyBookTrigger": {
+					"Id": "{{ModId}}_ChimneyBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasChimneyBook",
+					"Actions": [
+						"AddItem {{ModId}}_ChimneyBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChimneyBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChimneyBookTrigger"
+					}
+				},
+			],
+		},
+
+		// SoldierBook
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_SoldierBookTrigger": {
+					"Id": "{{ModId}}_SoldierBookTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSoldierBook",
+					"Actions": [
+						"AddItem {{ModId}}_SoldierBook",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SoldierBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SoldierBookTrigger"
 					}
 				},
 			],

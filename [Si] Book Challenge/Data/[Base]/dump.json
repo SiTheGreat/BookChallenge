@@ -1,0 +1,104 @@
+		// i18n
+
+{
+	"Si.BC.insertName": "Book name here",
+	"Si.BC.insertDesc": "Book description here",
+	"Si.BC.insertContent": "Book contents here",
+},
+
+		// insert
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/insert",
+			"FromFile": "Data/[Base]/Assets/insert.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_insert": {
+					"Name": "{{ModId}}_insert",
+					"DisplayName": "{{i18n:Si.BC.insertName}}",
+					"Description": "{{i18n:Si.BC.insertDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/insert",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// insert
+
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_insertTrigger": {
+					"Id": "{{ModId}}_insertTrigger",
+					"MarkActionApplied": true,
+					"Trigger": "Manual",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Hasinsert",
+					"Actions": [
+						"AddItem {{ModId}}_insert",
+					]
+				}
+			},
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_insertTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			},
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 21 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_insertTrigger"
+					}
+				},
+			],
+		},
+
+		// insert
+
+		"{{ModId}}_insert": {
+			"Title": "{{i18n:Si.BC.insertName}}",
+			"Contents": "{{i18n:Si.BC.insertContent}}",
+			"ObjectId": "(O){{ModId}}_insert",
+			"Location": "null",
+			"NoteTexture": "Mods/{{ModId}}/blankbook",
+			"NoteTextureIndex": 0,
+			"NoteTextColor": "{{TextColor}}",
+			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+			"ActionsOnFirstRead": [
+				"AddMail Current {{ModId}}_Hasinsert"
+			]
+		},

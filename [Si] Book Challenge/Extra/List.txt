@@ -13,12 +13,12 @@ Vanilla
 
 - Welcome Home: A Soldier's Guide to Returning to Civilian Life [Kent]
 - The Amazing Aardvark-Man [Sam]; comic book
-- The Bat On The Mat [Vincent]
+- The Bat On The Mat [Vincent]; idea from Rat: Does it happen to be about a vampire that gets trapped on a welcome mat because, though invited, it's not technically part of the house?
 - Better Homes and Gardens New Cook Book [Jodi]
 
 - The Princess And The Sword [Jas]
-- Chicken Rearing for Dummies [Shane]
-- Marnie's Log [Marnie] - there's details about every animal on the farm in here!
+- Chicken Rearing for Dummies [Shane] ('what? like you weren't a dummy the first time you tried to raise a chicken.')
+- Marnie's Logbook [Marnie] - there's details about every animal on the farm in here!
 
 - Marketing Art [Leah]
 
@@ -43,13 +43,12 @@ Vanilla
 - Style Magazine [Haley]
 - A Tale Of Two Chimneys [Sandy]
 
-- Adventures In Healing: The Field Medic's Handbook: '^Forward: ^Some choose to brave the dangers of the world, fighting monsters, spirits, and the very essence of evil itself. Others prefer the safety and comfort of their clinics, where they can enjoy some nice coffee, read a good book, and wait for members of the first group to be rolled in on stretchers, wounded and regretting every decision they’ve ever made. If you are a member of the second group, this book is for you.' [Harvey]
-- Blue Tower/Camellia Station/The Rise And Fall Of Planet Yazzo [Elliot] (possibly put draft versions of the other two in hidden places); after Elliot event, se farm hidden event w forks, each fork adds a mailflag for that book being finished, the other two become drafts
+- Adventures In Healing: The Field Medic's Handbook [Harvey]
 - Fireproofing Your Workshop [Clint] ('there's a warning on the back that the book itself isn't fireproof')
 
 - 101 Gourmand Tomato Salt Recipes [Gus]
-- Ocean Navigation Quick Reference [Willy] (page is directions onboard - starboard, port, aft/stern, bow, leeward/wayward)
-- Campfire Cooking: A  Field Guide To Preparing Freshly Foraged Foods [Linus] (also loved by Leah)
+- Ocean Navigation Quick Reference [Willy] (page is directions onboard - starboard, port, aft/stern, bow, leeward/wayward) (fell overboard so has to be fished up)
+- Campfire Cooking: A Field Guide To Preparing Freshly Foraged Foods [Linus] (also loved by Leah)
 - Guide to Goldsmithing [Lewis]
 
 - Human 101 [Krobus] (after watching a movie with him? Dunno if there's an easy flag for that tho)
@@ -58,14 +57,16 @@ Vanilla
 - Maintenance for First Time Homeowners [Dad] (found this in the garage, thought it might help you kiddo!)
 - Taking Care Of Yourself [Mom]
 
+!!!
 - Message in a Bottle [Leo] (message for Leo?)
+- Blue Tower/Camellia Station/The Rise And Fall Of Planet Yazzo [Elliot] (possibly put draft versions of the other two in hidden places); after Elliot event, se farm hidden event w forks, each fork adds a mailflag for that book being finished, the other two become drafts
 
 
 
 
 - Marnie's Scrapbook [Marnie] 'There's baby pictures of Shane, Jas, and every animal on the farm in here!'(Marnie: you found my scrapbook! aren't the pictures lovely?)
 - Leah's Sketchbook [Leah]
-- The Book Of Books [museum] (after finding all lost books)
+- The Book Of Books [bookseller] (after reading x books) (it's certainly the bookiest book you've ever read)
 
 - Newspaper: Ferngill Times: Pelican Town Community Center Restored Philanthropist farmer unable to be reached for comment [Lewis after CC complete]; make alternative for Joja Philanthropist
 
@@ -86,7 +87,10 @@ Si
 -- Frog Conservation Handbook
 -- Optimal Soil Conditions for the Anura Gourmand Subspecies [Demetrius]
 -YFNMC:
--- Book of the Dead [Sasha]
+-- Book of the Dead [Sasha] (written in hieroglyphics)
+-- Deatskull's bone puns
+Leaf Collecting
+-- Book on leaves in the insectarium
 
 ES
 - Juliet/Rosa: Rhapsody in Shadows
@@ -101,3 +105,10 @@ RSV
 Other:
 - Isla: poem books
 - Lacey: milliner/hattery books; alice in wonderland
+
+Classics:
+(Set a 'classics' config option)
+- 1001 Arabian Nights (hoe in he desert)
+- The Knights Of The Round Table (found by breaking boulders)
+- The Odyssey
+- The Illiad
