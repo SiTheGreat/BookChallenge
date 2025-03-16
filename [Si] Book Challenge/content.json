@@ -12,23 +12,29 @@
 			"Description": "When enabled, book interiors will have dark grey pages and yellow letters when being read."
 		},
 
-		// "AdventurerAbigailBooks": {
-		// 	"AllowValues": "true, false",
-		// 	"Default": "true",
-		// 	"Description": "Whether to include books made for the Adventurer Abigail mod."
-		// },
+		"AdventurerAbigailBooks": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Whether to include books made for the Adventurer Abigail mod when that mod is installed."
+		},
 
-		// "MorrisRedeemedBooks": {
-		// 	"AllowValues": "true, false",
-		// 	"Default": "true",
-		// 	"Description": "Whether to include books made for the Morris Redeemed mod."
-		// },
+		"LeafCollectingBooks": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Whether to include books made for the Leaf Collecting (NitV) mod when that mod is installed."
+		},
 
-		// "SebsFrogSanctuaryBooks": {
-		// 	"AllowValues": "true, false",
-		// 	"Default": "true",
-		// 	"Description": "Whether to include books made for the Sebastian's Frog Sanctuary mod."
-		// },
+		"MorrisRedeemedBooks": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Whether to include books made for the Morris Redeemed mod when that mod is installed."
+		},
+
+		"SebsFrogSanctuaryBooks": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Whether to include books made for the Sebastian's Frog Sanctuary mod when that mod is installed."
+		},
 	},
 
 	// Content //////////////////////////////////////////////////////////
@@ -83,14 +89,41 @@
 		"FromFile": "Data/[Base]/Core.json",
 	},
 
-	// {
-	// 	"Action": "Include",
-	// 	"FromFile": "Data/SiAdventurerAbigail/Core.json",
-	// 	"When": {
-	// 		"AdventurerAbigailBooks": true,
-	// 		"HasMod: |contains=SiTheGreat.AdventurerAbigail": true,
-	// 	}
-	// },
+	{
+		"Action": "Include",
+		"FromFile": "Data/SiAdventurerAbigail/AABooks.json",
+		"When": {
+			"AdventurerAbigailBooks": true,
+			"HasMod: |contains=SiTheGreat.AdventurerAbigail": true,
+		}
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Data/SiLeafCollecting/LCBooks.json",
+		"When": {
+			"LeafCollectingBooks": true,
+			"HasMod: |contains=Si.CPLeaves": true,
+		}
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Data/SiMorrisRedeemed/MRBooks.json",
+		"When": {
+			"MorrisRedeemedBooks": true,
+			"HasMod: |contains=SiTheGreat.MorrisRedeemed": true,
+		}
+	},
+
+	{
+		"Action": "Include",
+		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSBooks.json",
+		"When": {
+			"SebsFrogSanctuaryBooks": true,
+			"HasMod: |contains=Si.SebsFrogs": true,
+		}
+	},
 	
 	// Shop //////////////////////////////////////////////////////////
 

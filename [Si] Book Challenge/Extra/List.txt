@@ -8,7 +8,7 @@ Vanilla
 - DMG [Sebastian]
 - PHB [Sebastian]
 - The Fine Art Of Wood Joinery [Robin] (also loved by Leah)
-- The Engineer's Toolbox: Material properties, steam tables, and more! [Maru] (also loved by clint) (basement?)
+- The Engineer's Toolbox [Maru] (also loved by clint) (basement?)
 - C# Essentials [Sebastian] (make this book yellow)
 
 - Welcome Home: A Soldier's Guide to Returning to Civilian Life [Kent]
@@ -18,7 +18,7 @@ Vanilla
 
 - The Princess And The Sword [Jas]
 - Chicken Rearing for Dummies [Shane] ('what? like you weren't a dummy the first time you tried to raise a chicken.')
-- Marnie's Logbook [Marnie] - there's details about every animal on the farm in here!
+- Marnie's Logbook [Marnie]
 
 - Marketing Art [Leah]
 
@@ -44,7 +44,7 @@ Vanilla
 - A Tale Of Two Chimneys [Sandy]
 
 - Adventures In Healing: The Field Medic's Handbook [Harvey]
-- Fireproofing Your Workshop [Clint] ('there's a warning on the back that the book itself isn't fireproof')
+- Fireproofing Your Workshop [Clint]
 
 - 101 Gourmand Tomato Salt Recipes [Gus]
 - Ocean Navigation Quick Reference [Willy] (page is directions onboard - starboard, port, aft/stern, bow, leeward/wayward) (fell overboard so has to be fished up)
@@ -72,7 +72,7 @@ Vanilla
 
 - Poems For The Wayward Heart
 - Skeletons In The Closet: The definitive guide to burying your past. Collapsible shovel included! (museum after donating all bone items)
-- Old Journal [Found at the summit] 'Musings of a farmer who found their way up the mountain long ago.' 
+- Old Journal [Found at the summit] 'Musings of a farmer who found their way up the mountain long ago.' SVE?
 
 
 Crossovers
@@ -86,11 +86,11 @@ Si
 - SFS:
 -- Frog Conservation Handbook
 -- Optimal Soil Conditions for the Anura Gourmand Subspecies [Demetrius]
--YFNMC:
--- Book of the Dead [Sasha] (written in hieroglyphics)
--- Deatskull's bone puns
 Leaf Collecting
 -- Book on leaves in the insectarium
+-YFNMC (have books be monster drops?):
+-- Book of the Dead [Sasha] (written in hieroglyphics)
+-- Deatskull's bone puns
 
 ES
 - Juliet/Rosa: Rhapsody in Shadows

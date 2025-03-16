@@ -1,0 +1,218 @@
+{
+
+	"Changes": [
+	
+	// Objects //////////////////////////////////////////////////////////
+
+	// AAMinesBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/AAMinesBook",
+		"FromFile": "Data/SiAdventurerAbigail/AAMinesBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_AAMinesBook": {
+				"Name": "{{ModId}}_AAMinesBook",
+				"DisplayName": "{{i18n:Si.BC.AAMinesBookName}}",
+				"Description": "{{i18n:Si.BC.AAMinesBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/AAMinesBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// AASwordBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/AASwordBook",
+		"FromFile": "Data/SiAdventurerAbigail/AASwordBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_AASwordBook": {
+				"Name": "{{ModId}}_AASwordBook",
+				"DisplayName": "{{i18n:Si.BC.AASwordBookName}}",
+				"Description": "{{i18n:Si.BC.AASwordBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/AASwordBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// Map Entries //////////////////////////////////////////////////////////
+
+	// AAMinesBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_AAMinesBookTrigger": {
+				"Id": "{{ModId}}_AAMinesBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAAMinesBook",
+				"Actions": [
+					"AddItem {{ModId}}_AAMinesBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
+				}
+			},
+		],
+	},
+
+	// AASwordBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_AASwordBookTrigger": {
+				"Id": "{{ModId}}_AASwordBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAASwordBook",
+				"Actions": [
+					"AddItem {{ModId}}_AASwordBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"
+				}
+			},
+		],
+	},
+
+	// Secret Notes //////////////////////////////////////////////////////////
+
+	{
+		"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+		"Action": "EditData",
+		"Entries": {
+
+			// AAMinesBook
+
+			"{{ModId}}_AAMinesBook": {
+				"Title": "{{i18n:Si.BC.AAMinesBookName}}",
+				"Contents": "{{i18n:Si.BC.AAMinesBookContent}}",
+				"ObjectId": "(O){{ModId}}_AAMinesBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasAAMinesBook"
+				]
+			},
+
+			// AASwordBook
+
+			"{{ModId}}_AASwordBook": {
+				"Title": "{{i18n:Si.BC.AASwordBookName}}",
+				"Contents": "{{i18n:Si.BC.AASwordBookContent}}",
+				"ObjectId": "(O){{ModId}}_AASwordBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasAASwordBook"
+				]
+			},
+
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

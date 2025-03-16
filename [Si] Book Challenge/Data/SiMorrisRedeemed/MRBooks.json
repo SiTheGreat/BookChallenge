@@ -1,0 +1,121 @@
+{
+
+	"Changes": [
+	
+	// Objects //////////////////////////////////////////////////////////
+
+	// MRCleaningBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/MRCleaningBook",
+		"FromFile": "Data/SiMorrisRedeemed/MRCleaningBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_MRCleaningBook": {
+				"Name": "{{ModId}}_MRCleaningBook",
+				"DisplayName": "{{i18n:Si.BC.MRCleaningBookName}}",
+				"Description": "{{i18n:Si.BC.MRCleaningBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/MRCleaningBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// Map Entries //////////////////////////////////////////////////////////
+
+	// MRCleaningBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_MRCleaningBookTrigger": {
+				"Id": "{{ModId}}_MRCleaningBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasMRCleaningBook",
+				"Actions": [
+					"AddItem {{ModId}}_MRCleaningBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MRCleaningBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MRCleaningBookTrigger"
+				}
+			},
+		],
+	},
+
+	// Secret Notes //////////////////////////////////////////////////////////
+
+	{
+		"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+		"Action": "EditData",
+		"Entries": {
+
+			// MRCleaningBook
+
+			"{{ModId}}_MRCleaningBook": {
+				"Title": "{{i18n:Si.BC.MRCleaningBookName}}",
+				"Contents": "{{i18n:Si.BC.MRCleaningBookContent}}",
+				"ObjectId": "(O){{ModId}}_MRCleaningBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasMRCleaningBook"
+				]
+			},
+
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

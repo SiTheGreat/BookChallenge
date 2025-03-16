@@ -1,0 +1,218 @@
+{
+
+	"Changes": [
+	
+	// Objects //////////////////////////////////////////////////////////
+
+	// SFSGuideBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/SFSGuideBook",
+		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSGuideBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_SFSGuideBook": {
+				"Name": "{{ModId}}_SFSGuideBook",
+				"DisplayName": "{{i18n:Si.BC.SFSGuideBookName}}",
+				"Description": "{{i18n:Si.BC.SFSGuideBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/SFSGuideBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// SFSSoilBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/SFSSoilBook",
+		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSSoilBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_SFSSoilBook": {
+				"Name": "{{ModId}}_SFSSoilBook",
+				"DisplayName": "{{i18n:Si.BC.SFSSoilBookName}}",
+				"Description": "{{i18n:Si.BC.SFSSoilBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/SFSSoilBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// Map Entries //////////////////////////////////////////////////////////
+
+	// SFSGuideBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_SFSGuideBookTrigger": {
+				"Id": "{{ModId}}_SFSGuideBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSFSGuideBook",
+				"Actions": [
+					"AddItem {{ModId}}_SFSGuideBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SFSGuideBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SFSGuideBookTrigger"
+				}
+			},
+		],
+	},
+
+	// SFSSoilBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_SFSSoilBookTrigger": {
+				"Id": "{{ModId}}_SFSSoilBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSFSSoilBook",
+				"Actions": [
+					"AddItem {{ModId}}_SFSSoilBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SFSSoilBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SFSSoilBookTrigger"
+				}
+			},
+		],
+	},
+
+	// Secret Notes //////////////////////////////////////////////////////////
+
+	{
+		"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+		"Action": "EditData",
+		"Entries": {
+
+			// SFSGuideBook
+
+			"{{ModId}}_SFSGuideBook": {
+				"Title": "{{i18n:Si.BC.SFSGuideBookName}}",
+				"Contents": "{{i18n:Si.BC.SFSGuideBookContent}}",
+				"ObjectId": "(O){{ModId}}_SFSGuideBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasSFSGuideBook"
+				]
+			},
+
+			// SFSSoilBook
+
+			"{{ModId}}_SFSSoilBook": {
+				"Title": "{{i18n:Si.BC.SFSSoilBookName}}",
+				"Contents": "{{i18n:Si.BC.SFSSoilBookContent}}",
+				"ObjectId": "(O){{ModId}}_SFSSoilBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasSFSSoilBook"
+				]
+			},
+
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

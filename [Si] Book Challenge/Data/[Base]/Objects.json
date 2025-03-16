@@ -236,6 +236,58 @@
 			}
 		},
 
+		// ElliotTowerBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotTowerBook",
+			"FromFile": "Data/[Base]/Assets/ElliotTowerBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": false,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotTowerBook",
+			"FromFile": "Data/[Base]/Assets/ElliotTowerBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_TowerFlag": true,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotTowerBook",
+			"FromFile": "Data/[Base]/Assets/ElliotTowerDraft.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_TowerFlag": false,
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ElliotTowerBook": {
+					"Name": "{{ModId}}_ElliotTowerBook",
+					"DisplayName": "{{i18n:Si.BC.ElliotTowerBookName}}",
+					"Description": "{{i18n:Si.BC.ElliotTowerBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/ElliotTowerBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
 		// YobaBook
 
 		{
@@ -322,6 +374,59 @@
 				}
 			}
 		},
+
+		// ElliotStationBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotStationBook",
+			"FromFile": "Data/[Base]/Assets/ElliotStationBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": false,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotStationBook",
+			"FromFile": "Data/[Base]/Assets/ElliotStationBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_StationFlag": true,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotStationBook",
+			"FromFile": "Data/[Base]/Assets/ElliotStationDraft.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_StationFlag": false,
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ElliotStationBook": {
+					"Name": "{{ModId}}_ElliotStationBook",
+					"DisplayName": "{{i18n:Si.BC.ElliotStationBookName}}",
+					"Description": "{{i18n:Si.BC.ElliotStationBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/ElliotStationBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
 
 		// CampfireBook
 
@@ -1068,6 +1173,58 @@
 					"Category": 0,
 					"Price": 303,
 					"Texture": "Mods/{{ModId}}/ReadersDigestBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book"
+					],
+				}
+			}
+		},
+
+		// ElliotPlanetBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
+			"FromFile": "Data/[Base]/Assets/ElliotPlanetBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": false,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
+			"FromFile": "Data/[Base]/Assets/ElliotPlanetBook.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
+			},
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
+			"FromFile": "Data/[Base]/Assets/ElliotPlanetDraft.png",
+			"When": {
+				"HasSeenEvent: |contains=39": true,
+				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_ElliotPlanetBook": {
+					"Name": "{{ModId}}_ElliotPlanetBook",
+					"DisplayName": "{{i18n:Si.BC.ElliotPlanetBookName}}",
+					"Description": "{{i18n:Si.BC.ElliotPlanetBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/ElliotPlanetBook",
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [

@@ -1,0 +1,121 @@
+{
+
+	"Changes": [
+	
+	// Objects //////////////////////////////////////////////////////////
+
+	// LCLeafBook
+
+	{
+		"Action": "Load",
+		"Target": "Mods/{{ModId}}/LCLeafBook",
+		"FromFile": "Data/SiLeafCollecting/LCLeafBook.png"
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"{{ModId}}_LCLeafBook": {
+				"Name": "{{ModId}}_LCLeafBook",
+				"DisplayName": "{{i18n:Si.BC.LCLeafBookName}}",
+				"Description": "{{i18n:Si.BC.LCLeafBookDesc}}",
+				"Type": "asdf",
+				"Category": 0,
+				"Price": 303,
+				"Texture": "Mods/{{ModId}}/LCLeafBook",
+				"ExcludeFromShippingCollection": true,
+				"SpriteIndex": 0,
+				"ContextTags": [
+					"cool_book"
+				],
+			}
+		}
+	},
+
+	// Map Entries //////////////////////////////////////////////////////////
+
+	// LCLeafBook
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_LCLeafBookTrigger": {
+				"Id": "{{ModId}}_LCLeafBookTrigger",
+				"MarkActionApplied": true,
+				"Trigger": "Manual",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasLCLeafBook",
+				"Actions": [
+					"AddItem {{ModId}}_LCLeafBook",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"
+				}
+			},
+		],
+	},
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/BusStop",
+		"When": {
+			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+		"MapTiles": [
+			{
+				"Position": { "X": 26, "Y": 21 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"
+				}
+			},
+		],
+	},
+
+	// Secret Notes //////////////////////////////////////////////////////////
+
+	{
+		"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+		"Action": "EditData",
+		"Entries": {
+
+			// LCLeafBook
+
+			"{{ModId}}_LCLeafBook": {
+				"Title": "{{i18n:Si.BC.LCLeafBookName}}",
+				"Contents": "{{i18n:Si.BC.LCLeafBookContent}}",
+				"ObjectId": "(O){{ModId}}_LCLeafBook",
+				"Location": "null",
+				"NoteTexture": "Mods/{{ModId}}/blankbook",
+				"NoteTextureIndex": 0,
+				"NoteTextColor": "{{TextColor}}",
+				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
+				"ActionsOnFirstRead": [
+					"AddMail Current {{ModId}}_HasLCLeafBook"
+				]
+			},
+
+		},
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
