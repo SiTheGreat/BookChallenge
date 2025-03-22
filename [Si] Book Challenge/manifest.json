@@ -17,6 +17,10 @@
 		"UniqueID": "ichortower.SecretNoteFramework",
 		"IsRequired": true
 		},
+		{
+			"UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
+			"IsRequired": true
+		},
 		
 	]
 }

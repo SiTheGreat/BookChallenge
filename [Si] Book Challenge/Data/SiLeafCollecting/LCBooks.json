@@ -68,30 +68,13 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
+		"Target": "Maps/NIVInnerInsec",
+		// "When": {
+		// 	"HasSeenEvent: |contains=611173": true // figure this out?
+		// },
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"
-				}
-			},
-		],
-	},
-
-	{
-		"Action": "EditMap",
-		"Target": "Maps/BusStop",
-		"When": {
-			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
-		"MapTiles": [
-			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 33, "Y": 37 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"

@@ -109,13 +109,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/SeedShop",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasSeenEvent: |contains=262213016": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 4, "Y": 10 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
@@ -126,13 +127,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/SeedShop",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasSeenEvent: |contains=262213016": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 4, "Y": 10 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
@@ -162,13 +164,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/SeedShop",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasSeenEvent: |contains=262213016": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 5, "Y": 10 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"
@@ -179,13 +182,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/SeedShop",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasSeenEvent: |contains=262213016": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 5, "Y": 10 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"
