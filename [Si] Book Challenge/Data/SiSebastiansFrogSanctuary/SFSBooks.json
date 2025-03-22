@@ -27,10 +27,22 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"cool_book"
+					"Si_bc_book"
 				],
 			}
 		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "{{ModId}}_SFSGuideBook", "ContextTags" ],
+		"Entries": {
+			"read_book": "read_book",
+		},
+		"When": {
+			"HasFlag: |contains={{ModId}}_ReceivedSFSGuideBook": true,
+		},
 	},
 
 	// SFSSoilBook
@@ -56,10 +68,22 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"cool_book"
+					"Si_bc_book"
 				],
 			}
 		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "{{ModId}}_SFSSoilBook", "ContextTags" ],
+		"Entries": {
+			"read_book": "read_book",
+		},
+		"When": {
+			"HasFlag: |contains={{ModId}}_ReceivedSFSSoilBook": true,
+		},
 	},
 
 	// Map Entries //////////////////////////////////////////////////////////
@@ -74,9 +98,10 @@
 				"Id": "{{ModId}}_SFSGuideBookTrigger",
 				"MarkActionApplied": true,
 				"Trigger": "Manual",
-				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSFSGuideBook",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedSFSGuideBook",
 				"Actions": [
 					"AddItem {{ModId}}_SFSGuideBook",
+					"AddMail Current {{ModId}}_ReceivedSFSGuideBook",
 				]
 			}
 		},
@@ -126,9 +151,10 @@
 				"Id": "{{ModId}}_SFSSoilBookTrigger",
 				"MarkActionApplied": true,
 				"Trigger": "Manual",
-				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSFSSoilBook",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedSFSSoilBook",
 				"Actions": [
 					"AddItem {{ModId}}_SFSSoilBook",
+					"AddMail Current {{ModId}}_ReceivedSFSSoilBook",
 				]
 			}
 		},
@@ -187,7 +213,8 @@
 				"NoteTextColor": "{{TextColor}}",
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
-					"AddMail Current {{ModId}}_HasSFSGuideBook"
+					"AddMail Current {{ModId}}_HasSFSGuideBook",
+					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},
 
@@ -203,7 +230,8 @@
 				"NoteTextColor": "{{TextColor}}",
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
-					"AddMail Current {{ModId}}_HasSFSSoilBook"
+					"AddMail Current {{ModId}}_HasSFSSoilBook",
+					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},
 

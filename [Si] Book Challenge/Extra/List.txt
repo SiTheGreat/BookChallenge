@@ -1,5 +1,30 @@
 Once found, can no longer be fouund there (except enviro ones like bottle message); marcello will have rotating/random stock of fouund ones
 
+Festival-specific books?
+The biblastic book fair - passive festival; tables for each genre (using context tags)
+
+Book fair map patch
+Upper left tile is town 44 5
+Lower left tile is town 44 15
+Upper right tile is town 62 5
+Lower right tile is town 62 15
+
+Context Tags:
+- Si_bc_book - all books in mod
+- fiction_book
+- nonfiction_book
+- magazine_book
+- romance_book
+- scifi_book
+- mystery_book
+- selfhelp_book
+- kid_book
+- recipe_book
+- hobby_book
+- science_book
+- guild_book
+- personal_book - Marnie's log etc
+- read_book - appended to books that have been read
 
 Vanilla
 

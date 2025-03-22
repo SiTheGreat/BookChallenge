@@ -27,11 +27,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_SaltBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true,
+			},
+        },
 
 		// AdvMagBook
 
@@ -56,11 +68,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_AdvMagBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": true,
+			},
+        },
 
 		// AdvHealBook
 
@@ -85,11 +109,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_AdvHealBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": true,
+			},
+        },
 
 		// AardvarkBook
 
@@ -114,11 +150,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_AardvarkBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": true,
+			},
+        },
 
 		// ArchGuide
 
@@ -143,11 +191,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ArchGuide", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": true,
+			},
+        },
 
 		// AstroBook
 
@@ -172,11 +232,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_AstroBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": true,
+			},
+        },
 
 		// BatMatBook
 
@@ -201,11 +273,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_BatMatBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": true,
+			},
+        },
 
 		// BetterHomesBook
 
@@ -230,11 +314,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_BetterHomesBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": true,
+			},
+        },
 
 		// ElliotTowerBook
 
@@ -282,11 +378,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ElliotTowerBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": true,
+			},
+        },
 
 		// YobaBook
 
@@ -311,11 +419,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_YobaBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": true,
+			},
+        },
 
 		// BookkeepingBook
 
@@ -340,11 +460,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_BookkeepingBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": true,
+			},
+        },
 
 		// CSharpBook
 
@@ -369,11 +501,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CSharpBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": true,
+			},
+        },
 
 		// ElliotStationBook
 
@@ -421,12 +565,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
 
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ElliotStationBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": true,
+			},
+        },
 
 		// CampfireBook
 
@@ -451,11 +606,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CampfireBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": true,
+			},
+        },
 
 		// ChickenBook
 
@@ -480,11 +647,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ChickenBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": true,
+			},
+        },
 
 		// CrystalBook
 
@@ -509,11 +688,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CrystalBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": true,
+			},
+        },
 
 		// DMGBook
 
@@ -538,11 +729,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_DMGBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": true,
+			},
+        },
 
 		// ToolboxBook
 
@@ -567,11 +770,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ToolboxBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": true,
+			},
+        },
 
 		// FernBook
 
@@ -596,11 +811,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_FernBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": true,
+			},
+        },
 
 		// WoodBook
 
@@ -625,11 +852,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_WoodBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": true,
+			},
+        },
 
 		// CloakBook
 
@@ -654,11 +893,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CloakBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": true,
+			},
+        },
 
 		// FireproofingBook
 
@@ -683,11 +934,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_FireproofingBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": true,
+			},
+        },
 
 		// GridballBook
 
@@ -712,11 +975,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_GridballBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": true,
+			},
+        },
 
 		// GoldBook
 
@@ -741,11 +1016,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_GoldBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": true,
+			},
+        },
 
 		// CleanSpellsBook
 
@@ -770,11 +1057,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CleanSpellsBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": true,
+			},
+        },
 
 		// GuineaBook
 
@@ -799,11 +1098,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_GuineaBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": true,
+			},
+        },
 
 		// Human101Book
 
@@ -828,11 +1139,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_Human101Book", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": true,
+			},
+        },
 
 		// HumanLingoBook
 
@@ -857,11 +1180,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_HumanLingoBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": true,
+			},
+        },
 
 		// FlowerLingoBook
 
@@ -886,11 +1221,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_FlowerLingoBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": true,
+			},
+        },
 
 		// BusBook
 
@@ -915,11 +1262,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_BusBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": true,
+			},
+        },
 
 		// HomeownerBook
 
@@ -944,11 +1303,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_HomeownerBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedHomeownerBook": true,
+			},
+        },
 
 		// MarketArtBook
 
@@ -973,11 +1344,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_MarketArtBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": true,
+			},
+        },
 
 		// MarnieLogBook
 
@@ -1002,11 +1385,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_MarnieLogBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": true,
+			},
+        },
 
 		// PennyBook
 
@@ -1031,11 +1426,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_PennyBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": true,
+			},
+        },
 
 		// NatGeoBook
 
@@ -1060,11 +1467,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_NatGeoBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": true,
+			},
+        },
 
 		// NavBook
 
@@ -1089,11 +1508,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_NavBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": true,
+			},
+        },
 
 		// PHBBook
 
@@ -1118,11 +1549,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_PHBBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": true,
+			},
+        },
 
 		// PrincessBook
 
@@ -1147,11 +1590,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_PrincessBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": true,
+			},
+        },
 
 		// ReadersDigestBook
 
@@ -1176,11 +1631,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ReadersDigestBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": true,
+			},
+        },
 
 		// ElliotPlanetBook
 
@@ -1228,11 +1695,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ElliotPlanetBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": true,
+			},
+        },
 
 		// StyleBook
 
@@ -1257,11 +1736,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_StyleBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": true,
+			},
+        },
 
 		// CareBook
 
@@ -1286,11 +1777,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_CareBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedCareBook": true,
+			},
+        },
 
 		// ChimneyBook
 
@@ -1315,11 +1818,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_ChimneyBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": true,
+			},
+        },
 
 		// SoldierBook
 
@@ -1344,11 +1859,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_SoldierBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": true,
+			},
+        },
 
 	// End //////////////////////////////////////////////////////////
 

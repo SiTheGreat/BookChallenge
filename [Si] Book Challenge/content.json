@@ -15,25 +15,25 @@
 		"AdventurerAbigailBooks": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Whether to include books made for the Adventurer Abigail mod when that mod is installed."
+			"Description": "Whether to include 2 books made for the Adventurer Abigail mod when that mod is installed."
 		},
 
 		"LeafCollectingBooks": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Whether to include books made for the Leaf Collecting (NitV) mod when that mod is installed."
+			"Description": "Whether to include a book made for the Leaf Collecting (NitV) mod when that mod is installed."
 		},
 
 		"MorrisRedeemedBooks": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Whether to include books made for the Morris Redeemed mod when that mod is installed."
+			"Description": "Whether to include a book made for the Morris Redeemed mod when that mod is installed."
 		},
 
 		"SebsFrogSanctuaryBooks": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Whether to include books made for the Sebastian's Frog Sanctuary mod when that mod is installed."
+			"Description": "Whether to include 2 books made for the Sebastian's Frog Sanctuary mod when that mod is installed."
 		},
 	},
 

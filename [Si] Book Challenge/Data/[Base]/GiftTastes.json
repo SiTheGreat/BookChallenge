@@ -1,0 +1,25 @@
+{
+
+	"Changes": [
+
+	// Book Universal Taste //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			{
+				"Operation": "Append",
+				"Target": ["Entries", "Universal_Neutral"],
+				"Value": "Si_bc_book",
+				"Delimiter": " "
+			}
+		]
+	},
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

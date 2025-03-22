@@ -29,11 +29,23 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"Si_bc_book"
 					],
 				}
 			}
 		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_insert", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
+			},
+        },
 
 		// insert
 
@@ -45,9 +57,10 @@
 					"Id": "{{ModId}}_insertTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Hasinsert",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Receivedinsert",
 					"Actions": [
 						"AddItem {{ModId}}_insert",
+						"AddMail Current {{ModId}}_Receivedinsert",
 					]
 				}
 			},
@@ -99,6 +112,7 @@
 			"NoteTextColor": "{{TextColor}}",
 			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 			"ActionsOnFirstRead": [
-				"AddMail Current {{ModId}}_Hasinsert"
+				"AddMail Current {{ModId}}_Hasinsert",
+				"IncrementStat Si_bc_hasbooks 1"
 			]
 		},

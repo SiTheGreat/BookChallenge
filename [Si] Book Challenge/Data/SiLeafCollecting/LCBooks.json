@@ -27,10 +27,22 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"cool_book"
+					"Si_bc_book"
 				],
 			}
 		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"TargetField": [ "{{ModId}}_LCLeafBook", "ContextTags" ],
+		"Entries": {
+			"read_book": "read_book",
+		},
+		"When": {
+			"HasFlag: |contains={{ModId}}_ReceivedLCLeafBook": true,
+		},
 	},
 
 	// Map Entries //////////////////////////////////////////////////////////
@@ -45,9 +57,10 @@
 				"Id": "{{ModId}}_LCLeafBookTrigger",
 				"MarkActionApplied": true,
 				"Trigger": "Manual",
-				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasLCLeafBook",
+				"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedLCLeafBook",
 				"Actions": [
 					"AddItem {{ModId}}_LCLeafBook",
+					"AddMail Current {{ModId}}_ReceivedLCLeafBook",
 				]
 			}
 		},
@@ -106,7 +119,8 @@
 				"NoteTextColor": "{{TextColor}}",
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
-					"AddMail Current {{ModId}}_HasLCLeafBook"
+					"AddMail Current {{ModId}}_HasLCLeafBook",
+					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},
 
