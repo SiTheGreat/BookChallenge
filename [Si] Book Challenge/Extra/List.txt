@@ -4,9 +4,9 @@ Festival-specific books?
 The biblastic book fair - passive festival; tables for each genre (using context tags)
 
 Book fair map patch
-Upper left tile is town 44 5
+Upper left tile is town 44 4
 Lower left tile is town 44 15
-Upper right tile is town 62 5
+Upper right tile is town 62 4
 Lower right tile is town 62 15
 
 Context Tags:
