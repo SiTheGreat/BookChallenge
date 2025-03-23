@@ -449,15 +449,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 44, "Y": 34 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotTowerBookTrigger"
@@ -468,15 +469,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 44, "Y": 34 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotTowerBookTrigger"
@@ -506,14 +508,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Trailer",
+			"Target": "Maps/Seedshop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent: |contains=611173": true
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 11 },
+					"Position": { "X": 39, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_YobaBookTrigger"
@@ -524,14 +525,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Trailer",
+			"Target": "Maps/Seedshop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent: |contains=611173": true
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 11 },
+					"Position": { "X": 39, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_YobaBookTrigger"
@@ -667,15 +667,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 90, "Y": 38 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotStationBookTrigger"
@@ -686,15 +687,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 90, "Y": 38 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotStationBookTrigger"
@@ -2102,15 +2104,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 44, "Y": 10 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotPlanetBookTrigger"
@@ -2121,15 +2124,16 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Beach",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
+				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 44, "Y": 10 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotPlanetBookTrigger"
@@ -2321,6 +2325,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=100": true,
 			},
 			"MapTiles": [
 				{
@@ -2338,6 +2343,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=100": true,
 			},
 			"MapTiles": [
 				{

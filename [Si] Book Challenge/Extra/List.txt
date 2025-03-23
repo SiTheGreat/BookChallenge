@@ -3,7 +3,8 @@ Once found, can no longer be fouund there (except enviro ones like bottle messag
 Festival-specific books?
 The biblastic book fair - passive festival; tables for each genre (using context tags)
 
-Locations for: elliott books, yoba -> seedshop maybe, leaf book, MR book
+Locations for: elliott books, yoba -> seedshop, leaf book (make reward?), MR book - done
+Figure out hasreceived flag for mailed/other letters - done
 
 Book fair map patch
 Upper left tile is town 44 4
@@ -20,9 +21,11 @@ Context Tags:
 - scifi_book
 - mystery_book
 - selfhelp_book
+- guide_book
 - kid_book
+- adventure_book
+- travel_book
 - recipe_book
-- hobby_book
 - science_book
 - guild_book
 - personal_book - Marnie's log etc

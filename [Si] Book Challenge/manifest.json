@@ -21,6 +21,9 @@
 			"UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
 			"IsRequired": true
 		},
-		
+		{
+			"UniqueID": "Si.CPLeaves",
+			"IsRequired": false
+		},		
 	]
 }

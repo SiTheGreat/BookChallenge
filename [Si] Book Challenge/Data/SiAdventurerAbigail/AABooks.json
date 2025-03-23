@@ -27,7 +27,9 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book"
+					"Si_bc_book",
+					"nonfiction_book",
+					"guild_book",
 				],
 			}
 		}
@@ -68,7 +70,9 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book"
+					"Si_bc_book",
+					"nonfiction_book",
+					"guild_book",
 				],
 			}
 		}

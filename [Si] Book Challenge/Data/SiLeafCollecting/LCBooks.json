@@ -27,7 +27,9 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book"
+					"Si_bc_book",
+					"nonfiction_book",
+					"science_book",
 				],
 			}
 		}
@@ -67,21 +69,86 @@
 	},
 
 	{
-		"Action": "EditMap",
-		"Target": "Maps/NIVInnerInsec",
-		// "When": {
-		// 	"HasSeenEvent: |contains=611173": true // figure this out?
-		// },
-		"MapTiles": [
-			{
-				"Position": { "X": 33, "Y": 37 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"
-				}
+		"Action": "EditData",
+		"Target": "Nature.NITV/Rewards",
+		"Entries": {
+			"ExampleReward1": {
+				"ItemId": "(O){{ModId}}_LCLeafBook",
+				"ItemCount": 1,
+				"TotalDonated": 0,
+				"creatureRequirements": [
+				"MapleSpring",
+				"MapleSummer",
+				"MapleFall",
+				"OakSpring",
+				"OakSummer",
+				"OakFall",
+				"PineSpringSummer",
+				"PineFall",
+				"PineWinter",
+				"IslandPalm",
+				"DesertPalm",
+				"Mystic",
+				"MahoganySpring",
+				"MahoganySummer",
+				"MahoganyFall",
+				"Salmonberry",
+				"Spiceberry",
+				"Blackberry",
+				"Holly",
+				"ApricotSpringSummer",
+				"ApricotFall",
+				"CherrySpring",
+				"CherrySummer",
+				"CherryFall",
+				"OrangeSpring",
+				"OrangeSummer",
+				"OrangeFall",
+				"PeachSpring",
+				"PeachSummer",
+				"PeachFall",
+				"AppleSpringSummer",
+				"AppleFall",
+				"PomegranateSpring",
+				"PomegranateSummer",
+				"PomegranateFall",
+				"Banana",
+				"Mango",
+				"Cauliflower",
+				"Melon",
+				"Pumpkin",
+				"Powdermelon",
+				"Strawberry",
+				"Blueberry",
+				"Cranberry",
+				"Starfruit",
+				"LilyPadSpring",
+				"LilyPadSummer",
+				"LilyPadFall",
+				"SweetGem",
+				"Tumbleweed",
+				"Stardrop",
+				]
 			},
-		],
-	},
+		}
+	}
+
+	// {
+	// 	"Action": "EditMap",
+	// 	"Target": "Maps/NIVInnerInsec",
+	// 	// "When": {
+	// 	// 	"HasSeenEvent: |contains=611173": true // figure this out?
+	// 	// },
+	// 	"MapTiles": [
+	// 		{
+	// 			"Position": { "X": 33, "Y": 37 },
+	// 			"Layer": "Buildings",
+	// 			"SetProperties": {
+	// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LCLeafBookTrigger"
+	// 			}
+	// 		},
+	// 	],
+	// },
 
 	// Secret Notes //////////////////////////////////////////////////////////
 
@@ -103,6 +170,7 @@
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
 					"AddMail Current {{ModId}}_HasLCLeafBook",
+					"AddMail Current {{ModId}}_ReceivedLCLeafBook", // bc given as reward
 					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},

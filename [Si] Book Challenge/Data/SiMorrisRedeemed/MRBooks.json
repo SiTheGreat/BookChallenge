@@ -27,7 +27,9 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book"
+					"Si_bc_book",
+					"nonfiction_book",
+					"guide_book",
 				],
 			}
 		}
@@ -68,13 +70,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/CommunityCenter",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+			"HasSeenEvent: |contains=26220104": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 43, "Y": 18 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MRCleaningBookTrigger"
@@ -85,13 +88,14 @@
 
 	{
 		"Action": "EditMap",
-		"Target": "Maps/BusStop",
+		"Target": "Maps/CommunityCenter",
 		"When": {
 			"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"HasSeenEvent: |contains=26220104": true
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 26, "Y": 21 },
+				"Position": { "X": 43, "Y": 18 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MRCleaningBookTrigger"

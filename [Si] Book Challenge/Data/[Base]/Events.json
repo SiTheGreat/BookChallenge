@@ -26,7 +26,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_DadBookMail": "Dear @,^  How's the farm life going? I found this in the garage, figured it might help you with that old farmhouse. Take care kiddo.^  Love, Dad.%action Additem (O){{ModId}}_HomeownerBook%%[#]Book From Dad",
+			"{{ModId}}_DadBookMail": "Dear @,^  How's the farm life going? I found this in the garage, figured it might help you with that old farmhouse. Take care kiddo.^  Love, Dad.%action Additem (O){{ModId}}_HomeownerBook%% %action AddMail Current {{ModId}}_ReceivedHomeownerBook%%[#]Book From Dad",
 		},
 	},
 
@@ -52,7 +52,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_MomBookMail": "Dear @,^  How are you sweety? I found this book for you. Please take care of yourself! And remember, we're proud of you! ^  Love, Mom%action Additem (O){{ModId}}_CareBook%%[#]Book From Mom",
+			"{{ModId}}_MomBookMail": "Dear @,^  How are you sweety? I found this book for you. Please take care of yourself! And remember, we're proud of you! ^  Love, Mom%action Additem (O){{ModId}}_CareBook%% %action AddMail Current {{ModId}}_ReceivedCareBook%%[#]Book From Mom",
 		},
 	},
 
@@ -88,7 +88,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotTowerBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotTowerBook%% %action AddMail Current {{ModId}}_ReceivedElliotTowerBook%%[#]Elliott's Book",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_TowerFlag": true,
@@ -99,7 +99,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotStationBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotStationBook%% %action AddMail Current {{ModId}}_ReceivedElliotStationBook%%[#]Elliott's Book",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_StationFlag": true,
@@ -110,7 +110,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotPlanetBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotPlanetBook%% %action AddMail Current {{ModId}}_ReceivedElliotPlanetBook%%[#]Elliott's Book",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
