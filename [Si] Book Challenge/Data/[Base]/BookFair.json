@@ -1,0 +1,54 @@
+{
+
+	"Changes": [
+
+	// Book Fair Entry //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/PassiveFestivals",
+		"Entries": {
+			"{{ModId}}_BookFair": {
+				"DisplayName": "Biblastic Book Fair",
+				"Condition": "",
+				"ShowOnCalendar": true,
+				"Season": "Spring",
+				"StartDay": 9,
+				"EndDay": 9,
+				"StartTime": 900,
+				"StartMessage": "The Biblastic Book Fair has begun in Pelican Town!",
+				"OnlyShowMessageOnFirstDay": true,
+				"MapReplacements": null,
+				"DailySetupMethod": null,
+				"CleanupMethod": null,
+				"CustomFields": null
+			},
+		},
+	},
+
+	// Map Patch //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"FromFile": "Assets/BookFair.tmx",
+		"ToArea": { "X": 51, "Y": 21, "Width": 19, "Height": 12 },
+		"When": {
+				"Season": "spring",
+				"Day": 9,
+			}
+	},
+
+	// Schedules //////////////////////////////////////////////////////////
+	// Put fest location/CT/gen dialogue into gift dialogue patches
+
+	// Shops //////////////////////////////////////////////////////////
+	// Power books (65 23, 66 23), fiction books (64 26, 64 27), guides (59 23, 59 24), magazines (68 27), self help/recipes (61 30), science (59 27, 59 28), snacks (51 32) [pies, tarts, cakes, cookies, fruit, drinks]
+	// Actin OpenShop
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}

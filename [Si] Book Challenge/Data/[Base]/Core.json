@@ -33,6 +33,34 @@
 			"Action": "Include",
 			"FromFile": "Data/[Base]/GiftTastes.json",
 		},
+
+	// Book Fair //////////////////////////////////////////////////////////
+
+		// Trigger Book Fair
+		{
+			"Action": "EditData",
+			"Target": "Data/TriggerActions",
+			"Entries": {
+				"{{ModId}}_TriggerBookFair": {
+					"Id": "{{ModId}}_TriggerBookFair",
+					"MarkActionApplied": true,
+					"Trigger": "DayEnding",
+					"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20",
+					"Actions": [
+						"AddMail Current {{ModId}}_StartBookFair",
+					]
+				}
+			},
+		},
+
+		{
+			// Book Fair
+			"Action": "Include",
+			"FromFile": "Data/[Base]/BookFair.json",
+			"When": {
+				"HasFlag: |contains={{ModId}}_StartBookFair": true,
+			},
+		},
 	
 	// End //////////////////////////////////////////////////////////
 
