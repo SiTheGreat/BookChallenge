@@ -34,6 +34,12 @@
 			"FromFile": "Data/[Base]/GiftTastes.json",
 		},
 
+		{
+			// Bookseller shop entries
+			"Action": "Include",
+			"FromFile": "Data/[Base]/Bookseller.json",
+		},
+
 	// Book Fair //////////////////////////////////////////////////////////
 
 		// Trigger Book Fair

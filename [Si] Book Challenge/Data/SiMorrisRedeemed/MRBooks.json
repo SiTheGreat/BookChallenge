@@ -123,7 +123,7 @@
 				"NoteTextColor": "{{TextColor}}",
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
-					"AddMail Current {{ModId}}_HasMRCleaningBook",
+					"AddMail Current {{ModId}}_ReceivedMRCleaningBook",
 					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},

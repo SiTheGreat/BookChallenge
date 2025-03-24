@@ -10,12 +10,14 @@
 		"TextOperations": [
 			{
 				"Operation": "Append",
-				"Target": ["Entries", "Universal_Neutral"],
+				"Target": ["Entries", "Universal_Like"],
 				"Value": "Si_bc_book",
 				"Delimiter": " "
 			}
 		]
 	},
+
+	// NPC Tastes //////////////////////////////////////////////////////////
 
 	// End //////////////////////////////////////////////////////////
 

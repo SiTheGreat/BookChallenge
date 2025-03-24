@@ -131,7 +131,7 @@
 				]
 			},
 		}
-	}
+	},
 
 	// {
 	// 	"Action": "EditMap",
@@ -169,8 +169,7 @@
 				"NoteTextColor": "{{TextColor}}",
 				// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 				"ActionsOnFirstRead": [
-					"AddMail Current {{ModId}}_HasLCLeafBook",
-					"AddMail Current {{ModId}}_ReceivedLCLeafBook", // bc given as reward
+					"AddMail Current {{ModId}}_ReceivedLCLeafBook",
 					"IncrementStat Si_bc_hasbooks 1"
 				]
 			},

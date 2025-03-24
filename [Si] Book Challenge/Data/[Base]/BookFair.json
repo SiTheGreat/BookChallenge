@@ -39,12 +39,310 @@
 			}
 	},
 
-	// Schedules //////////////////////////////////////////////////////////
-	// Put fest location/CT/gen dialogue into gift dialogue patches
+	// Shop Actions //////////////////////////////////////////////////////////
+	// Power books (65 23, 66 23), fiction books (64 26, 64 27), guides (59 23, 59 24), magazines/travel/guild (68 27), self help/recipes/random (61 30), science (59 27, 59 28), snacks (51 32)
+
+	{
+		"Action": "EditMap",
+		"Target": "Maps/Town",
+		"When": {
+				"Season": "spring",
+				"Day": 9,
+			},
+		"MapTiles": [
+			{
+				"Position": { "X": 65, "Y": 23 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_PowerShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 66, "Y": 23 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_PowerShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 59, "Y": 23 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_GuideShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 59, "Y": 24 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_GuideShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 59, "Y": 27 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_ScienceShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 59, "Y": 28 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_ScienceShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 68, "Y": 27 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_MagShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 61, "Y": 30 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_RecipeShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 64, "Y": 26 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_FictionShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 64, "Y": 27 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_FictionShop none 900 1700"
+				}
+			},
+			{
+				"Position": { "X": 51, "Y": 32 },
+				"Layer": "Buildings",
+				"SetProperties": {
+					"Action": "OpenShop {{ModId}}_SnackShop none 900 1700"
+				}
+			},
+		],
+	},
 
 	// Shops //////////////////////////////////////////////////////////
-	// Power books (65 23, 66 23), fiction books (64 26, 64 27), guides (59 23, 59 24), magazines (68 27), self help/recipes (61 30), science (59 27, 59 28), snacks (51 32) [pies, tarts, cakes, cookies, fruit, drinks]
-	// Actin OpenShop
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
+			"{{ModId}}_PowerShop": {
+				"Id": "{{ModId}}_PowerShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_PowerShop_PowerBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 5,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target book_item",
+					},
+				],
+			},
+			"{{ModId}}_GuideShop": {
+				"Id": "{{ModId}}_GuideShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_GuideShop_GuideBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 5,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20 46",
+					},
+					{
+						"Id": "{{ModId}}_GuideShop_GuideBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
+					},
+					{
+						"Id": "{{ModId}}_GuideShop_UnreadBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 1,
+                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					},
+				],
+			},
+			"{{ModId}}_ScienceShop": {
+				"Id": "{{ModId}}_ScienceShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 2,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20 46",
+					},
+					{
+						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 4,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
+					},
+				],
+			},
+			"{{ModId}}_MagShop": {
+				"Id": "{{ModId}}_MagShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_MagShop_MagBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 5,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20 46",
+					},
+					{
+						"Id": "{{ModId}}_MagShop_MagBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
+					},
+				],
+			},
+			"{{ModId}}_RecipeShop": {
+				"Id": "{{ModId}}_RecipeShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 3,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20 46",
+					},
+					{
+						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 5,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
+					},
+					{
+						"Id": "{{ModId}}_RecipeShop_UnreadBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 1,
+                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					},
+				],
+			},
+			"{{ModId}}_FictionShop": {
+				"Id": "{{ModId}}_FictionShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_FictionShop_FictionBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 4,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20 46",
+					},
+					{
+						"Id": "{{ModId}}_FictionShop_FictionBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 6,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
+						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
+					},
+					{
+						"Id": "{{ModId}}_FictionShop_UnreadBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 1,
+                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					},
+				],
+			},
+			"{{ModId}}_SnackShop": {
+				"Id": "{{ModId}}_SnackShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_SnackShop_PinkCake",
+						"ItemId": "(O)221",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_RhubarbPie",
+						"ItemId": "(O)222",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_Cookie",
+						"ItemId": "(O)223",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_Apple",
+						"ItemId": "(O)613",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_Melon",
+						"ItemId": "(O)254",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_FruitSalad",
+						"ItemId": "(O)610",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_BlueberryTart",
+						"ItemId": "(O)234",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_IceCream",
+						"ItemId": "(O)233",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_GingerAle",
+						"ItemId": "(O)903",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_Coffee",
+						"ItemId": "(O)395",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_GreenTea",
+						"ItemId": "(O)614",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+					{
+						"Id": "{{ModId}}_SnackShop_Espresso",
+						"ItemId": "(O)253",
+                		"AvailableStock": 1,
+						"AvailableStockLimit": "Player",
+					},
+				],
+			},
+		},
+	},
+
+	// Schedules //////////////////////////////////////////////////////////
+	// Put fest location/CT/gen dialogue into gift dialogue patches
+	// Penny, Jas, Vincent, a few other townsfolk
 
 	// End //////////////////////////////////////////////////////////
 
