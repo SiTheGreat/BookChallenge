@@ -27,7 +27,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"guide_book",
 				],
@@ -70,9 +70,10 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"science_book",
+					"nature_book",
 				],
 			}
 		}
@@ -244,6 +245,22 @@
 			},
 
 		},
+	},
+
+	// Gift Tastes //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			// Sebastian
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Sebastian", 1],
+				"Value": "{{ModId}}_SFSGuideBook",
+				"Delimiter": " "
+			},
+		]
 	},
 
 	// End //////////////////////////////////////////////////////////

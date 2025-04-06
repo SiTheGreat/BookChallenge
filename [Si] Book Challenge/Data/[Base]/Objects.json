@@ -27,7 +27,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"recipe_book",
 						"nonfiction_book",
 					],
@@ -70,7 +70,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"magazine_book",
 						"guild_book",
@@ -114,9 +114,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"medical_book",
 					],
 				}
 			}
@@ -157,9 +158,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"adventure_book",
+						"comic_book",
 					],
 				}
 			}
@@ -200,7 +202,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -243,10 +245,11 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"magazine_book",
 						"science_book",
+						"space_book",
 					],
 				}
 			}
@@ -287,7 +290,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"kid_book",
 					],
@@ -330,7 +333,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"recipe_book",
 					],
@@ -396,7 +399,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"mystery_book",
 					],
@@ -439,7 +442,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"selfhelp_book",
 					],
 				}
@@ -481,7 +484,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -524,7 +527,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -590,7 +593,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"romance_book",
 					],
@@ -633,9 +636,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"recipe_book",
+						"nature_book",
 					],
 				}
 			}
@@ -676,7 +680,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -719,7 +723,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"selfhelp_book",
 					],
 				}
@@ -761,8 +765,9 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"guide_book",
+						"game_book",
 					],
 				}
 			}
@@ -803,7 +808,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"science_book",
 					],
@@ -846,7 +851,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"travel_book",
 					],
@@ -889,7 +894,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -932,9 +937,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guild_book",
+						"fashion_book",
 					],
 				}
 			}
@@ -975,7 +981,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1018,9 +1024,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"sport_book",
 					],
 				}
 			}
@@ -1061,7 +1068,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1104,9 +1111,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"magic_book",
 					],
 				}
 			}
@@ -1147,7 +1155,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1190,9 +1198,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"culture_book",
 					],
 				}
 			}
@@ -1233,9 +1242,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"culture_book",
 					],
 				}
 			}
@@ -1276,9 +1286,11 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
+						"culture_book",
+						"nature_book",
 					],
 				}
 			}
@@ -1319,7 +1331,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1362,7 +1374,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1405,7 +1417,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 					],
@@ -1448,7 +1460,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"personal_book",
 					],
@@ -1491,7 +1503,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"mystery_book",
 					],
@@ -1534,10 +1546,11 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"magazine_book",
 						"science_book",
+						"nature_book",
 					],
 				}
 			}
@@ -1578,7 +1591,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"guide_book",
 						"travel_book",
@@ -1622,8 +1635,9 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"guide_book",
+						"game_book",
 					],
 				}
 			}
@@ -1664,7 +1678,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"kid_book",
 						"adventure_book",
@@ -1708,7 +1722,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"magazine_book",
 					],
 				}
@@ -1773,7 +1787,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"scifi_book",
 					],
@@ -1816,9 +1830,10 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"magazine_book",
+						"fashion_book",
 					],
 				}
 			}
@@ -1859,7 +1874,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"selfhelp_book",
 					],
@@ -1902,7 +1917,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"fiction_book",
 						"romance_book",
 					],
@@ -1945,7 +1960,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"Si_bc_book",
+						"bc_book",
 						"nonfiction_book",
 						"selfhelp_book",
 					],

@@ -13,21 +13,30 @@ Upper right tile is town 62 4
 Lower right tile is town 62 15
 
 Context Tags:
-- Si_bc_book - all books in mod
+- bc_book - all books
 - fiction_book
 - nonfiction_book
 - magazine_book
+- comic_book
+- fashion_book
 - romance_book
 - scifi_book
+- game_book
+- sport_book
+- medical_book
 - mystery_book
 - selfhelp_book
 - guide_book
 - kid_book
 - adventure_book
 - travel_book
+- culture_book
 - recipe_book
 - science_book
 - guild_book
+- nature_book
+- space_book
+- magic_book
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
 

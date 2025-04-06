@@ -27,9 +27,10 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"science_book",
+					"nature_book",
 				],
 			}
 		}

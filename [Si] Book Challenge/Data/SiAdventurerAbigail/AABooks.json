@@ -27,7 +27,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"guild_book",
 				],
@@ -70,7 +70,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"guild_book",
 				],
@@ -120,7 +120,7 @@
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 4, "Y": 10 },
+				"Position": { "X": 4, "Y": 11 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
@@ -138,7 +138,7 @@
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 4, "Y": 10 },
+				"Position": { "X": 4, "Y": 11 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AAMinesBookTrigger"
@@ -175,7 +175,7 @@
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 5, "Y": 10 },
+				"Position": { "X": 5, "Y": 11 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"
@@ -193,7 +193,7 @@
 		},
 		"MapTiles": [
 			{
-				"Position": { "X": 5, "Y": 10 },
+				"Position": { "X": 5, "Y": 11 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AASwordBookTrigger"

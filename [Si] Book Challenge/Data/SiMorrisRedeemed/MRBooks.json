@@ -27,7 +27,7 @@
 				"ExcludeFromShippingCollection": true,
 				"SpriteIndex": 0,
 				"ContextTags": [
-					"Si_bc_book",
+					"bc_book",
 					"nonfiction_book",
 					"guide_book",
 				],
@@ -129,6 +129,39 @@
 			},
 
 		},
+	},
+
+	// Gift Tastes //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"TextOperations": [
+			// Morris
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Si_MR_Morris", 1],
+				"Value": "{{ModId}}_MRCleaningBook mystery_book",
+				"Delimiter": " "
+			},
+		]
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/NPCGiftTastes",
+		"When": {
+			"HasSeenEvent: |contains=26220106": true
+		},
+		"TextOperations": [
+			// Morris
+			{
+				"Operation": "Append",
+				"Target": ["Fields", "Si_MR_Morris", 1],
+				"Value": "nature_book recipe_book",
+				"Delimiter": " "
+			},
+		]
 	},
 
 	// End //////////////////////////////////////////////////////////

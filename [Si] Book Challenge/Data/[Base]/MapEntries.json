@@ -838,7 +838,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 9 },
+					"Position": { "X": 14, "Y": 10 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
@@ -855,7 +855,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 9 },
+					"Position": { "X": 14, "Y": 10 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
@@ -1050,7 +1050,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 15, "Y": 7 },
+					"Position": { "X": 15, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WoodBookTrigger"
@@ -1067,7 +1067,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 15, "Y": 7 },
+					"Position": { "X": 15, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WoodBookTrigger"
