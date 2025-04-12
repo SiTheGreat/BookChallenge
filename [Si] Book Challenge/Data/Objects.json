@@ -9,7 +9,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/SaltBook",
-			"FromFile": "Data/[Base]/Assets/SaltBook.png"
+			"FromFile": "Data/Assets/SaltBook.png"
 		},
 
 		{
@@ -97,7 +97,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/AdvMagBook",
-			"FromFile": "Data/[Base]/Assets/AdvMagBook.png"
+			"FromFile": "Data/Assets/AdvMagBook.png"
 		},
 
 		{
@@ -186,7 +186,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/AdvHealBook",
-			"FromFile": "Data/[Base]/Assets/AdvHealBook.png"
+			"FromFile": "Data/Assets/AdvHealBook.png"
 		},
 
 		{
@@ -275,7 +275,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/AardvarkBook",
-			"FromFile": "Data/[Base]/Assets/AardvarkBook.png"
+			"FromFile": "Data/Assets/AardvarkBook.png"
 		},
 
 		{
@@ -364,7 +364,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ArchGuide",
-			"FromFile": "Data/[Base]/Assets/ArchGuide.png"
+			"FromFile": "Data/Assets/ArchGuide.png"
 		},
 
 		{
@@ -452,7 +452,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/AstroBook",
-			"FromFile": "Data/[Base]/Assets/AstroBook.png"
+			"FromFile": "Data/Assets/AstroBook.png"
 		},
 
 		{
@@ -542,7 +542,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/BatMatBook",
-			"FromFile": "Data/[Base]/Assets/BatMatBook.png"
+			"FromFile": "Data/Assets/BatMatBook.png"
 		},
 
 		{
@@ -630,7 +630,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/BetterHomesBook",
-			"FromFile": "Data/[Base]/Assets/BetterHomesBook.png"
+			"FromFile": "Data/Assets/BetterHomesBook.png"
 		},
 
 		{
@@ -718,7 +718,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotTowerBook",
-			"FromFile": "Data/[Base]/Assets/ElliotTowerBook.png",
+			"FromFile": "Data/Assets/ElliotTowerBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": false,
 			},
@@ -727,7 +727,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotTowerBook",
-			"FromFile": "Data/[Base]/Assets/ElliotTowerBook.png",
+			"FromFile": "Data/Assets/ElliotTowerBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": true,
@@ -737,7 +737,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotTowerBook",
-			"FromFile": "Data/[Base]/Assets/ElliotTowerDraft.png",
+			"FromFile": "Data/Assets/ElliotTowerDraft.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
@@ -829,7 +829,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/YobaBook",
-			"FromFile": "Data/[Base]/Assets/YobaBook.png"
+			"FromFile": "Data/Assets/YobaBook.png"
 		},
 
 		{
@@ -916,7 +916,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/BookkeepingBook",
-			"FromFile": "Data/[Base]/Assets/BookkeepingBook.png"
+			"FromFile": "Data/Assets/BookkeepingBook.png"
 		},
 
 		{
@@ -1004,7 +1004,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CSharpBook",
-			"FromFile": "Data/[Base]/Assets/CSharpBook.png"
+			"FromFile": "Data/Assets/CSharpBook.png"
 		},
 
 		{
@@ -1092,7 +1092,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotStationBook",
-			"FromFile": "Data/[Base]/Assets/ElliotStationBook.png",
+			"FromFile": "Data/Assets/ElliotStationBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": false,
 			},
@@ -1101,7 +1101,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotStationBook",
-			"FromFile": "Data/[Base]/Assets/ElliotStationBook.png",
+			"FromFile": "Data/Assets/ElliotStationBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": true,
@@ -1111,7 +1111,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotStationBook",
-			"FromFile": "Data/[Base]/Assets/ElliotStationDraft.png",
+			"FromFile": "Data/Assets/ElliotStationDraft.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
@@ -1203,7 +1203,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CampfireBook",
-			"FromFile": "Data/[Base]/Assets/CampfireBook.png"
+			"FromFile": "Data/Assets/CampfireBook.png"
 		},
 
 		{
@@ -1292,7 +1292,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ChickenBook",
-			"FromFile": "Data/[Base]/Assets/ChickenBook.png"
+			"FromFile": "Data/Assets/ChickenBook.png"
 		},
 
 		{
@@ -1380,7 +1380,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CrystalBook",
-			"FromFile": "Data/[Base]/Assets/CrystalBook.png"
+			"FromFile": "Data/Assets/CrystalBook.png"
 		},
 
 		{
@@ -1467,7 +1467,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/DMGBook",
-			"FromFile": "Data/[Base]/Assets/DMGBook.png"
+			"FromFile": "Data/Assets/DMGBook.png"
 		},
 
 		{
@@ -1555,7 +1555,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ToolboxBook",
-			"FromFile": "Data/[Base]/Assets/ToolboxBook.png"
+			"FromFile": "Data/Assets/ToolboxBook.png"
 		},
 
 		{
@@ -1643,7 +1643,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/FernBook",
-			"FromFile": "Data/[Base]/Assets/FernBook.png"
+			"FromFile": "Data/Assets/FernBook.png"
 		},
 
 		{
@@ -1731,7 +1731,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/WoodBook",
-			"FromFile": "Data/[Base]/Assets/WoodBook.png"
+			"FromFile": "Data/Assets/WoodBook.png"
 		},
 
 		{
@@ -1819,7 +1819,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CloakBook",
-			"FromFile": "Data/[Base]/Assets/CloakBook.png"
+			"FromFile": "Data/Assets/CloakBook.png"
 		},
 
 		{
@@ -1908,7 +1908,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/FireproofingBook",
-			"FromFile": "Data/[Base]/Assets/FireproofingBook.png"
+			"FromFile": "Data/Assets/FireproofingBook.png"
 		},
 
 		{
@@ -1996,7 +1996,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/GridballBook",
-			"FromFile": "Data/[Base]/Assets/GridballBook.png"
+			"FromFile": "Data/Assets/GridballBook.png"
 		},
 
 		{
@@ -2085,7 +2085,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/GoldBook",
-			"FromFile": "Data/[Base]/Assets/GoldBook.png"
+			"FromFile": "Data/Assets/GoldBook.png"
 		},
 
 		{
@@ -2175,7 +2175,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CleanSpellsBook",
-			"FromFile": "Data/[Base]/Assets/CleanSpellsBook.png"
+			"FromFile": "Data/Assets/CleanSpellsBook.png"
 		},
 
 		{
@@ -2264,7 +2264,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/GuineaBook",
-			"FromFile": "Data/[Base]/Assets/GuineaBook.png"
+			"FromFile": "Data/Assets/GuineaBook.png"
 		},
 
 		{
@@ -2352,7 +2352,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/Human101Book",
-			"FromFile": "Data/[Base]/Assets/Human101Book.png"
+			"FromFile": "Data/Assets/Human101Book.png"
 		},
 
 		{
@@ -2441,7 +2441,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/HumanLingoBook",
-			"FromFile": "Data/[Base]/Assets/HumanLingoBook.png"
+			"FromFile": "Data/Assets/HumanLingoBook.png"
 		},
 
 		{
@@ -2530,7 +2530,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/FlowerLingoBook",
-			"FromFile": "Data/[Base]/Assets/FlowerLingoBook.png"
+			"FromFile": "Data/Assets/FlowerLingoBook.png"
 		},
 
 		{
@@ -2620,7 +2620,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/BusBook",
-			"FromFile": "Data/[Base]/Assets/BusBook.png"
+			"FromFile": "Data/Assets/BusBook.png"
 		},
 
 		{
@@ -2708,7 +2708,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/HomeownerBook",
-			"FromFile": "Data/[Base]/Assets/HomeownerBook.png"
+			"FromFile": "Data/Assets/HomeownerBook.png"
 		},
 
 		{
@@ -2796,7 +2796,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/MarketArtBook",
-			"FromFile": "Data/[Base]/Assets/MarketArtBook.png"
+			"FromFile": "Data/Assets/MarketArtBook.png"
 		},
 
 		{
@@ -2884,7 +2884,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/MarnieLogBook",
-			"FromFile": "Data/[Base]/Assets/MarnieLogBook.png"
+			"FromFile": "Data/Assets/MarnieLogBook.png"
 		},
 
 		{
@@ -2972,7 +2972,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/PennyBook",
-			"FromFile": "Data/[Base]/Assets/PennyBook.png"
+			"FromFile": "Data/Assets/PennyBook.png"
 		},
 
 		{
@@ -3060,7 +3060,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/NatGeoBook",
-			"FromFile": "Data/[Base]/Assets/NatGeoBook.png"
+			"FromFile": "Data/Assets/NatGeoBook.png"
 		},
 
 		{
@@ -3150,7 +3150,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/NavBook",
-			"FromFile": "Data/[Base]/Assets/NavBook.png"
+			"FromFile": "Data/Assets/NavBook.png"
 		},
 
 		{
@@ -3239,7 +3239,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/PHBBook",
-			"FromFile": "Data/[Base]/Assets/PHBBook.png"
+			"FromFile": "Data/Assets/PHBBook.png"
 		},
 
 		{
@@ -3327,7 +3327,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/PrincessBook",
-			"FromFile": "Data/[Base]/Assets/PrincessBook.png"
+			"FromFile": "Data/Assets/PrincessBook.png"
 		},
 
 		{
@@ -3416,7 +3416,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ReadersDigestBook",
-			"FromFile": "Data/[Base]/Assets/ReadersDigestBook.png"
+			"FromFile": "Data/Assets/ReadersDigestBook.png"
 		},
 
 		{
@@ -3503,7 +3503,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
-			"FromFile": "Data/[Base]/Assets/ElliotPlanetBook.png",
+			"FromFile": "Data/Assets/ElliotPlanetBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": false,
 			},
@@ -3512,7 +3512,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
-			"FromFile": "Data/[Base]/Assets/ElliotPlanetBook.png",
+			"FromFile": "Data/Assets/ElliotPlanetBook.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
@@ -3522,7 +3522,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ElliotPlanetBook",
-			"FromFile": "Data/[Base]/Assets/ElliotPlanetDraft.png",
+			"FromFile": "Data/Assets/ElliotPlanetDraft.png",
 			"When": {
 				"HasSeenEvent: |contains=39": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
@@ -3614,7 +3614,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/StyleBook",
-			"FromFile": "Data/[Base]/Assets/StyleBook.png"
+			"FromFile": "Data/Assets/StyleBook.png"
 		},
 
 		{
@@ -3703,7 +3703,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/CareBook",
-			"FromFile": "Data/[Base]/Assets/CareBook.png"
+			"FromFile": "Data/Assets/CareBook.png"
 		},
 
 		{
@@ -3791,7 +3791,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/ChimneyBook",
-			"FromFile": "Data/[Base]/Assets/ChimneyBook.png"
+			"FromFile": "Data/Assets/ChimneyBook.png"
 		},
 
 		{
@@ -3879,7 +3879,7 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/SoldierBook",
-			"FromFile": "Data/[Base]/Assets/SoldierBook.png"
+			"FromFile": "Data/Assets/SoldierBook.png"
 		},
 
 		{

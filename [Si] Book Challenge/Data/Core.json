@@ -8,37 +8,37 @@
 		{
 			// Book items
 			"Action": "Include",
-			"FromFile": "Data/[Base]/Objects.json",
+			"FromFile": "Data/Objects.json",
 		},
 
 		{
 			// Turns books into secret notes
 			"Action": "Include",
-			"FromFile": "Data/[Base]/SecretNotes.json",
+			"FromFile": "Data/SecretNotes.json",
 		},
 
 		{
 			// Book locations and trigger actions
 			"Action": "Include",
-			"FromFile": "Data/[Base]/MapEntries.json",
+			"FromFile": "Data/MapEntries.json",
 		},
 
 		{
 			// Events for certain books
 			"Action": "Include",
-			"FromFile": "Data/[Base]/Events.json",
+			"FromFile": "Data/Events.json",
 		},
 
 		{
 			// Universal and npc-specific gift tastes for books
 			"Action": "Include",
-			"FromFile": "Data/[Base]/GiftTastes.json",
+			"FromFile": "Data/GiftTastes.json",
 		},
 
 		{
 			// Bookseller shop entries
 			"Action": "Include",
-			"FromFile": "Data/[Base]/Bookseller.json",
+			"FromFile": "Data/Bookseller.json",
 		},
 
 	// Book Fair //////////////////////////////////////////////////////////
@@ -46,7 +46,7 @@
 		{
 			// Book Fair
 			"Action": "Include",
-			"FromFile": "Data/[Base]/BookFair.json",
+			"FromFile": "Data/BookFair.json",
 			"When": {
 				"HasFlag: |contains={{ModId}}_StartBookFair": true,
 			},
