@@ -9,14 +9,14 @@
 		"Target": "Data/PassiveFestivals",
 		"Entries": {
 			"{{ModId}}_BookFair": {
-				"DisplayName": "Biblastic Book Fair",
+				"DisplayName": "{{i18n:Si.BC.BFName}}",
 				"Condition": "",
 				"ShowOnCalendar": true,
 				"Season": "Spring",
 				"StartDay": 9,
 				"EndDay": 9,
-				"StartTime": 900,
-				"StartMessage": "The Biblastic Book Fair has begun in Pelican Town!",
+				"StartTime": 800,
+				"StartMessage": "{{i18n:Si.BC.BFStart}}",
 				"OnlyShowMessageOnFirstDay": true,
 				"MapReplacements": null,
 				"DailySetupMethod": null,
@@ -54,77 +54,77 @@
 				"Position": { "X": 65, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_PowerShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_PowerShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 66, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_PowerShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_PowerShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 59, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_GuideShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 59, "Y": 24 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_GuideShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 59, "Y": 27 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_ScienceShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_ScienceShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 59, "Y": 28 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_ScienceShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_ScienceShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 68, "Y": 27 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_MagShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_MagShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 61, "Y": 30 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_RecipeShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_RecipeShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 64, "Y": 26 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_FictionShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_FictionShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 64, "Y": 27 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_FictionShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_FictionShop none 800 1700"
 				}
 			},
 			{
 				"Position": { "X": 51, "Y": 32 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_SnackShop none 900 1700"
+					"Action": "OpenShop {{ModId}}_SnackShop none 800 1700"
 				}
 			},
 		],
@@ -164,12 +164,12 @@
                 		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
 						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
 					},
-					{
-						"Id": "{{ModId}}_GuideShop_UnreadBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 1,
-                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					},
+					// {
+					// 	"Id": "{{ModId}}_GuideShop_UnreadBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 1,
+                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					// },
 				],
 			},
 			"{{ModId}}_ScienceShop": {
@@ -227,12 +227,12 @@
                 		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
 						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
 					},
-					{
-						"Id": "{{ModId}}_RecipeShop_UnreadBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 1,
-                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					},
+					// {
+					// 	"Id": "{{ModId}}_RecipeShop_UnreadBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 1,
+                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					// },
 				],
 			},
 			"{{ModId}}_FictionShop": {
@@ -252,12 +252,12 @@
                 		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
 						"Condition": "PLAYER_STAT Current Si_bc_hasbooks 47",
 					},
-					{
-						"Id": "{{ModId}}_FictionShop_UnreadBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 1,
-                		"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					},
+					// {
+					// 	"Id": "{{ModId}}_FictionShop_UnreadBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 1,
+                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
+					// },
 				],
 			},
 			"{{ModId}}_SnackShop": {
@@ -342,7 +342,15 @@
 
 	// Schedules //////////////////////////////////////////////////////////
 	// Put fest location/CT/gen dialogue into gift dialogue patches
-	// Penny, Jas, Vincent, Elliott, Leah, Lewis, Evelyn, George, a few other townsfolk maybe
+	// Penny, Jas, Vincent, Leo, Elliott, Leah, Lewis, Evelyn, George, a few other townsfolk maybe
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/schedules/Penny",
+		"Entries": {
+			"spring_9": "830 Trailer 6 5 0/900 ArchaeologyHouse 17 9 2 penny_read/1400 Town 88 100 2/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+		},
+	},
 
 	// End //////////////////////////////////////////////////////////
 

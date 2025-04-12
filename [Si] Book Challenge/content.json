@@ -62,19 +62,19 @@
 		"Target": "Mods/{{ModId}}/blankbook",
 		"Action": "Load",
 		"FromFile": "Data/[Base]/Assets/blankbook.png",
-		"When": {
-				"DarkMode": false,
-			},
+		// "When": {
+		// 		"DarkMode": false,
+		// 	},
 	},
 
-	{
-		"Target": "Mods/{{ModId}}/blankbook",
-		"Action": "Load",
-		"FromFile": "Data/[Base]/Assets/darkbook.png",
-		"When": {
-				"DarkMode": true,
-			},
-	},
+	// {
+	// 	"Target": "Mods/{{ModId}}/blankbook",
+	// 	"Action": "Load",
+	// 	"FromFile": "Data/[Base]/Assets/darkbook.png",
+	// 	"When": {
+	// 			"DarkMode": true,
+	// 		},
+	// },
 
 	// Includes //////////////////////////////////////////////////////////
 

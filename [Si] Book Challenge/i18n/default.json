@@ -1,7 +1,16 @@
 {
-	// Sample length "^^Book contents here testing testing testing 1 testing testing testing 2 testing testing testing 3 testing testing testing 4 testing testing testing 5 testing testing testing 6 testing testing testing 7 testing testing testing 8 testing testing testing 9 testing testing testing 10 ^^testing testing testing 11 testing testing testing 12 testing testing testing 13",
-	// Config
-	// Base content
+	// Book Fair
+	"Si.BC.BFName": "Book Fair",
+	"Si.BC.BFStart": "The Book Fair has begun in Pelican Town!",
+	"Si.BC.BFMailContent": "Dear @,^  I thought I'd let you know that Biblastic Books has offered to start sponsoring an annual Book Fair here in Pelican Town. The first Pelican Town Book Fair will be tomorrow from 8 AM to 5 PM, north of Pierre's. I hope to see you there! ^   -Penny",
+	// Events
+	"Si.BC.DadMailName": "Book From Dad",
+	"Si.BC.DadMailContent": "Dear @,^  How's the farm life going? I found this in the garage, figured it might help you with that old farmhouse. Take care kiddo.^  Love, Dad.",
+	"Si.BC.MomMailName": "Book From Mom",
+	"Si.BC.MomMailContent": "Dear @,^  How are you sweety? I found this book for you. Please take care of yourself! And remember, we're proud of you! ^  Love, Mom",
+	"Si.BC.ElliottMailName": "Elliott's Book",
+	"Si.BC.ElliottMailContent": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott",
+	// Books
 	"Si.BC.SaltBookName": "101 Gourmand Tomato Salt Recipes",
 	"Si.BC.SaltBookDesc": "The pictures on the cover make the book itself look delicious!",
 	"Si.BC.SaltBookContent": "^^Once you've spread the spoon of cottage cheese evenly over your slice of toasted sourdough, sprinkle a few pinches of tomato salt on top and enjoy.",

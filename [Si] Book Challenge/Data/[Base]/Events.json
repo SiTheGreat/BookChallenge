@@ -2,6 +2,33 @@
 
 	"Changes": [
 
+	// Book fair mail //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_FairSendBook": {
+				"Id": "{{ModId}}_FairSendBook",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20, SEASON Spring, DAY_OF_MONTH 7",
+				"Actions": [
+					"AddMail All {{ModId}}_BookFairMail tomorrow",
+					"AddMail All {{ModId}}_StartBookFair",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/mail",
+		"Entries": {
+			"{{ModId}}_BookFairMail": "{{i18n:Si.BC.BFMailContent}}[#]{{i18n:Si.BC.BFName}}",
+		},
+	},
+
 	// Parent mails //////////////////////////////////////////////////////////
 
 	// Dad
@@ -26,7 +53,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_DadBookMail": "Dear @,^  How's the farm life going? I found this in the garage, figured it might help you with that old farmhouse. Take care kiddo.^  Love, Dad.%action Additem (O){{ModId}}_HomeownerBook%% %action AddMail Current {{ModId}}_HasHomeownerBook%%[#]Book From Dad",
+			"{{ModId}}_DadBookMail": "{{i18n:Si.BC.DadMailContent}}%action Additem (O){{ModId}}_HomeownerBook%% %action AddMail Current {{ModId}}_HasHomeownerBook%%[#]{{i18n:Si.BC.DadMailName}}",
 		},
 	},
 
@@ -52,7 +79,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_MomBookMail": "Dear @,^  How are you sweety? I found this book for you. Please take care of yourself! And remember, we're proud of you! ^  Love, Mom%action Additem (O){{ModId}}_CareBook%% %action AddMail Current {{ModId}}_HasCareBook%%[#]Book From Mom",
+			"{{ModId}}_MomBookMail": "{{i18n:Si.BC.MomMailContent}}%action Additem (O){{ModId}}_CareBook%% %action AddMail Current {{ModId}}_HasCareBook%%[#]{{i18n:Si.BC.MomMailName}}",
 		},
 	},
 
@@ -88,7 +115,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotTowerBook%% %action AddMail Current {{ModId}}_HasElliotTowerBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "{{i18n:Si.BC.ElliottMailContent}}%action Additem (O){{ModId}}_ElliotTowerBook%% %action AddMail Current {{ModId}}_HasElliotTowerBook%%[#]{{i18n:Si.BC.ElliottMailName}}",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_TowerFlag": true,
@@ -99,7 +126,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotStationBook%% %action AddMail Current {{ModId}}_HasElliotStationBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "{{i18n:Si.BC.ElliottMailContent}}%action Additem (O){{ModId}}_ElliotStationBook%% %action AddMail Current {{ModId}}_HasElliotStationBook%%[#]{{i18n:Si.BC.ElliottMailName}}",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_StationFlag": true,
@@ -110,7 +137,7 @@
 		"Action": "EditData",
 		"Target": "Data/mail",
 		"Entries": {
-			"{{ModId}}_ElliotBookMail": "Greetings @!^^I want to express my sincere appreciation for attending my public reading at the library yesterday. Your presence affirmed my confidence in my writing, and because of you I have made a name for myself in the published world. I've enclosed a copy of my book; I hope you find as much joy in reading it as I do in knowing you.^   -Warmest regards, Elliott%action Additem (O){{ModId}}_ElliotPlanetBook%% %action AddMail Current {{ModId}}_HasElliotPlanetBook%%[#]Elliott's Book",
+			"{{ModId}}_ElliotBookMail": "{{i18n:Si.BC.ElliottMailContent}}%action Additem (O){{ModId}}_ElliotPlanetBook%% %action AddMail Current {{ModId}}_HasElliotPlanetBook%%[#]{{i18n:Si.BC.ElliottMailName}}",
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
