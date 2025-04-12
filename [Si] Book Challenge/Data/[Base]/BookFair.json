@@ -143,7 +143,7 @@
 						"Id": "{{ModId}}_PowerShop_PowerBooks",
 						"ItemId": "RANDOM_ITEMS (O)",
                 		"MaxItems": 5,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target book_item",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target book_item\" \"ITEM_CONTEXT_TAG Target unread_book\"",
 					},
 				],
 			},

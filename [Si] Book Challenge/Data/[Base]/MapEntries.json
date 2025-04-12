@@ -14,10 +14,10 @@
 					"Id": "{{ModId}}_SaltBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedSaltBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSaltBook",
 					"Actions": [
-						"AddItem {{ModId}}_SaltBook",
-						"AddMail Current {{ModId}}_ReceivedSaltBook",
+						"AddItem {{ModId}}_SaltBookNote",
+						"AddMail Current {{ModId}}_HasSaltBook",
 					]
 				}
 			},
@@ -67,10 +67,10 @@
 					"Id": "{{ModId}}_AdvMagBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedAdvMagBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAdvMagBook",
 					"Actions": [
-						"AddItem {{ModId}}_AdvMagBook",
-						"AddMail Current {{ModId}}_ReceivedAdvMagBook",
+						"AddItem {{ModId}}_AdvMagBookNote",
+						"AddMail Current {{ModId}}_HasAdvMagBook",
 					]
 				}
 			},
@@ -120,10 +120,10 @@
 					"Id": "{{ModId}}_AdvHealBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedAdvHealBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAdvHealBook",
 					"Actions": [
-						"AddItem {{ModId}}_AdvHealBook",
-						"AddMail Current {{ModId}}_ReceivedAdvHealBook",
+						"AddItem {{ModId}}_AdvHealBookNote",
+						"AddMail Current {{ModId}}_HasAdvHealBook",
 					]
 				}
 			},
@@ -173,10 +173,10 @@
 					"Id": "{{ModId}}_AardvarkBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedAardvarkBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAardvarkBook",
 					"Actions": [
-						"AddItem {{ModId}}_AardvarkBook",
-						"AddMail Current {{ModId}}_ReceivedAardvarkBook",
+						"AddItem {{ModId}}_AardvarkBookNote",
+						"AddMail Current {{ModId}}_HasAardvarkBook",
 					]
 				}
 			},
@@ -226,10 +226,10 @@
 					"Id": "{{ModId}}_ArchGuideTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedArchGuide",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasArchGuide",
 					"Actions": [
-						"AddItem {{ModId}}_ArchGuide",
-						"AddMail Current {{ModId}}_ReceivedArchGuide",
+						"AddItem {{ModId}}_ArchGuideNote",
+						"AddMail Current {{ModId}}_HasArchGuide",
 					]
 				}
 			},
@@ -279,10 +279,10 @@
 					"Id": "{{ModId}}_AstroBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedAstroBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasAstroBook",
 					"Actions": [
-						"AddItem {{ModId}}_AstroBook",
-						"AddMail Current {{ModId}}_ReceivedAstroBook",
+						"AddItem {{ModId}}_AstroBookNote",
+						"AddMail Current {{ModId}}_HasAstroBook",
 					]
 				}
 			},
@@ -332,10 +332,10 @@
 					"Id": "{{ModId}}_BatMatBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedBatMatBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBatMatBook",
 					"Actions": [
-						"AddItem {{ModId}}_BatMatBook",
-						"AddMail Current {{ModId}}_ReceivedBatMatBook",
+						"AddItem {{ModId}}_BatMatBookNote",
+						"AddMail Current {{ModId}}_HasBatMatBook",
 					]
 				}
 			},
@@ -385,10 +385,10 @@
 					"Id": "{{ModId}}_BetterHomesBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedBetterHomesBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBetterHomesBook",
 					"Actions": [
-						"AddItem {{ModId}}_BetterHomesBook",
-						"AddMail Current {{ModId}}_ReceivedBetterHomesBook",
+						"AddItem {{ModId}}_BetterHomesBookNote",
+						"AddMail Current {{ModId}}_HasBetterHomesBook",
 					]
 				}
 			},
@@ -438,10 +438,10 @@
 					"Id": "{{ModId}}_ElliotTowerBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedElliotTowerBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasElliotTowerBook",
 					"Actions": [
-						"AddItem {{ModId}}_ElliotTowerBook",
-						"AddMail Current {{ModId}}_ReceivedElliotTowerBook",
+						"AddItem {{ModId}}_ElliotTowerBookNote",
+						"AddMail Current {{ModId}}_HasElliotTowerBook",
 					]
 				}
 			},
@@ -497,10 +497,10 @@
 					"Id": "{{ModId}}_YobaBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedYobaBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasYobaBook",
 					"Actions": [
-						"AddItem {{ModId}}_YobaBook",
-						"AddMail Current {{ModId}}_ReceivedYobaBook",
+						"AddItem {{ModId}}_YobaBookNote",
+						"AddMail Current {{ModId}}_HasYobaBook",
 					]
 				}
 			},
@@ -550,10 +550,10 @@
 					"Id": "{{ModId}}_BookkeepingBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedBookkeepingBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBookkeepingBook",
 					"Actions": [
-						"AddItem {{ModId}}_BookkeepingBook",
-						"AddMail Current {{ModId}}_ReceivedBookkeepingBook",
+						"AddItem {{ModId}}_BookkeepingBookNote",
+						"AddMail Current {{ModId}}_HasBookkeepingBook",
 					]
 				}
 			},
@@ -603,10 +603,10 @@
 					"Id": "{{ModId}}_CSharpBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCSharpBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCSharpBook",
 					"Actions": [
-						"AddItem {{ModId}}_CSharpBook",
-						"AddMail Current {{ModId}}_ReceivedCSharpBook",
+						"AddItem {{ModId}}_CSharpBookNote",
+						"AddMail Current {{ModId}}_HasCSharpBook",
 					]
 				}
 			},
@@ -656,10 +656,10 @@
 					"Id": "{{ModId}}_ElliotStationBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedElliotStationBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasElliotStationBook",
 					"Actions": [
-						"AddItem {{ModId}}_ElliotStationBook",
-						"AddMail Current {{ModId}}_ReceivedElliotStationBook",
+						"AddItem {{ModId}}_ElliotStationBookNote",
+						"AddMail Current {{ModId}}_HasElliotStationBook",
 					]
 				}
 			},
@@ -715,10 +715,10 @@
 					"Id": "{{ModId}}_CampfireBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCampfireBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCampfireBook",
 					"Actions": [
-						"AddItem {{ModId}}_CampfireBook",
-						"AddMail Current {{ModId}}_ReceivedCampfireBook",
+						"AddItem {{ModId}}_CampfireBookNote",
+						"AddMail Current {{ModId}}_HasCampfireBook",
 					]
 				}
 			},
@@ -768,10 +768,10 @@
 					"Id": "{{ModId}}_ChickenBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedChickenBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasChickenBook",
 					"Actions": [
-						"AddItem {{ModId}}_ChickenBook",
-						"AddMail Current {{ModId}}_ReceivedChickenBook",
+						"AddItem {{ModId}}_ChickenBookNote",
+						"AddMail Current {{ModId}}_HasChickenBook",
 					]
 				}
 			},
@@ -821,10 +821,10 @@
 					"Id": "{{ModId}}_CrystalBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCrystalBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCrystalBook",
 					"Actions": [
-						"AddItem {{ModId}}_CrystalBook",
-						"AddMail Current {{ModId}}_ReceivedCrystalBook",
+						"AddItem {{ModId}}_CrystalBookNote",
+						"AddMail Current {{ModId}}_HasCrystalBook",
 					]
 				}
 			},
@@ -874,10 +874,10 @@
 					"Id": "{{ModId}}_DMGBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedDMGBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasDMGBook",
 					"Actions": [
-						"AddItem {{ModId}}_DMGBook",
-						"AddMail Current {{ModId}}_ReceivedDMGBook",
+						"AddItem {{ModId}}_DMGBookNote",
+						"AddMail Current {{ModId}}_HasDMGBook",
 					]
 				}
 			},
@@ -927,10 +927,10 @@
 					"Id": "{{ModId}}_ToolboxBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedToolboxBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasToolboxBook",
 					"Actions": [
-						"AddItem {{ModId}}_ToolboxBook",
-						"AddMail Current {{ModId}}_ReceivedToolboxBook",
+						"AddItem {{ModId}}_ToolboxBookNote",
+						"AddMail Current {{ModId}}_HasToolboxBook",
 					]
 				}
 			},
@@ -980,10 +980,10 @@
 					"Id": "{{ModId}}_FernBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedFernBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFernBook",
 					"Actions": [
-						"AddItem {{ModId}}_FernBook",
-						"AddMail Current {{ModId}}_ReceivedFernBook",
+						"AddItem {{ModId}}_FernBookNote",
+						"AddMail Current {{ModId}}_HasFernBook",
 					]
 				}
 			},
@@ -1033,10 +1033,10 @@
 					"Id": "{{ModId}}_WoodBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedWoodBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasWoodBook",
 					"Actions": [
-						"AddItem {{ModId}}_WoodBook",
-						"AddMail Current {{ModId}}_ReceivedWoodBook",
+						"AddItem {{ModId}}_WoodBookNote",
+						"AddMail Current {{ModId}}_HasWoodBook",
 					]
 				}
 			},
@@ -1086,10 +1086,10 @@
 					"Id": "{{ModId}}_CloakBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCloakBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCloakBook",
 					"Actions": [
-						"AddItem {{ModId}}_CloakBook",
-						"AddMail Current {{ModId}}_ReceivedCloakBook",
+						"AddItem {{ModId}}_CloakBookNote",
+						"AddMail Current {{ModId}}_HasCloakBook",
 					]
 				}
 			},
@@ -1139,10 +1139,10 @@
 					"Id": "{{ModId}}_FireproofingBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedFireproofingBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFireproofingBook",
 					"Actions": [
-						"AddItem {{ModId}}_FireproofingBook",
-						"AddMail Current {{ModId}}_ReceivedFireproofingBook",
+						"AddItem {{ModId}}_FireproofingBookNote",
+						"AddMail Current {{ModId}}_HasFireproofingBook",
 					]
 				}
 			},
@@ -1192,10 +1192,10 @@
 					"Id": "{{ModId}}_GridballBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedGridballBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGridballBook",
 					"Actions": [
-						"AddItem {{ModId}}_GridballBook",
-						"AddMail Current {{ModId}}_ReceivedGridballBook",
+						"AddItem {{ModId}}_GridballBookNote",
+						"AddMail Current {{ModId}}_HasGridballBook",
 					]
 				}
 			},
@@ -1245,10 +1245,10 @@
 					"Id": "{{ModId}}_GoldBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedGoldBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGoldBook",
 					"Actions": [
-						"AddItem {{ModId}}_GoldBook",
-						"AddMail Current {{ModId}}_ReceivedGoldBook",
+						"AddItem {{ModId}}_GoldBookNote",
+						"AddMail Current {{ModId}}_HasGoldBook",
 					]
 				}
 			},
@@ -1298,10 +1298,10 @@
 					"Id": "{{ModId}}_CleanSpellsBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCleanSpellsBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCleanSpellsBook",
 					"Actions": [
-						"AddItem {{ModId}}_CleanSpellsBook",
-						"AddMail Current {{ModId}}_ReceivedCleanSpellsBook",
+						"AddItem {{ModId}}_CleanSpellsBookNote",
+						"AddMail Current {{ModId}}_HasCleanSpellsBook",
 					]
 				}
 			},
@@ -1351,10 +1351,10 @@
 					"Id": "{{ModId}}_GuineaBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedGuineaBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasGuineaBook",
 					"Actions": [
-						"AddItem {{ModId}}_GuineaBook",
-						"AddMail Current {{ModId}}_ReceivedGuineaBook",
+						"AddItem {{ModId}}_GuineaBookNote",
+						"AddMail Current {{ModId}}_HasGuineaBook",
 					]
 				}
 			},
@@ -1404,10 +1404,10 @@
 					"Id": "{{ModId}}_Human101BookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedHuman101Book",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHuman101Book",
 					"Actions": [
-						"AddItem {{ModId}}_Human101Book",
-						"AddMail Current {{ModId}}_ReceivedHuman101Book",
+						"AddItem {{ModId}}_Human101BookNote",
+						"AddMail Current {{ModId}}_HasHuman101Book",
 					]
 				}
 			},
@@ -1457,10 +1457,10 @@
 					"Id": "{{ModId}}_HumanLingoBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedHumanLingoBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHumanLingoBook",
 					"Actions": [
-						"AddItem {{ModId}}_HumanLingoBook",
-						"AddMail Current {{ModId}}_ReceivedHumanLingoBook",
+						"AddItem {{ModId}}_HumanLingoBookNote",
+						"AddMail Current {{ModId}}_HasHumanLingoBook",
 					]
 				}
 			},
@@ -1510,10 +1510,10 @@
 					"Id": "{{ModId}}_FlowerLingoBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedFlowerLingoBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasFlowerLingoBook",
 					"Actions": [
-						"AddItem {{ModId}}_FlowerLingoBook",
-						"AddMail Current {{ModId}}_ReceivedFlowerLingoBook",
+						"AddItem {{ModId}}_FlowerLingoBookNote",
+						"AddMail Current {{ModId}}_HasFlowerLingoBook",
 					]
 				}
 			},
@@ -1563,10 +1563,10 @@
 					"Id": "{{ModId}}_BusBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedBusBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBusBook",
 					"Actions": [
-						"AddItem {{ModId}}_BusBook",
-						"AddMail Current {{ModId}}_ReceivedBusBook",
+						"AddItem {{ModId}}_BusBookNote",
+						"AddMail Current {{ModId}}_HasBusBook",
 					]
 				}
 			},
@@ -1616,10 +1616,10 @@
 					"Id": "{{ModId}}_HomeownerBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedHomeownerBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHomeownerBook",
 					"Actions": [
-						"AddItem {{ModId}}_HomeownerBook",
-						"AddMail Current {{ModId}}_ReceivedHomeownerBook",
+						"AddItem {{ModId}}_HomeownerBookNote",
+						"AddMail Current {{ModId}}_HasHomeownerBook",
 					]
 				}
 			},
@@ -1669,10 +1669,10 @@
 					"Id": "{{ModId}}_MarketArtBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedMarketArtBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasMarketArtBook",
 					"Actions": [
-						"AddItem {{ModId}}_MarketArtBook",
-						"AddMail Current {{ModId}}_ReceivedMarketArtBook",
+						"AddItem {{ModId}}_MarketArtBookNote",
+						"AddMail Current {{ModId}}_HasMarketArtBook",
 					]
 				}
 			},
@@ -1722,10 +1722,10 @@
 					"Id": "{{ModId}}_MarnieLogBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedMarnieLogBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasMarnieLogBook",
 					"Actions": [
-						"AddItem {{ModId}}_MarnieLogBook",
-						"AddMail Current {{ModId}}_ReceivedMarnieLogBook",
+						"AddItem {{ModId}}_MarnieLogBookNote",
+						"AddMail Current {{ModId}}_HasMarnieLogBook",
 					]
 				}
 			},
@@ -1775,10 +1775,10 @@
 					"Id": "{{ModId}}_PennyBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedPennyBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPennyBook",
 					"Actions": [
-						"AddItem {{ModId}}_PennyBook",
-						"AddMail Current {{ModId}}_ReceivedPennyBook",
+						"AddItem {{ModId}}_PennyBookNote",
+						"AddMail Current {{ModId}}_HasPennyBook",
 					]
 				}
 			},
@@ -1828,10 +1828,10 @@
 					"Id": "{{ModId}}_NatGeoBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedNatGeoBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNatGeoBook",
 					"Actions": [
-						"AddItem {{ModId}}_NatGeoBook",
-						"AddMail Current {{ModId}}_ReceivedNatGeoBook",
+						"AddItem {{ModId}}_NatGeoBookNote",
+						"AddMail Current {{ModId}}_HasNatGeoBook",
 					]
 				}
 			},
@@ -1881,10 +1881,10 @@
 					"Id": "{{ModId}}_NavBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedNavBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasNavBook",
 					"Actions": [
-						"AddItem {{ModId}}_NavBook",
-						"AddMail Current {{ModId}}_ReceivedNavBook",
+						"AddItem {{ModId}}_NavBookNote",
+						"AddMail Current {{ModId}}_HasNavBook",
 					]
 				}
 			},
@@ -1934,10 +1934,10 @@
 					"Id": "{{ModId}}_PHBBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedPHBBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPHBBook",
 					"Actions": [
-						"AddItem {{ModId}}_PHBBook",
-						"AddMail Current {{ModId}}_ReceivedPHBBook",
+						"AddItem {{ModId}}_PHBBookNote",
+						"AddMail Current {{ModId}}_HasPHBBook",
 					]
 				}
 			},
@@ -1987,10 +1987,10 @@
 					"Id": "{{ModId}}_PrincessBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedPrincessBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasPrincessBook",
 					"Actions": [
-						"AddItem {{ModId}}_PrincessBook",
-						"AddMail Current {{ModId}}_ReceivedPrincessBook",
+						"AddItem {{ModId}}_PrincessBookNote",
+						"AddMail Current {{ModId}}_HasPrincessBook",
 					]
 				}
 			},
@@ -2040,10 +2040,10 @@
 					"Id": "{{ModId}}_ReadersDigestBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedReadersDigestBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasReadersDigestBook",
 					"Actions": [
-						"AddItem {{ModId}}_ReadersDigestBook",
-						"AddMail Current {{ModId}}_ReceivedReadersDigestBook",
+						"AddItem {{ModId}}_ReadersDigestBookNote",
+						"AddMail Current {{ModId}}_HasReadersDigestBook",
 					]
 				}
 			},
@@ -2093,10 +2093,10 @@
 					"Id": "{{ModId}}_ElliotPlanetBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedElliotPlanetBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasElliotPlanetBook",
 					"Actions": [
-						"AddItem {{ModId}}_ElliotPlanetBook",
-						"AddMail Current {{ModId}}_ReceivedElliotPlanetBook",
+						"AddItem {{ModId}}_ElliotPlanetBookNote",
+						"AddMail Current {{ModId}}_HasElliotPlanetBook",
 					]
 				}
 			},
@@ -2152,10 +2152,10 @@
 					"Id": "{{ModId}}_StyleBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedStyleBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasStyleBook",
 					"Actions": [
-						"AddItem {{ModId}}_StyleBook",
-						"AddMail Current {{ModId}}_ReceivedStyleBook",
+						"AddItem {{ModId}}_StyleBookNote",
+						"AddMail Current {{ModId}}_HasStyleBook",
 					]
 				}
 			},
@@ -2205,10 +2205,10 @@
 					"Id": "{{ModId}}_CareBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedCareBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasCareBook",
 					"Actions": [
-						"AddItem {{ModId}}_CareBook",
-						"AddMail Current {{ModId}}_ReceivedCareBook",
+						"AddItem {{ModId}}_CareBookNote",
+						"AddMail Current {{ModId}}_HasCareBook",
 					]
 				}
 			},
@@ -2258,10 +2258,10 @@
 					"Id": "{{ModId}}_ChimneyBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedChimneyBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasChimneyBook",
 					"Actions": [
-						"AddItem {{ModId}}_ChimneyBook",
-						"AddMail Current {{ModId}}_ReceivedChimneyBook",
+						"AddItem {{ModId}}_ChimneyBookNote",
+						"AddMail Current {{ModId}}_HasChimneyBook",
 					]
 				}
 			},
@@ -2311,10 +2311,10 @@
 					"Id": "{{ModId}}_SoldierBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_ReceivedSoldierBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSoldierBook",
 					"Actions": [
-						"AddItem {{ModId}}_SoldierBook",
-						"AddMail Current {{ModId}}_ReceivedSoldierBook",
+						"AddItem {{ModId}}_SoldierBookNote",
+						"AddMail Current {{ModId}}_HasSoldierBook",
 					]
 				}
 			},
