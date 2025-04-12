@@ -4,32 +4,14 @@
 
 	// Config //////////////////////////////////////////////////////////
 
-	"ConfigSchema":{
+	// "ConfigSchema":{
 
-		"DarkMode": {
-			"AllowValues": "true, false",
-			"Default": "false",
-			"Description": "When enabled, book interiors will have dark grey pages and yellow letters when being read."
-		},
-
-		"AdventurerAbigailBooks": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Whether to include 2 books made for the Adventurer Abigail mod when that mod is installed."
-		},
-
-		"LeafCollectingBooks": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Whether to include a book made for the Leaf Collecting (NitV) mod when that mod is installed."
-		},
-
-		"SebsFrogSanctuaryBooks": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Whether to include 2 books made for the Sebastian's Frog Sanctuary mod when that mod is installed."
-		},
-	},
+	// 	"DarkMode": {
+	// 		"AllowValues": "true, false",
+	// 		"Default": "false",
+	// 		"Description": "When enabled, book interiors will have dark grey pages and yellow letters when being read."
+	// 	},
+	// },
 
 	// Content //////////////////////////////////////////////////////////
 
