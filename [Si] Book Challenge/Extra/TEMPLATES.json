@@ -17,7 +17,52 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/insertBook",
-			"FromFile": "Data/[Base]/Assets/insertBook.png"
+			"FromFile": "Data/Assets/insertBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_insertBookNote": {
+					"Name": "{{ModId}}_insertBookNote",
+					"DisplayName": "{{i18n:Si.BC.insertBookName}}",
+					"Description": "{{i18n:Si.BC.insertBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/insertBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"bc_book",
+					],
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": "unread_book",
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_HasinsertBook": true,
+			},
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": null,
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
+			},
 		},
 
 		{
@@ -35,7 +80,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"cool_book"
+						"bc_book",
+						"cool_book",
 					],
 				}
 			}
@@ -53,7 +99,8 @@
 					"Trigger": "Manual",
 					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasinsertBook",
 					"Actions": [
-						"AddItem {{ModId}}_insertBook",
+						"AddItem {{ModId}}_insertBookNote",
+						"AddMail Current {{ModId}}_HasinsertBook",
 					]
 				}
 			},
@@ -98,14 +145,15 @@
 		"{{ModId}}_insertBook": {
 			"Title": "{{i18n:Si.BC.insertBookName}}",
 			"Contents": "{{i18n:Si.BC.insertBookContent}}",
-			"ObjectId": "(O){{ModId}}_insertBook",
+			"ObjectId": "(O){{ModId}}_insertBookNote",
 			"Location": "null",
 			"NoteTexture": "Mods/{{ModId}}/blankbook",
 			"NoteTextureIndex": 0,
-			"NoteTextColor": "{{TextColor}}",
+			"NoteTextColor": "rgb(12, 12, 80)",
 			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 			"ActionsOnFirstRead": [
-				"AddMail Current {{ModId}}_HasinsertBook"
+				"AddMail Current {{ModId}}_ReceivedinsertBook",
+				"IncrementStat bc_hasbooks 1",
 			]
 		},
 

@@ -4,14 +4,16 @@
 
 	// Content //////////////////////////////////////////////////////////
 
-		// Each book:
-		// Trigger action
-		// Map property
-		// SNF entry
-		// Object entry
-		// Book texture
-		// Gift tastes - add custom context tags and set those to universal neutral/like
-		// Gift responses
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Abigail",
+		"Entries": {
+			"AcceptGift_bc_book": "Thanks! Looks like an interesting read.",
+			"AcceptGift_{{ModId}}_BookkeepingBook": "Ugh, my dad keeps trying to get me to read this...",
+		},
+	},
+
+	// elliott how did you find my draft??? ...what did you think of it?
 
 	// End //////////////////////////////////////////////////////////
 

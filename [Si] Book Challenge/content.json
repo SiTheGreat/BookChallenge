@@ -3,6 +3,7 @@
 	"Format": "2.0.0",
 
 	// Config //////////////////////////////////////////////////////////
+	// Dark mods disabled till I can figure out how to flow textcolor to other mods
 
 	// "ConfigSchema":{
 
@@ -61,39 +62,50 @@
 	// Includes //////////////////////////////////////////////////////////
 
 	{
+		// Book items
 		"Action": "Include",
-		"FromFile": "Data/[Base]/Core.json",
+		"FromFile": "Data/Objects.json",
 	},
 
 	{
+		// Turns books into secret notes
 		"Action": "Include",
-		"FromFile": "Data/SiAdventurerAbigail/AABooks.json",
-		"When": {
-			"AdventurerAbigailBooks": true,
-			"HasMod: |contains=SiTheGreat.AdventurerAbigail": true,
-		}
+		"FromFile": "Data/SecretNotes.json",
 	},
 
 	{
+		// Book locations and trigger actions
 		"Action": "Include",
-		"FromFile": "Data/SiLeafCollecting/LCBooks.json",
-		"When": {
-			"LeafCollectingBooks": true,
-			"HasMod: |contains=Si.CPLeaves": true,
-		}
+		"FromFile": "Data/MapEntries.json",
 	},
 
 	{
+		// Events for certain books
 		"Action": "Include",
-		"FromFile": "Data/SiSebastiansFrogSanctuary/SFSBooks.json",
+		"FromFile": "Data/Events.json",
+	},
+
+	{
+		// Gift tastes for books
+		"Action": "Include",
+		"FromFile": "Data/GiftTastes.json",
+	},
+
+	{
+		// Bookseller shop entries
+		"Action": "Include",
+		"FromFile": "Data/Bookseller.json",
+	},
+
+	{
+		// Book Fair
+		"Action": "Include",
+		"FromFile": "Data/BookFair.json",
 		"When": {
-			"SebsFrogSanctuaryBooks": true,
-			"HasMod: |contains=Si.SebsFrogs": true,
-		}
+			"HasFlag: |contains={{ModId}}_StartBookFair": true,
+		},
 	},
 	
-	// Shop //////////////////////////////////////////////////////////
-
 	// End //////////////////////////////////////////////////////////
 
 	]

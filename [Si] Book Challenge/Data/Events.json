@@ -12,7 +12,7 @@
 				"Id": "{{ModId}}_FairSendBook",
 				"MarkActionApplied": true,
 				"Trigger": "DayEnding",
-				"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20, SEASON Spring, DAY_OF_MONTH 7",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 20, SEASON Spring, DAY_OF_MONTH 7",
 				"Actions": [
 					"AddMail All {{ModId}}_BookFairMail tomorrow",
 					"AddMail All {{ModId}}_StartBookFair",
@@ -41,7 +41,7 @@
 				"Id": "{{ModId}}_DadSendBook",
 				"MarkActionApplied": true,
 				"Trigger": "DayEnding",
-				"Condition": "PLAYER_STAT Current Si_bc_hasbooks 5",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 5",
 				"Actions": [
 					"AddMail Current {{ModId}}_DadBookMail tomorrow",
 				]
@@ -67,7 +67,7 @@
 				"Id": "{{ModId}}_MomSendBook",
 				"MarkActionApplied": true,
 				"Trigger": "DayEnding",
-				"Condition": "PLAYER_STAT Current Si_bc_hasbooks 20",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 20",
 				"Actions": [
 					"AddMail Current {{ModId}}_MomBookMail tomorrow",
 				]
