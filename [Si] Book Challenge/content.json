@@ -35,20 +35,20 @@
 
 	"DynamicTokens": [
 
-		{
-			"Name": "TextColor",
-			"Value": "rgb(235, 164, 52)",
-			"When": {
-				"DarkMode": true,
-			},
-		},
+		// {
+		// 	"Name": "TextColor",
+		// 	"Value": "rgb(235, 164, 52)",
+		// 	"When": {
+		// 		"DarkMode": true,
+		// 	},
+		// },
 
 		{
 			"Name": "TextColor",
 			"Value": "rgb(12, 12, 80)",
-			"When": {
-				"DarkMode": false,
-			},
+			// "When": {
+			// 	"DarkMode": false,
+			// },
 		},
 	],
 
