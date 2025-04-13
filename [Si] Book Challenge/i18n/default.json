@@ -3,6 +3,13 @@
 	"Si.BC.BFName": "Book Fair",
 	"Si.BC.BFStart": "The Book Fair has begun in Pelican Town!",
 	"Si.BC.BFMailContent": "Dear @,^  I thought I'd let you know that Biblastic Books has offered to start sponsoring an annual Book Fair here in Pelican Town. The first Pelican Town Book Fair will be tomorrow from 8 AM to 5 PM, north of Pierre's. I hope to see you there! ^   -Penny",
+	"Si.BC.Penny.BF": "Isn't this exciting @?#$b#There are so many new books here!$1",
+	"Si.BC.Lewis.BF": "Enjoying the book fair @?",
+	"Si.BC.Jas.BF": "There are so many books!#$b#I don't know which one to pick!$1",
+	"Si.BC.Vincent.BF": "Some of these books look really big!#$b#Do people really read that much?$3",
+	"Si.BC.Leo.BF": "I'm still learning how to read.#$b#But these books look really cool!$1",
+	"Si.BC.Elliott.BF": "Isn't this marvelous @?#$b#No better way to inspire a love of literature and learning in the townsfolk than to grant the opportunity to choose from myriad tales and pages!$1#$b#I wish you luck in discovering a good book to accompany you home.",
+	"Si.BC.Leah.BF": "Find any good books @?",
 	// Events
 	"Si.BC.DadMailName": "Book From Dad",
 	"Si.BC.DadMailContent": "Dear @,^  How's the farm life going? I found this in the garage, figured it might help you with that old farmhouse. Take care kiddo.^  Love, Dad.",

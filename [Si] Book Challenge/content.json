@@ -94,7 +94,7 @@
 	},
 
 	{
-		// NPC gift responses for books
+		// NPC gift responses for books, as well as book fair location dialogue
 		"Action": "Include",
 		"FromFile": "Data/GiftResponses.json",
 	},

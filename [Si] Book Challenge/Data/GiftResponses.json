@@ -99,6 +99,9 @@
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Vincent.book}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Vincent.adventure}}",
 			"AcceptGift_kid_book": "{{i18n:Si.BC.Vincent.kid}}",
+			"Town_58_25": "{{i18n:Si.BC.Vincent.BF}}",
+			"Town_57_28": "{{i18n:Si.BC.Vincent.BF}}",
+			"Town_54_30": "{{i18n:Si.BC.Vincent.BF}}",
 		},
 	},
 
@@ -131,9 +134,9 @@
 			"AcceptGift_culture_book": "{{i18n:Si.BC.Leo.culture}}",
 			"AcceptGift_kid_book": "{{i18n:Si.BC.Leo.book}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Leo.nature1}}",
-			"When": {
+		},
+		"When": {
 				"HasSeenEvent:hostPlayer |contains=6497428": false,
-			},
 		},
 	},
 
@@ -145,9 +148,12 @@
 			"AcceptGift_culture_book": "{{i18n:Si.BC.Leo.culture}}",
 			"AcceptGift_kid_book": "{{i18n:Si.BC.Leo.kid}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Leo.nature2}}",
-			"When": {
+			"Town_62_33": "{{i18n:Si.BC.Leo.BF}}",
+			"Town_60_23": "{{i18n:Si.BC.Leo.BF}}",
+			"Town_57_28": "{{i18n:Si.BC.Leo.BF}}",
+		},
+		"When": {
 				"HasSeenEvent:hostPlayer |contains=6497428": true,
-			},
 		},
 	},
 
@@ -168,6 +174,9 @@
 			"AcceptGift_kid_book": "{{i18n:Si.BC.Jas.kid}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Jas.nature}}",
 			"AcceptGift_{{ModId}}_PrincessBook": "{{i18n:Si.BC.Jas.Princess}}",
+			"Town_57_25": "{{i18n:Si.BC.Jas.BF}}",
+			"Town_58_31": "{{i18n:Si.BC.Jas.BF}}",
+			"Town_62_27": "{{i18n:Si.BC.Jas.BF}}",
 		},
 	},
 
@@ -243,6 +252,9 @@
 			"AcceptGift_history_book": "{{i18n:Si.BC.Penny.history}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Penny.nature}}",
 			"AcceptGift_kid_book": "{{i18n:Si.BC.Penny.kid}}",
+			"Town_54_24": "{{i18n:Si.BC.Penny.BF}}",
+			"Town_68_30": "{{i18n:Si.BC.Penny.BF}}",
+			"Town_60_33": "{{i18n:Si.BC.Penny.BF}}",
 		},
 	},
 
@@ -297,6 +309,8 @@
 		"Target": "Characters/Dialogue/Elliott",
 		"Entries": {
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Elliott.book}}",
+			"Town_70_28": "{{i18n:Si.BC.Elliott.BF}}",
+			"Town_55_23": "{{i18n:Si.BC.Elliott.BF}}",
 		},
 	},
 
@@ -369,6 +383,7 @@
 			"AcceptGift_guide_book": "{{i18n:Si.BC.Lewis.guide}}",
 			"AcceptGift_{{ModId}}_ReadersDigestBook": "{{i18n:Si.BC.Lewis.ReadersDigest}}",
 			"AcceptGift_{{ModId}}_GoldBook": "{{i18n:Si.BC.Lewis.Gold}}",
+			"Town_61_21": "{{i18n:Si.BC.Lewis.BF}}",
 		},
 	},
 
@@ -393,6 +408,8 @@
 			"AcceptGift_{{ModId}}_MarketArtBook": "{{i18n:Si.BC.Leah.MarketArt}}",
 			"AcceptGift_{{ModId}}_WoodBook": "{{i18n:Si.BC.Leah.Wood}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Leah.nature}}",
+			"Town_64_23": "{{i18n:Si.BC.Leah.BF}}",
+			"Town_54_23": "{{i18n:Si.BC.Leah.BF}}",
 		},
 	},
 
