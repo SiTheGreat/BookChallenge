@@ -16,10 +16,6 @@
 		{
 		"UniqueID": "ichortower.SecretNoteFramework",
 		"IsRequired": true
-		},
-		{
-			"UniqueID": "Si.CPLeaves",
-			"IsRequired": false
 		},		
 	]
 }

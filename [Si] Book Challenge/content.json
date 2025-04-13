@@ -3,7 +3,7 @@
 	"Format": "2.0.0",
 
 	// Config //////////////////////////////////////////////////////////
-	// Dark mods disabled till I can figure out how to flow textcolor to other mods
+	// Dark mode option disabled till I can figure out how to flow textcolor to other mods
 
 	// "ConfigSchema":{
 
@@ -15,7 +15,7 @@
 	// },
 
 	// Content //////////////////////////////////////////////////////////
-	// Dark mods disabled till I can figure out how to flow textcolor to other mods
+	// Dark mode option disabled till I can figure out how to flow textcolor to other mods
 
 	"DynamicTokens": [
 
@@ -41,12 +41,12 @@
 	"Changes": [
 
 	// Note Texture //////////////////////////////////////////////////////////
-	// Dark mods disabled till I can figure out how to flow textcolor to other mods
+	// Dark mode option disabled till I can figure out how to flow textcolor to other mods
 
 	{
 		"Target": "Mods/{{ModId}}/blankbook",
 		"Action": "Load",
-		"FromFile": "Data/[Base]/Assets/blankbook.png",
+		"FromFile": "Data/Assets/blankbook.png",
 		// "When": {
 		// 		"DarkMode": false,
 		// 	},
@@ -55,7 +55,7 @@
 	// {
 	// 	"Target": "Mods/{{ModId}}/blankbook",
 	// 	"Action": "Load",
-	// 	"FromFile": "Data/[Base]/Assets/darkbook.png",
+	// 	"FromFile": "Data/Assets/darkbook.png",
 	// 	"When": {
 	// 			"DarkMode": true,
 	// 		},
