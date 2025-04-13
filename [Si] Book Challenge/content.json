@@ -67,42 +67,63 @@
 		// Book items
 		"Action": "Include",
 		"FromFile": "Data/Objects.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// Turns books into secret notes
 		"Action": "Include",
 		"FromFile": "Data/SecretNotes.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// Book locations and trigger actions
 		"Action": "Include",
 		"FromFile": "Data/MapEntries.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// Events for certain books
 		"Action": "Include",
 		"FromFile": "Data/Events.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// Gift tastes for books
 		"Action": "Include",
 		"FromFile": "Data/GiftTastes.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// NPC gift responses for books, as well as book fair location dialogue
 		"Action": "Include",
 		"FromFile": "Data/GiftResponses.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
 		// Bookseller shop entries
 		"Action": "Include",
 		"FromFile": "Data/Bookseller.json",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
 	},
 
 	{
@@ -111,6 +132,7 @@
 		"FromFile": "Data/BookFair.json",
 		"When": {
 			"HasFlag: |contains={{ModId}}_StartBookFair": true,
+			"HasWalletItem |contains=MagnifyingGlass": true,
 		},
 	},
 	
