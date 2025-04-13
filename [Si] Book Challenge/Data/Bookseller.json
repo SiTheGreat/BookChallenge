@@ -12,6 +12,7 @@
             "{{ModId}}_SoldBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": 5,
+                "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
                 "Condition": "PLAYER_STAT Current bc_hasbooks 5 29",
 		    },
@@ -26,6 +27,7 @@
             "{{ModId}}_SoldBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": 10,
+                "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
                 "Condition": "PLAYER_STAT Current bc_hasbooks 30 50",
 		    },
@@ -40,6 +42,7 @@
             "{{ModId}}_SoldBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": 15,
+                "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
                 "Condition": "PLAYER_STAT Current bc_hasbooks 51 80",
 		    },
@@ -54,6 +57,7 @@
             "{{ModId}}_SoldBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": 20,
+                "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
                 "Condition": "PLAYER_STAT Current bc_hasbooks 81",
 		    },
