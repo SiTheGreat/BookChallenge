@@ -109,7 +109,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Jodi", 1],
-				"Value": "recipe_book {{ModId}}_ReadersDigestBook",
+				"Value": "recipe_book adventure_book {{ModId}}_ReadersDigestBook",
 				"Delimiter": " "
 			},
 			// Kent
@@ -151,7 +151,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Marnie", 1],
-				"Value": "nature_book romance_book",
+				"Value": "nature_book romance_book {{ModId}}_MarnieLogBook",
 				"Delimiter": " "
 			},
 			// Alex
@@ -233,7 +233,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Harvey", 1],
-				"Value": "medical_book adventure_book",
+				"Value": "medical_book travel_book",
 				"Delimiter": " "
 			},
 			// Gus
@@ -254,7 +254,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Clint", 1],
-				"Value": "{{ModId}}_FireproofingBook {{ModId}}_ToolboxBook",
+				"Value": "{{ModId}}_FireproofingBook {{ModId}}_ToolboxBook {{ModId}}_ArchGuide",
 				"Delimiter": " "
 			},
 			// Leah
@@ -268,14 +268,14 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Willy", 1],
-				"Value": "travel_book romance_book",
+				"Value": "travel_book romance_book fish_book",
 				"Delimiter": " "
 			},
 			// Wizard
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Wizard", 1],
-				"Value": "magic_book",
+				"Value": "magic_book history_book",
 				"Delimiter": " "
 			},
 			// Dwarf

@@ -2,18 +2,440 @@
 
 	"Changes": [
 
-	// Content //////////////////////////////////////////////////////////
+	// Responses //////////////////////////////////////////////////////////
 
 	{
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Abigail",
 		"Entries": {
-			"AcceptGift_bc_book": "Thanks! Looks like an interesting read.",
-			"AcceptGift_{{ModId}}_BookkeepingBook": "Ugh, my dad keeps trying to get me to read this...",
+			"AcceptGift_bc_book": "Thanks! Looks like an interesting book.",
+			"AcceptGift_adventure_book": "Hey, this looks like a fun read!",
+			"AcceptGift_scifi_book": "Hey, this looks like a fun read!",
+			"AcceptGift_mystery_book": "Hey, this looks like a fun read!",
+			"AcceptGift_guild_book": "This should help me with my training!",
+			"AcceptGift_{{ModId}}_BookkeepingBook": "Ugh, my parents keep trying to get me to read this...",
 		},
 	},
 
-	// elliott how did you find my draft??? ...what did you think of it?
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Caroline",
+		"Entries": {
+			"AcceptGift_bc_book": "Oh, a new book! Thank you @.",
+			"AcceptGift_scifi_book": "Oh, the places I could go...",
+			"AcceptGift_mystery_book": "My, I do love a good mystery.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pierre",
+		"Entries": {
+			"AcceptGift_bc_book": "Huh, a new book! Could be useful.",
+			"AcceptGift_guide_book": "It's always helpful to pick up new skills.",
+			"AcceptGift_{{ModId}}_BookkeepingBook": "I've been trying to get Abigail to read this. It's so applicable to stores like ours!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Maru",
+		"Entries": {
+			"AcceptGift_bc_book": "Nice, a new book!",
+			"AcceptGift_medical_book": "This will be helpful at the clinic.",
+			"AcceptGift_science_book": "Time to broaden my scientific knowledge even more!",
+			"AcceptGift_scifi_book": "It's fun to read others' ideas of how technology will develop in the future. Thanks @!",
+			"AcceptGift_space_book": "I've always loved learning about space. Something about the vast cosmos just calls to me.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sebastian",
+		"Entries": {
+			"AcceptGift_bc_book": "Huh, a new book. I'll give it a shot.",
+			"AcceptGift_game_book": "Great, I can use this for game night.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Demetrius",
+		"Entries": {
+			"AcceptGift_bc_book": "A new book! Why thank you @.",
+			"AcceptGift_science_book": "Fascinating!",
+			"AcceptGift_culture_book": "I find books like these very helpful when it comes to understanding the world. Thank you @.",
+			"AcceptGift_fiction_book": "I don't enjoy books like this one, but I appreciate you thinking of me @.#$b#I'll see if one of the kids would like it.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Robin",
+		"Entries": {
+			"AcceptGift_bc_book": "Thanks! Looks like an interesting read.",
+			"AcceptGift_sport_book": "You know, I loved playing team sports when I was younger.#$e#I wonder if Alex would be interested in starting a local rec league?",
+			"AcceptGift_scifi_book": "Oh I could never turn down a good science fiction novel. Thanks @!",
+			"AcceptGift_{{ModId}}_WoodBook": "I'm familiar with most techniques already, but maybe this book will teach me something new. You never know!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sam",
+		"Entries": {
+			"AcceptGift_bc_book": "Huh, I guess I can give this book a shot.",
+			"AcceptGift_adventure_book": "Sweet, this looks exciting!",
+			"AcceptGift_game_book": "Great! I can really use this for game night.",
+			"AcceptGift_scifi_book": "Sweet, this looks exciting!",
+			"AcceptGift_comic_book": "Awesome, I can't wait to read this issue!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Vincent",
+		"Entries": {
+			"AcceptGift_bc_book": "Huh, that book has lots of words but no pictures.",
+			"AcceptGift_adventure_book": "Wow, cool!#$b#My big brother likes books like this too.",
+			"AcceptGift_kid_book": "The pictures look funny!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jodi",
+		"Entries": {
+			"AcceptGift_bc_book": "Oh, a new book! Thank you @.",
+			"AcceptGift_recipe_book": "I'll be sure to give these recipes a try!",
+			"AcceptGift_adventure_book": "Nothing like an adventurous chapter before bed!",
+			"AcceptGift_{{ModId}}_ReadersDigestBook": "I enjoy trying the recipes in these, they're always so unique!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Kent",
+		"Entries": {
+			"AcceptGift_bc_book": "Hm, looks interesting.",
+			"AcceptGift_guild_book": "Now this is a useful book. Thanks @.",
+			"AcceptGift_{{ModId}}_SoldierBook": "...#$b#It's been hard, getting used to being home again...#$b#But maybe this will help. Thank you @.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leo",
+		"Entries": {
+			"AcceptGift_bc_book": "Wow, that's a lot of words...",
+			"AcceptGift_culture_book": "Can this help me learn more about other kids?",
+			"AcceptGift_kid_book": "Wow, that's a lot of words...",
+			"AcceptGift_nature_book": "The plants look like the ones around my home!",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=6497428": false,
+			},
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leo",
+		"Entries": {
+			"AcceptGift_bc_book": "Wow, that's a lot of words...",
+			"AcceptGift_culture_book": "Can this help me learn more about other kids?",
+			"AcceptGift_kid_book": "I'm still learning how to read, but this doesn't look too hard.",
+			"AcceptGift_nature_book": "The plants remind me of my home!",
+			"When": {
+				"HasSeenEvent:hostPlayer |contains=6497428": true,
+			},
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Linus",
+		"Entries": {
+			"AcceptGift_bc_book": "How kind of you @. I will enjoy reading this book.",
+			"AcceptGift_nature_book": "Isn't nature wonderful? There's so much to learn about it.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Jas",
+		"Entries": {
+			"AcceptGift_bc_book": "Thank you for the book!",
+			"AcceptGift_kid_book": "Wow, this book looks like fun!",
+			"AcceptGift_nature_book": "Wow, the pictures look so pretty!",
+			"AcceptGift_{{ModId}}_PrincessBook": "I wanna be just like Princess Amy when I grow up!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Shane",
+		"Entries": {
+			"AcceptGift_bc_book": "",
+			"AcceptGift_sport_book": "Cool, thanks.",
+			"AcceptGift_selfhelp_book": "...#$b#I guess this could be helpful...",
+			"AcceptGift_{{ModId}}_ChickenBook": "What? like you weren't a dummy the first time you tried to raise a chicken.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Marnie",
+		"Entries": {
+			"AcceptGift_bc_book": "A book! What a nice gesture.",
+			"AcceptGift_romance_book": "It's such a cute book!",
+			"AcceptGift_nature_book": "I love reading books like these.",
+			"AcceptGift_{{ModId}}_MarnieLogBook": "Oh, I must have left that lying around! Thank you @.",
+			"AcceptGift_{{ModId}}_GoldBook": "Oh, I know exactly who this belongs to.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Alex",
+		"Entries": {
+			"AcceptGift_bc_book": "Uh, thanks! I'll see if I get around to reading it.",
+			"AcceptGift_sport_book": "Hey, this is pretty useful! Thanks!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Evelyn",
+		"Entries": {
+			"AcceptGift_bc_book": "Oh how nice, thank you dear!#$e#Now where did I put my reading glasses...",
+			"AcceptGift_recipe_book": "Oh these look quite scrumptious, I'll be sure to whip you up a plate!",
+			"AcceptGift_nature_book": "How wonderful, thank you dear.",
+			"AcceptGift_{{ModId}}_ReadersDigestBook": "You know, these books have been coming out longer than I've been alive!",
+			"AcceptGift_{{ModId}}_FlowerLingoBook": "Oh this is beautiful.#$b#George actually learned flower symbolism so he could make the most meaningful bouquets for me.#$b#I actually dried some of them so I could keep them!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/George",
+		"Entries": {
+			"AcceptGift_bc_book": "It's good to see you young'uns getting back into reading lately!",
+			"AcceptGift_{{ModId}}_ReadersDigestBook": "I hope they never stop making these!",
+			"AcceptGift_{{ModId}}_FlowerLingoBook": "Hey, I remember this!#$b#I used to make bouquets for Evelyn using these guides.#$b#Her smile was worth every flower.#$b#Still is!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Penny",
+		"Entries": {
+			"AcceptGift_bc_book": "A new book? Thank you so much @! I'll let you know what I think of it.",
+			"AcceptGift_medical_book": "While it's good to have some medical knowledge in case of emergency, it's best to leave the procedures to professionals like Harvey and Maru.",
+			"AcceptGift_mystery_book": "What a thrilling premise! I wonder if I can figure out the mystery before it's revealed.",
+			"AcceptGift_romance_book": "Could you imagine, being swept dreamily off your feet?#$e#I wonder if it's as magical as the books say it is.",
+			"AcceptGift_adventure_book": "This looks exciting! I'd love to go on an adventure like this someday.",
+			"AcceptGift_travel_book": "I wish I could plan a trip! It's so expensive though.",
+			"AcceptGift_recipe_book": "Hmm, maybe I should try some of these recipes.",
+			"AcceptGift_science_book": "I wonder if I can incorporate this into my lesson plan.#$b#I should talk to Maru about it.",
+			"AcceptGift_space_book": "I wonder if I can incorporate this into my lesson plan.#$b#I should talk to Maru about it.",
+			"AcceptGift_fish_book": "I wonder if I can incorporate this into my lesson plan.#$b#I should talk to Willy about it.",
+			"AcceptGift_history_book": "I wonder if I can incorporate this into my lesson plan.",
+			"AcceptGift_nature_book": "This might be a good prompt to hold a lesson outdoors on a nice day.",
+			"AcceptGift_kid_book": "This will be perfect for my lessons!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Pam",
+		"Entries": {
+			"AcceptGift_bc_book": "Thanks kid.",
+			"AcceptGift_selfhelp_book": "Uh, thanks kid. Who knows, maybe it'll help me out.",
+			"AcceptGift_adventure_book": "Now this looks like a fun time!",
+			"AcceptGift_{{ModId}}_BusBook": "Ugh, I really gotta get around to reading that at some point...",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Sandy",
+		"Entries": {
+			"AcceptGift_bc_book": "Thanks for the book @! It can get pretty boring out here.",
+			"AcceptGift_mystery_book": "I bet I can solve the mystery before the end of the book!#$e#That's right, Detective Sandy is on the case!",
+			"AcceptGift_romance_book": "Oooh, now THAT is a relationship premise I'd like to read!",
+			"AcceptGift_fashion_book": "Hmm, I wonder if I can pull off that outfit?",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Emily",
+		"Entries": {
+			"AcceptGift_bc_book": "Wow, a new book! Thanks @!",
+			"AcceptGift_selfhelp_book": "I hope you're also using books like this to find yourself @.#$b#Everyone deserves to know who they are on the inside.",
+			"AcceptGift_culture_book": "Human nature is very interesting, isn't it?",
+			"AcceptGift_fashion_book": "These outfit designs are so inspired!",
+			"AcceptGift_{{ModId}}_CrystalBook": "I love this! It's so helpful. Thanks for thinking of me @!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Haley",
+		"Entries": {
+			"AcceptGift_bc_book": "I guess it would be nice to have some new reading material. Thanks.",
+			"AcceptGift_romance_book": "A lot of these romance books are pretty similar, but I'm always looking for something fresh.",
+			"AcceptGift_fashion_book": "Hmm, I should incorporate that into my look.#$e#What do you think @?",
+			"AcceptGift_{{ModId}}_NatGeoBook": "The photography is stunning! I'm so glad they included the camera specs!",
+			"AcceptGift_{{ModId}}_CloakBook": "I've never seen fashion like this before.#$b#Wonder if I can start a new trend?",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Elliott",
+		"Entries": {
+			"AcceptGift_bc_book": "Ah, a new book! Thank you @, I shall savor every word knowing it comes recommended by you.",
+		},
+	},
+
+	{
+		"Action": "EditData", // Chose Blue Tower
+		"Target": "Characters/Dialogue/Elliott",
+		"When": {
+				"HasFlag: |contains={{ModId}}_TowerFlag": true,
+		},
+		"Entries": {
+			"{{ModId}}_ElliotTowerBook": "Tell me, did you enjoy it?$1#$b#Be honest!",
+			"{{ModId}}_ElliotStationBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+			"{{ModId}}_ElliotPlanetBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+		},
+	},
+
+	{
+		"Action": "EditData", // Chose Camellia Station
+		"Target": "Characters/Dialogue/Elliott",
+		"When": {
+				"HasFlag: |contains={{ModId}}_StationFlag": true,
+		},
+		"Entries": {
+			"{{ModId}}_ElliotTowerBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+			"{{ModId}}_ElliotStationBook": "Tell me, did you enjoy it?$1#$b#Be honest!",
+			"{{ModId}}_ElliotPlanetBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+		},
+	},
+
+	{
+		"Action": "EditData", // Chose Planet Yazzo
+		"Target": "Characters/Dialogue/Elliott",
+		"When": {
+				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
+		},
+		"Entries": {
+			"{{ModId}}_ElliotTowerBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+			"{{ModId}}_ElliotStationBook": "How did you find my draft?!$8#$b#...$2#$b#What did you think of it?$4",
+			"{{ModId}}_ElliotPlanetBook": "Tell me, did you enjoy it?$1#$b#Be honest!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Harvey",
+		"Entries": {
+			"AcceptGift_bc_book": "Seems like an interesting read. Thank you @.",
+			"AcceptGift_medical_book": "Ah, this will come in handy. Thank you @",
+			"AcceptGift_adventure_book": "It's helpful to know what kind of shenanigans you adventuring types get up to so I can better treat you.",
+			"AcceptGift_travel_book": "I've always wanted to be a pilot you know. Travel to places like this...#$e#Perhaps someday.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Gus",
+		"Entries": {
+			"AcceptGift_bc_book": "A good book is just what the cozy atmosphere of the saloon calls for!",
+			"AcceptGift_recipe_book": "I'm always on the hunt for new recipes! Thank you @.",
+			"AcceptGift_mystery_book": "A good mystery is as delicious as a freshly prepared meal!",
+			"AcceptGift_{{ModId}}_SaltBook": "It's so hard to get a hold of good tomato salt these days, but when I do, at least I'll be prepared!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Lewis",
+		"Entries": {
+			"AcceptGift_bc_book": "",
+			"AcceptGift_guide_book": "Having many skills in your belt comes in handy!#$e#'Jack of all trades, master of none, but still better than just master of one', as they say.",
+			"AcceptGift_{{ModId}}_ReadersDigestBook": "I swear they've been making these for over a century now, but they still never get old!",
+			"AcceptGift_{{ModId}}_GoldBook": "W-why would you give this to me?$2#$b#Not that I know anything about it, of course...$3",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Clint",
+		"Entries": {
+			"AcceptGift_bc_book": "Books are good,but I usually like to learn on the job.",
+			"AcceptGift_{{ModId}}_FireproofingBook": "Useful book, that one.",
+			"AcceptGift_{{ModId}}_ToolboxBook": "Useful book, that one.",
+			"AcceptGift_{{ModId}}_ArchGuide": "Useful book, that one.",
+			"AcceptGift_{{ModId}}_CrystalBook": "You know, Emily's into things like this.#$e#Maybe she's like a copy.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Leah",
+		"Entries": {
+			"AcceptGift_bc_book": "Seems like a nice read. Thanks @!",
+			"AcceptGift_{{ModId}}_MarketArtBook": "This could help me get my art out there. Thanks!",
+			"AcceptGift_{{ModId}}_WoodBook": "There's some nice techniques in here.",
+			"AcceptGift_nature_book": "I love reading books like these. Thanks @!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Willy",
+		"Entries": {
+			"AcceptGift_bc_book": "Fair winds, calm seas, and a good book are all you need.",
+			"AcceptGift_travel_book": "A boat 'n a good compass'll get you anywhere you want to go.",
+			"AcceptGift_romance_book": "Now that's some nice reading for gentle waves.",
+			"AcceptGift_fish_book": "You know, there's fish in these waters that even books like that can't tell you about.",
+			"AcceptGift_{{ModId}}_NavBook": "Always keep a copy handy. Never know what might happen out on the sea!",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Wizard",
+		"Entries": {
+			"AcceptGift_bc_book": "",
+			"AcceptGift_magic_book": "Be careful with tomes like that. One minute you're trying to enchant broomsticks, the next you've turned yourself into a lamp.#$e#...#$e#Don't ask me how I know that.",
+			"AcceptGift_history_book": "Never forget the past, @.#$b#History is fated to rhyme, and that is what it will always try to do.",
+			"AcceptGift_fashion_book": "...Are you trying to tell me something?",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Dwarf",
+		"Entries": {
+			"AcceptGift_bc_book": "I don't know how to read your language, but I might as well use this to learn.#$e#Thanks.",
+			"AcceptGift_culture_book": "What a curious race, humans are.",
+			"AcceptGift_guild_book": "Hm, there's some useful tips in here.",
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Krobus",
+		"Entries": {
+			"AcceptGift_bc_book": "Oh, books! Thank you @. I'll try to keep them dry.",
+			"AcceptGift_culture_book": "Humans are so interesting. Thanks for helping me learn more about them @.",
+			"AcceptGift_travel_book": "Are these other human settlements? I wonder if I could see them someday.",
+		},
+	},
 
 	// End //////////////////////////////////////////////////////////
 

@@ -15,6 +15,7 @@
 	// },
 
 	// Content //////////////////////////////////////////////////////////
+	// Dark mods disabled till I can figure out how to flow textcolor to other mods
 
 	"DynamicTokens": [
 
@@ -40,6 +41,7 @@
 	"Changes": [
 
 	// Note Texture //////////////////////////////////////////////////////////
+	// Dark mods disabled till I can figure out how to flow textcolor to other mods
 
 	{
 		"Target": "Mods/{{ModId}}/blankbook",
@@ -89,6 +91,12 @@
 		// Gift tastes for books
 		"Action": "Include",
 		"FromFile": "Data/GiftTastes.json",
+	},
+
+	{
+		// NPC gift responses for books
+		"Action": "Include",
+		"FromFile": "Data/GiftResponses.json",
 	},
 
 	{

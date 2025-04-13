@@ -37,6 +37,8 @@ Context Tags:
 - nature_book
 - space_book
 - magic_book
+- history_book (none yet)
+- fish_book (none yet)
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
 
@@ -148,6 +150,6 @@ Other:
 Classics:
 (Set a 'classics' config option)
 - 1001 Arabian Nights (hoe in he desert)
-- The Knights Of The Round Table (found by breaking boulders)
+- The Knights Of The Round Table (found by breaking boulders) (wizard: merlin? overrated if you ask me.)
 - The Odyssey
 - The Illiad
