@@ -13,6 +13,7 @@ Upper right tile is town 62 4
 Lower right tile is town 62 15
 
 Context Tags:
+- future (unimplemented): craft_book, creature_book, draft_book
 - bc_book - all books
 - fiction_book
 - nonfiction_book
@@ -37,8 +38,8 @@ Context Tags:
 - nature_book
 - space_book
 - magic_book
-- history_book (none yet)
-- fish_book (none yet)
+- history_book
+- fish_book
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
 
