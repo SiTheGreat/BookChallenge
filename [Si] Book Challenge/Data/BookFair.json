@@ -31,12 +31,42 @@
 	{
 		"Action": "EditMap",
 		"Target": "Maps/Town",
-		"FromFile": "Assets/BookFair.tmx",
+		"FromFile": "Data/Assets/BookFair.tmx",
 		"ToArea": { "X": 51, "Y": 21, "Width": 19, "Height": 12 },
+		"PatchMode": "Overlay",
 		"When": {
 				"Season": "spring",
 				"Day": 9,
-			}
+			},
+	},
+
+	// Set Weather //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/LocationContexts",
+		"TargetField": [ "Default", "WeatherConditions" ],
+		"Entries": {
+			"{{ModId}}_FairWeather": {
+				"Id": "{{ModId}}_FairWeather",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 15, SEASON Spring, DAY_OF_MONTH 9",
+				"Weather": "Sun",
+			},
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/LocationContexts",
+		"Fields": {
+			"Default": {
+				"AllowRainTotem": false,
+			},
+		},
+		"When": {
+				"Season": "spring",
+				"Day": 8,
+		}
 	},
 
 	// Shop Actions //////////////////////////////////////////////////////////
@@ -157,16 +187,16 @@
                 		"MaxItems": 5,
 						"AvailableStock": 1,
                 		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 20 46",
+						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
 					},
-					{
-						"Id": "{{ModId}}_GuideShop_GuideBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 7,
-						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					},
+					// {
+					// 	"Id": "{{ModId}}_GuideShop_GuideBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 7,
+					// 	"AvailableStock": 1,
+                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
+					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
+					// },
 					// {
 					// 	"Id": "{{ModId}}_GuideShop_UnreadBooks",
 					// 	"ItemId": "RANDOM_ITEMS (O)",
@@ -184,16 +214,16 @@
                 		"MaxItems": 2,
 						"AvailableStock": 1,
                 		"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 20 46",
+						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
 					},
-					{
-						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 4,
-						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					},
+					// {
+					// 	"Id": "{{ModId}}_ScienceShop_ScienceBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 4,
+					// 	"AvailableStock": 1,
+                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
+					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
+					// },
 				],
 			},
 			"{{ModId}}_MagShop": {
@@ -205,16 +235,16 @@
                 		"MaxItems": 5,
 						"AvailableStock": 1,
                 		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 20 46",
+						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
 					},
-					{
-						"Id": "{{ModId}}_MagShop_MagBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 7,
-						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					},
+					// {
+					// 	"Id": "{{ModId}}_MagShop_MagBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 7,
+					// 	"AvailableStock": 1,
+                	// 	"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
+					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
+					// },
 				],
 			},
 			"{{ModId}}_RecipeShop": {
@@ -226,16 +256,16 @@
                 		"MaxItems": 3,
 						"AvailableStock": 1,
                 		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 20 46",
+						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
 					},
-					{
-						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 5,
-						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					},
+					// {
+					// 	"Id": "{{ModId}}_RecipeShop_RecipeBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 5,
+					// 	"AvailableStock": 1,
+                	// 	"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
+					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
+					// },
 					// {
 					// 	"Id": "{{ModId}}_RecipeShop_UnreadBooks",
 					// 	"ItemId": "RANDOM_ITEMS (O)",
@@ -253,16 +283,16 @@
                 		"MaxItems": 4,
 						"AvailableStock": 1,
                 		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 20 46",
+						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
 					},
-					{
-						"Id": "{{ModId}}_FictionShop_FictionBooks",
-						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 6,
-						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					},
+					// {
+					// 	"Id": "{{ModId}}_FictionShop_FictionBooks",
+					// 	"ItemId": "RANDOM_ITEMS (O)",
+                	// 	"MaxItems": 6,
+					// 	"AvailableStock": 1,
+                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
+					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
+					// },
 					// {
 					// 	"Id": "{{ModId}}_FictionShop_UnreadBooks",
 					// 	"ItemId": "RANDOM_ITEMS (O)",
@@ -357,7 +387,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Penny",
 		"Entries": {
-			"spring_9": "830 Trailer 6 5 0/900 Town 54 24 2/1310 Town 68 30 0/1520 Town 60 33 0/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
+			"spring_9": "830 Trailer 6 5 0/900 Town 52 24 1/1310 Town 68 30 0/1520 Town 60 33 0/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
 		},
 	},
 
@@ -365,7 +395,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Jas",
 		"Entries": {
-			"spring_9": "900 Town 57 25 0/1320 Town 58 31 1/1540 Town 62 27 1/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
+			"spring_9": "900 Town 57 25 0/1320 Town 56 31 1/1540 Town 62 27 1/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
 		},
 	},
 
@@ -373,7 +403,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Vincent",
 		"Entries": {
-			"spring_9": "900 Town 58 25 0/1310 Town 57 28 1/1530 Town 54 30 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
+			"spring_9": "900 Town 58 25 0/1310 Town 55 28 1/1530 Town 52 30 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
 		},
 	},
 
@@ -392,7 +422,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Elliott",
 		"Entries": {
-			"spring_9": "800 Town 70 28 3/1410 Town 55 23 3/1550 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
+			"spring_9": "800 Town 70 28 3/1410 Town 53 23 3/1550 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
 		},
 	},
 
@@ -400,7 +430,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Leah",
 		"Entries": {
-			"spring_9": "800 LeahHouse 3 7 3 leah_sculpt/910 Town 64 23 1/1410 Town 54 23 1/1550 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
+			"spring_9": "800 LeahHouse 3 7 3 leah_sculpt/910 Town 64 23 1/1410 Town 52 23 1/1550 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
 		},
 	},
 

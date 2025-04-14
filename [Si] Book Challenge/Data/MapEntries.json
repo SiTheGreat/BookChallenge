@@ -997,7 +997,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 6, "Y": 4 },
+					"Position": { "X": 4, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
@@ -1014,7 +1014,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 6, "Y": 4 },
+					"Position": { "X": 4, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
