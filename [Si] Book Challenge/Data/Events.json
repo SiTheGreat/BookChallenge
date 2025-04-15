@@ -119,7 +119,7 @@
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_TowerFlag": true,
-			},
+		},
 	},
 
 	{
@@ -130,7 +130,7 @@
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_StationFlag": true,
-			},
+		},
 	},
 
 	{
@@ -141,7 +141,7 @@
 		},
 		"When": {
 				"HasFlag: |contains={{ModId}}_PlanetFlag": true,
-			},
+		},
 	},
 
 	// Bottle Note Quest //////////////////////////////////////////////////////////

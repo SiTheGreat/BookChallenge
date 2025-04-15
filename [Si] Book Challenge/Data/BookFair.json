@@ -95,14 +95,14 @@
 				}
 			},
 			{
-				"Position": { "X": 59, "Y": 23 },
+				"Position": { "X": 57, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
 				}
 			},
 			{
-				"Position": { "X": 59, "Y": 24 },
+				"Position": { "X": 57, "Y": 24 },
 				"Layer": "Buildings",
 				"SetProperties": {
 					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
@@ -162,9 +162,14 @@
 
 	// Shops //////////////////////////////////////////////////////////
 
+	// Initial Shops
+
 	{
 		"Action": "EditData",
 		"Target": "Data/Shops",
+		"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+		},
 		"Entries": {
 			"{{ModId}}_PowerShop": {
 				"Id": "{{ModId}}_PowerShop",
@@ -178,31 +183,16 @@
 					},
 				],
 			},
-			"{{ModId}}_GuideShop": {
-				"Id": "{{ModId}}_GuideShop",
+			"{{ModId}}_NonfictionShop": {
+				"Id": "{{ModId}}_NonfictionShop",
 				"Items": [
 					{
-						"Id": "{{ModId}}_GuideShop_GuideBooks",
+						"Id": "{{ModId}}_NonfictionShop_NonfictionBooks",
 						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 5,
+                		"MaxItems": 4,
 						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target nonfiction_book read_book",
 					},
-					// {
-					// 	"Id": "{{ModId}}_GuideShop_GuideBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 7,
-					// 	"AvailableStock": 1,
-                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target guide_book read_book",
-					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					// },
-					// {
-					// 	"Id": "{{ModId}}_GuideShop_UnreadBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 1,
-                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					// },
 				],
 			},
 			"{{ModId}}_ScienceShop": {
@@ -211,19 +201,10 @@
 					{
 						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
 						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 2,
+                		"MaxItems": 4,
 						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target space_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target medical_book read_book\"",
 					},
-					// {
-					// 	"Id": "{{ModId}}_ScienceShop_ScienceBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 4,
-					// 	"AvailableStock": 1,
-                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target science_book read_book",
-					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					// },
 				],
 			},
 			"{{ModId}}_MagShop": {
@@ -234,17 +215,8 @@
 						"ItemId": "RANDOM_ITEMS (O)",
                 		"MaxItems": 5,
 						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\"",
 					},
-					// {
-					// 	"Id": "{{ModId}}_MagShop_MagBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 7,
-					// 	"AvailableStock": 1,
-                	// 	"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\"",
-					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					// },
 				],
 			},
 			"{{ModId}}_RecipeShop": {
@@ -253,25 +225,10 @@
 					{
 						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
 						"ItemId": "RANDOM_ITEMS (O)",
-                		"MaxItems": 3,
+                		"MaxItems": 5,
 						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\" \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target kid_book read_book\"",
 					},
-					// {
-					// 	"Id": "{{ModId}}_RecipeShop_RecipeBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 5,
-					// 	"AvailableStock": 1,
-                	// 	"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
-					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					// },
-					// {
-					// 	"Id": "{{ModId}}_RecipeShop_UnreadBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 1,
-                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					// },
 				],
 			},
 			"{{ModId}}_FictionShop": {
@@ -282,25 +239,103 @@
 						"ItemId": "RANDOM_ITEMS (O)",
                 		"MaxItems": 4,
 						"AvailableStock": 1,
-                		"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
-						"Condition": "PLAYER_STAT Current bc_hasbooks 15 46",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target game_book read_book\" \"ITEM_CONTEXT_TAG Target sport_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\"",
 					},
-					// {
-					// 	"Id": "{{ModId}}_FictionShop_FictionBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 6,
-					// 	"AvailableStock": 1,
-                	// 	"PerItemCondition": "ITEM_CONTEXT_TAG Target fiction_book read_book",
-					// 	"Condition": "PLAYER_STAT Current bc_hasbooks 47",
-					// },
-					// {
-					// 	"Id": "{{ModId}}_FictionShop_UnreadBooks",
-					// 	"ItemId": "RANDOM_ITEMS (O)",
-                	// 	"MaxItems": 1,
-                	// 	"PerItemCondition": "!ITEM_CONTEXT_TAG Target read_book",
-					// },
 				],
 			},
+		},
+	},
+
+	// Later Shops
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+		},
+		"Entries": {
+			"{{ModId}}_PowerShop": {
+				"Id": "{{ModId}}_PowerShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_PowerShop_PowerBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target book_item\" \"ITEM_CONTEXT_TAG Target unread_book\"",
+					},
+				],
+			},
+			"{{ModId}}_NonfictionShop": {
+				"Id": "{{ModId}}_NonfictionShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_NonfictionShop_NonfictionBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 8,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ITEM_CONTEXT_TAG Target nonfiction_book read_book",
+					},
+				],
+			},
+			"{{ModId}}_ScienceShop": {
+				"Id": "{{ModId}}_ScienceShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target space_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target medical_book read_book\"",
+					},
+				],
+			},
+			"{{ModId}}_MagShop": {
+				"Id": "{{ModId}}_MagShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_MagShop_MagBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target magazine_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\"",
+					},
+				],
+			},
+			"{{ModId}}_RecipeShop": {
+				"Id": "{{ModId}}_RecipeShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 6,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\" \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target kid_book read_book\"",
+					},
+				],
+			},
+			"{{ModId}}_FictionShop": {
+				"Id": "{{ModId}}_FictionShop",
+				"Items": [
+					{
+						"Id": "{{ModId}}_FictionShop_FictionBooks",
+						"ItemId": "RANDOM_ITEMS (O)",
+                		"MaxItems": 7,
+						"AvailableStock": 1,
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target game_book read_book\" \"ITEM_CONTEXT_TAG Target sport_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\"",
+					},
+				],
+			},
+		},
+	},
+
+	// Snack Shop
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Shops",
+		"Entries": {
 			"{{ModId}}_SnackShop": {
 				"Id": "{{ModId}}_SnackShop",
 				"Items": [

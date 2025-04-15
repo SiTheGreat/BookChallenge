@@ -61,6 +61,24 @@
 	// 		},
 	// },
 
+	// Stock Limit Trigger //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_StockLimit1": {
+				"Id": "{{ModId}}_StockLimit1",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 37",
+				"Actions": [
+					"AddMail All {{ModId}}_BookStock1",
+				]
+			}
+		},
+	},
+
 	// Includes //////////////////////////////////////////////////////////
 
 	{
