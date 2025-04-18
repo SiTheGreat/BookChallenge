@@ -12,7 +12,7 @@ The Enduring Value Of Small Business seedshop 20 4
 Parenting 101: Surviving The Teenage Years seedshop 21 4
 Why JojaCo Must Be Stopped seedshop 25 7
 Ground-To-Air Radio Protocol harveyroom 2 8
-Do-It-Yourself! Knee Surgery harveyroom 9 4
+Do-It-Yourself! Knee Surgery harveyroom 9 4 'step 1: don't panic'
 The Lone Ranger Of Pulmonary Hypertension harveyroom 10 4
 Pro Gridball Season 44: Stats and Standings joshhouse 11 4
 Dealing With Loss joshhouse 12 4
@@ -40,19 +40,16 @@ Mximizing Your Second Marriage sciencehouse 16 4
 Practical Tips For First-Time Step-Dads sciencehouse 16 4
 
 More mine books
-Tea book sunroom 4 5
+Tea book sunroom 4 5 (excerpt on te vs chai phrasing)
 patients log hospital 2 3
 wiz has a bunch more spots, use them
 CC too
 Adv guild 11 6 free
+Add back in fish of ferngill - possibly to willy shop after catching legends
 
-
-- maybe add back in fish of ferngill - possibly to willy shop after catching legends
-- move fernbook and bookkeepingbook to seedshop bookshelf and put a history of tea in sunroom (excerpt on te vs chai phrasing)
 - add on mod for festival books that's also an example fpr mod authors (14 books - one for each festival and passive festival, 2 for spirit eve, 1 for book fair) and an added stall at book fair w fest_book tag
-- give abi guineabook dial
 - book on ferngill gotoro war sold by cart?
-- a book dropped by the train?)
+- a book dropped by the train?
 - oh also - maybe books for berry seasons that can be traded for those berries at raccoon shop? And maybe a shell season one too. Could be poem_books; book of spring/summer/fall/the sea (need a winter one?)
 - egg-painting for b-egg-inners - wonder if can set as a secretlostitem quest on the ground during egg finding route
 - history of the winter star (/solstice) - gift from willy maybe, or in one of the gifts
@@ -66,17 +63,19 @@ Adv guild 11 6 free
 - night market - memoirs of a mermaid in the mermaid stall
 - flower wreath weaving - talk to evelyn maybe ('would you like to dance'? Evelyn - oh you're so sweet, here take this) - or maybe haley - could also be a floral photography book
 - potluck panic - keeping your potluck organized and hygienic - interact with the pot, or maybe edit the gov best reaction message
+
 - classic books pack
 - 1001 nights hidden somewhere in the desert
 - knights of the round table in the guild maybe
 - the odyssey hidden in willy's boat room or on the GI boat
 - tales of genji
 - chest alt textures that look like bookshelves
+
 - bibliocraft xover - at lv5, books are cheaper (you've learned to find publisher deals), at lv10 gifting books give +50 heart points regardless of gift taste
+
 - wcc 'you notice a book sitting/lying on top of the WCC'; Aperture Science Lab Safety Manual or something lol
 - yfnmc books given as dialogue (also what if sasha's gf was a squid)
-- knee surgery book - 'step 1: don't panic'
-- Book Challenge
+
 -when gifted, npcs have dial about trying to open the bottle. Willy 'ah that's really stuck in there huh? I'll see if i can open it' gus 'don't worry, I've dealt with trickt bottles before. Now where did i put my good bottlr opener...' (maybe trigger a quest to find the bottle opener? Could be on the island from a gus visit)
 -hector has a gray book that's a western sci fi drama with a villain named hector
 -eyvindr: old dusty untouched copy of see spot run

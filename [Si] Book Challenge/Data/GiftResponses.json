@@ -9,6 +9,7 @@
 		"Target": "Characters/Dialogue/Abigail",
 		"Entries": {
 			"AcceptGift_(O){{ModId}}_BookkeepingBook": "{{i18n:Si.BC.Abigail.Bookkeeping}}",
+			"AcceptGift_(O){{ModId}}_GuineaBook": "{{i18n:Si.BC.Abigail.Guinea}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Abigail.adventure}}",
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Abigail.scifi}}",
 			"AcceptGift_mystery_book": "{{i18n:Si.BC.Abigail.mystery}}",
