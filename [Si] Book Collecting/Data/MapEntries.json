@@ -29,6 +29,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 16 },
@@ -46,6 +47,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 16 },
@@ -82,6 +84,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 5 },
@@ -99,9 +102,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 1, "Y": 5 },
+					"Position": { "X": 5, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvMagBookTrigger"
@@ -135,6 +139,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 21, "Y": 14 },
@@ -152,6 +157,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 21, "Y": 14 },
@@ -188,6 +194,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 23, "Y": 17 },
@@ -205,6 +212,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 23, "Y": 17 },
@@ -241,6 +249,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 5, "Y": 8 },
@@ -258,9 +267,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 5, "Y": 8 },
+					"Position": { "X": 1, "Y": 11 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ArchGuideTrigger"
@@ -294,6 +304,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 4, "Y": 3 },
@@ -311,6 +322,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 4, "Y": 3 },
@@ -347,6 +359,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 10, "Y": 21 },
@@ -364,6 +377,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 10, "Y": 21 },
@@ -400,6 +414,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -417,6 +432,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -456,6 +472,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 44, "Y": 34 },
@@ -476,6 +493,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 44, "Y": 34 },
@@ -512,6 +530,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 39, "Y": 22 },
@@ -529,6 +548,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 39, "Y": 22 },
@@ -565,6 +585,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 27, "Y": 24 },
@@ -582,9 +603,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 27, "Y": 24 },
+					"Position": { "X": 23, "Y": 13 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
@@ -618,6 +640,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 7 },
@@ -635,6 +658,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 7 },
@@ -674,6 +698,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 90, "Y": 38 },
@@ -694,6 +719,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 90, "Y": 38 },
@@ -730,6 +756,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 2 },
@@ -747,6 +774,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 2 },
@@ -783,6 +811,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 28, "Y": 5 },
@@ -800,6 +829,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 28, "Y": 5 },
@@ -836,6 +866,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 10 },
@@ -853,9 +884,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 10 },
+					"Position": { "X": 12, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
@@ -889,6 +921,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 4 },
@@ -906,6 +939,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 4 },
@@ -942,6 +976,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 7, "Y": 4 },
@@ -955,10 +990,11 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 7, "Y": 4 },
@@ -995,6 +1031,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 26, "Y": 24 },
@@ -1012,9 +1049,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 24 },
+					"Position": { "X": 22, "Y": 13 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
@@ -1048,6 +1086,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 15, "Y": 8 },
@@ -1065,9 +1104,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 15, "Y": 8 },
+					"Position": { "X": 16, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WoodBookTrigger"
@@ -1101,6 +1141,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 4, "Y": 4 },
@@ -1118,6 +1159,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 4, "Y": 4 },
@@ -1154,6 +1196,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -1171,6 +1214,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -1207,6 +1251,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 19, "Y": 7 },
@@ -1224,9 +1269,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 19, "Y": 7 },
+					"Position": { "X": 13, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GridballBookTrigger"
@@ -1260,6 +1306,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 18, "Y": 8 },
@@ -1277,6 +1324,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 18, "Y": 8 },
@@ -1313,6 +1361,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 4 },
@@ -1326,13 +1375,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/WizardHouse",
+			"Target": "Maps/Custom_WizardBasement",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 11, "Y": 4 },
+					"Position": { "X": 19, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CleanSpellsBookTrigger"
@@ -1366,6 +1416,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 12, "Y": 4 },
@@ -1383,6 +1434,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 12, "Y": 4 },
@@ -1488,6 +1540,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 41, "Y": 6 },
@@ -1505,6 +1558,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 41, "Y": 6 },
@@ -1541,6 +1595,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 20, "Y": 22 },
@@ -1558,9 +1613,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 20, "Y": 22 },
+					"Position": { "X": 19, "Y": 21 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FlowerLingoBookTrigger"
@@ -1594,6 +1650,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 9 },
@@ -1611,6 +1668,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 9 },
@@ -1700,6 +1758,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 5 },
@@ -1717,9 +1776,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 5 },
+					"Position": { "X": 12, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarketArtBookTrigger"
@@ -1753,6 +1813,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 15 },
@@ -1770,9 +1831,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 11, "Y": 15 },
+					"Position": { "X": 16, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarnieLogBookTrigger"
@@ -1806,6 +1868,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -1823,6 +1886,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 3, "Y": 4 },
@@ -1859,6 +1923,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 22, "Y": 4 },
@@ -1876,6 +1941,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 22, "Y": 4 },
@@ -1912,6 +1978,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 7, "Y": 4 },
@@ -1925,13 +1992,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/FishShop",
+			"Target": "Maps/Custom_WillyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 7, "Y": 4 },
+					"Position": { "X": 8, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NavBookTrigger"
@@ -1965,6 +2033,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 4, "Y": 12 },
@@ -1982,9 +2051,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 4, "Y": 12 },
+					"Position": { "X": 11, "Y": 12 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
@@ -2018,6 +2088,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 5 },
@@ -2035,6 +2106,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 5 },
@@ -2071,6 +2143,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 24 },
@@ -2088,9 +2161,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 14, "Y": 24 },
+					"Position": { "X": 13, "Y": 17 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ReadersDigestBookTrigger"
@@ -2127,6 +2201,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 44, "Y": 10 },
@@ -2147,6 +2222,7 @@
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 44, "Y": 10 },
@@ -2183,6 +2259,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 9, "Y": 10 },
@@ -2200,9 +2277,10 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 9, "Y": 10 },
+					"Position": { "X": 1, "Y": 18 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StyleBookTrigger"
@@ -2289,6 +2367,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 6, "Y": 4 },
@@ -2306,6 +2385,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 6, "Y": 4 },
@@ -2343,6 +2423,7 @@
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=100": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 16 },
@@ -2361,6 +2442,7 @@
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=100": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 16 },

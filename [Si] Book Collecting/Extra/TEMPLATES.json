@@ -112,6 +112,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 26, "Y": 21 },
@@ -129,6 +130,7 @@
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
+			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 26, "Y": 21 },
