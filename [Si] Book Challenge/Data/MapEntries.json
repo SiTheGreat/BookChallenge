@@ -84,7 +84,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 11, "Y": 6 },
+					"Position": { "X": 1, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvMagBookTrigger"
@@ -101,7 +101,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 11, "Y": 6 },
+					"Position": { "X": 1, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvMagBookTrigger"
@@ -131,13 +131,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/HarveyRoom",
+			"Target": "Maps/Hospital",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 2, "Y": 7 },
+					"Position": { "X": 21, "Y": 14 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
@@ -148,13 +148,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/HarveyRoom",
+			"Target": "Maps/Hospital",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 2, "Y": 7 },
+					"Position": { "X": 21, "Y": 14 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
@@ -567,7 +567,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 8, "Y": 16 },
+					"Position": { "X": 27, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
@@ -584,7 +584,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 8, "Y": 16 },
+					"Position": { "X": 27, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
@@ -620,7 +620,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 7, "Y": 5 },
+					"Position": { "X": 11, "Y": 7 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
@@ -637,7 +637,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 7, "Y": 5 },
+					"Position": { "X": 11, "Y": 7 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
@@ -785,7 +785,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 28, "Y": 7 },
+					"Position": { "X": 28, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChickenBookTrigger"
@@ -802,7 +802,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 28, "Y": 7 },
+					"Position": { "X": 28, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ChickenBookTrigger"
@@ -991,13 +991,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Sunroom",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 4, "Y": 5 },
+					"Position": { "X": 26, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
@@ -1008,13 +1008,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Sunroom",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 4, "Y": 5 },
+					"Position": { "X": 26, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FernBookTrigger"
@@ -1396,56 +1396,72 @@
 
 		// Human101Book
 
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/TriggerActions",
+		// 	"Entries": {
+		// 		"{{ModId}}_Human101BookTrigger": {
+		// 			"Id": "{{ModId}}_Human101BookTrigger",
+		// 			"MarkActionApplied": true,
+		// 			"Trigger": "Manual",
+		// 			"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHuman101Book",
+		// 			"Actions": [
+		// 				"AddItem {{ModId}}_Human101BookNote",
+		// 				"AddMail Current {{ModId}}_HasHuman101Book",
+		// 			]
+		// 		}
+		// 	},
+		// },
+
 		{
 			"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-				"{{ModId}}_Human101BookTrigger": {
-					"Id": "{{ModId}}_Human101BookTrigger",
-					"MarkActionApplied": true,
-					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasHuman101Book",
-					"Actions": [
-						"AddItem {{ModId}}_Human101BookNote",
-						"AddMail Current {{ModId}}_HasHuman101Book",
-					]
-				}
+			"Target": "Data/Shops",
+			"When": {
+					"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": false,
+			},
+			"TargetField": [ "ShadowShop", "Items" ],
+			"Entries":{
+				"{{ModId}}_KrobusBook": {
+					"ItemId": "(O){{ModId}}_Human101BookNote",
+					"AvailableStock": 1,
+					"PerItemCondition": "PLAYER_FRIENDSHIP_POINTS Current Krobus 1500",
+				},
 			},
 		},
 
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Sewer",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-			},
-			"MapTiles": [
-				{
-					"Position": { "X": 33, "Y": 15 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
-					}
-				},
-			],
-		},
+		// {
+		// 	"Action": "EditMap",
+		// 	"Target": "Maps/Sewer",
+		// 	"When": {
+		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+		// 	},
+		// 	"MapTiles": [
+		// 		{
+		// 			"Position": { "X": 26, "Y": 19 },
+		// 			"Layer": "Buildings",
+		// 			"SetProperties": {
+		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
+		// 			}
+		// 		},
+		// 	],
+		// },
 
-		{
-			"Action": "EditMap",
-			"Target": "Maps/Sewer",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-			},
-			"MapTiles": [
-				{
-					"Position": { "X": 33, "Y": 15 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
-					}
-				},
-			],
-		},
+		// {
+		// 	"Action": "EditMap",
+		// 	"Target": "Maps/Sewer",
+		// 	"When": {
+		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+		// 	},
+		// 	"MapTiles": [
+		// 		{
+		// 			"Position": { "X": 26, "Y": 19 },
+		// 			"Layer": "Buildings",
+		// 			"SetProperties": {
+		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
+		// 			}
+		// 		},
+		// 	],
+		// },
 
 		// HumanLingoBook
 
@@ -1527,7 +1543,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 21, "Y": 18 },
+					"Position": { "X": 20, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FlowerLingoBookTrigger"
@@ -1544,7 +1560,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 21, "Y": 18 },
+					"Position": { "X": 20, "Y": 22 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FlowerLingoBookTrigger"
@@ -1574,13 +1590,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Trailer",
+			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 12, "Y": 5 },
+					"Position": { "X": 14, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BusBookTrigger"
@@ -1591,13 +1607,13 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Trailer",
+			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 12, "Y": 5 },
+					"Position": { "X": 14, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BusBookTrigger"
@@ -1739,7 +1755,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 18, "Y": 7 },
+					"Position": { "X": 11, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarnieLogBookTrigger"
@@ -1756,7 +1772,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 18, "Y": 7 },
+					"Position": { "X": 11, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MarnieLogBookTrigger"
@@ -1951,7 +1967,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 4, "Y": 8 },
+					"Position": { "X": 4, "Y": 12 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
@@ -1968,7 +1984,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 4, "Y": 8 },
+					"Position": { "X": 4, "Y": 12 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PHBBookTrigger"
@@ -2057,7 +2073,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 20, "Y": 22 },
+					"Position": { "X": 14, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ReadersDigestBookTrigger"
@@ -2074,7 +2090,7 @@
 			},
 			"MapTiles": [
 				{
-					"Position": { "X": 20, "Y": 22 },
+					"Position": { "X": 14, "Y": 24 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ReadersDigestBookTrigger"

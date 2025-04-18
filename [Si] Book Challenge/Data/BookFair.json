@@ -84,77 +84,63 @@
 				"Position": { "X": 65, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_PowerShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_PowerShop none 600 2600 65 23 1 1"
 				}
 			},
 			{
 				"Position": { "X": 66, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_PowerShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_PowerShop none 600 2600 66 23 1 1",
 				}
 			},
 			{
 				"Position": { "X": 57, "Y": 23 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_NonfictionShop none 600 2600 57 23 1 1"
 				}
 			},
 			{
 				"Position": { "X": 57, "Y": 24 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_GuideShop none 800 1700"
-				}
-			},
-			{
-				"Position": { "X": 59, "Y": 27 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_ScienceShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_NonfictionShop none 600 2600 57 24 1 1"
 				}
 			},
 			{
 				"Position": { "X": 59, "Y": 28 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_ScienceShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_ScienceShop none 600 2600 59 28 1 1"
 				}
 			},
 			{
-				"Position": { "X": 68, "Y": 27 },
+				"Position": { "X": 68, "Y": 28 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_MagShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_MagShop none 600 2600 68 27 1 1"
 				}
 			},
 			{
-				"Position": { "X": 61, "Y": 30 },
+				"Position": { "X": 61, "Y": 31 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_RecipeShop none 800 1700"
-				}
-			},
-			{
-				"Position": { "X": 64, "Y": 26 },
-				"Layer": "Buildings",
-				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_FictionShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_RecipeShop none 600 2600 61 30 1 1"
 				}
 			},
 			{
 				"Position": { "X": 64, "Y": 27 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_FictionShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_FictionShop none 600 2600 64 27 1 1"
 				}
 			},
 			{
 				"Position": { "X": 51, "Y": 32 },
 				"Layer": "Buildings",
 				"SetProperties": {
-					"Action": "OpenShop {{ModId}}_SnackShop none 800 1700"
+					"Action": "OpenShop {{ModId}}_SnackShop none 600 2600 51 32 1 1"
 				}
 			},
 		],
@@ -173,6 +159,26 @@
 		"Entries": {
 			"{{ModId}}_PowerShop": {
 				"Id": "{{ModId}}_PowerShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_PowerShop_PowerBooks",
@@ -185,6 +191,26 @@
 			},
 			"{{ModId}}_NonfictionShop": {
 				"Id": "{{ModId}}_NonfictionShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_NonfictionShop_NonfictionBooks",
@@ -197,6 +223,26 @@
 			},
 			"{{ModId}}_ScienceShop": {
 				"Id": "{{ModId}}_ScienceShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
@@ -209,6 +255,26 @@
 			},
 			"{{ModId}}_MagShop": {
 				"Id": "{{ModId}}_MagShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_MagShop_MagBooks",
@@ -221,6 +287,26 @@
 			},
 			"{{ModId}}_RecipeShop": {
 				"Id": "{{ModId}}_RecipeShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
@@ -233,6 +319,26 @@
 			},
 			"{{ModId}}_FictionShop": {
 				"Id": "{{ModId}}_FictionShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_FictionShop_FictionBooks",
@@ -257,6 +363,26 @@
 		"Entries": {
 			"{{ModId}}_PowerShop": {
 				"Id": "{{ModId}}_PowerShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_PowerShop_PowerBooks",
@@ -269,6 +395,26 @@
 			},
 			"{{ModId}}_NonfictionShop": {
 				"Id": "{{ModId}}_NonfictionShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_NonfictionShop_NonfictionBooks",
@@ -281,6 +427,26 @@
 			},
 			"{{ModId}}_ScienceShop": {
 				"Id": "{{ModId}}_ScienceShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_ScienceShop_ScienceBooks",
@@ -293,6 +459,26 @@
 			},
 			"{{ModId}}_MagShop": {
 				"Id": "{{ModId}}_MagShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_MagShop_MagBooks",
@@ -305,6 +491,26 @@
 			},
 			"{{ModId}}_RecipeShop": {
 				"Id": "{{ModId}}_RecipeShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_RecipeShop_RecipeBooks",
@@ -317,6 +523,26 @@
 			},
 			"{{ModId}}_FictionShop": {
 				"Id": "{{ModId}}_FictionShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_FictionShop_FictionBooks",
@@ -338,6 +564,26 @@
 		"Entries": {
 			"{{ModId}}_SnackShop": {
 				"Id": "{{ModId}}_SnackShop",
+				"Owners": [
+					{
+						"Id": "{{ModId}}_Open",
+						"Name": "AnyOrNone",
+						"Dialogues": [],
+						"Condition": "TIME 800 1700",
+					},
+					{
+						"Id": "{{ModId}}_Closed1",
+						"Name": "None",
+						"Condition": "TIME 600 800",
+						"ClosedMessage": "{{i18n:Si.BC.BFNotBegun}}",
+					},
+					{
+						"Id": "{{ModId}}_Closed2",
+						"Name": "None",
+						"Condition": "TIME 1700 2600",
+						"ClosedMessage": "{{i18n:Si.BC.BFEnded}}",
+					},
+				],
 				"Items": [
 					{
 						"Id": "{{ModId}}_SnackShop_PinkCake",
@@ -414,7 +660,7 @@
 				],
 			},
 		},
-	},
+	},	
 
 	// Schedules //////////////////////////////////////////////////////////
 
