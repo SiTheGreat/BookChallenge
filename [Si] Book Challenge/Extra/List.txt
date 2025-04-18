@@ -46,10 +46,12 @@ wiz has a bunch more spots, use them
 CC too
 Adv guild 11 6 free
 Add back in fish of ferngill - possibly to willy shop after catching legends
-
-- add on mod for festival books that's also an example fpr mod authors (14 books - one for each festival and passive festival, 2 for spirit eve, 1 for book fair) and an added stall at book fair w fest_book tag
 - book on ferngill gotoro war sold by cart?
 - a book dropped by the train?
+-one of the prizes is a hat like a medieval poet
+-book in the claw machine?
+
+- add on mod for festival books that's also an example fpr mod authors (14 books - one for each festival and passive festival, 2 for spirit eve, 1 for book fair) and an added stall at book fair w fest_book tag
 - oh also - maybe books for berry seasons that can be traded for those berries at raccoon shop? And maybe a shell season one too. Could be poem_books; book of spring/summer/fall/the sea (need a winter one?)
 - egg-painting for b-egg-inners - wonder if can set as a secretlostitem quest on the ground during egg finding route
 - history of the winter star (/solstice) - gift from willy maybe, or in one of the gifts
@@ -82,8 +84,6 @@ Add back in fish of ferngill - possibly to willy shop after catching legends
 -Rodney 'the chronicles of stardew valley'
 -Vincent's homework - have to retrieve from Dusty, half-eaten. Penny remarks she should've believed him when he said a dog ate his homework, and will have to apologize to him
 -passerby cemetary pop dialogue: found a book sbout stars, likes space
--one of the prizes is a hat like a medieval poet
--book in the claw machine?
 
 
 
