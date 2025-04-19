@@ -79,6 +79,27 @@
 		},
 	},
 
+	// Hidden Event //////////////////////////////////////////////////////////
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"When": {
+				"HasWalletItem |contains=MagnifyingGlass": true,
+		},
+		"Entries": {
+			"{{ModId}}_MagGlass1": "none/-1000 -1000/farmer -100 -100 2/addConversationTopic SiBCMagGlass 1/end",
+		}
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/Events/Farm",
+		"Entries": {
+			"{{ModId}}_MagGlass2/e {{ModId}}_MagGlass1/A SiBCMagGlass": "none/-1000 -1000/farmer -100 -100 2/end",
+		}
+	},
+
 	// Includes //////////////////////////////////////////////////////////
 
 	{
@@ -87,6 +108,7 @@
 		"FromFile": "Data/Objects.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -96,6 +118,7 @@
 		"FromFile": "Data/SecretNotes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -105,6 +128,7 @@
 		"FromFile": "Data/MapEntries.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -114,6 +138,7 @@
 		"FromFile": "Data/Events.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -123,6 +148,7 @@
 		"FromFile": "Data/GiftTastes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -132,6 +158,7 @@
 		"FromFile": "Data/GiftResponses.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -141,6 +168,7 @@
 		"FromFile": "Data/Bookseller.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
+				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 
@@ -151,6 +179,7 @@
 		"When": {
 			"HasFlag: |contains={{ModId}}_StartBookFair": true,
 			"HasWalletItem |contains=MagnifyingGlass": true,
+			"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
 		},
 	},
 	
