@@ -88,7 +88,7 @@
 				"HasWalletItem |contains=MagnifyingGlass": true,
 		},
 		"Entries": {
-			"{{ModId}}_MagGlass1": "none/-1000 -1000/farmer -100 -100 2/addConversationTopic SiBCMagGlass 1/end",
+			"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/addConversationTopic SiBCMagGlass 1/end",
 		}
 	},
 
@@ -96,7 +96,7 @@
 		"Action": "EditData",
 		"Target": "Data/Events/Farm",
 		"Entries": {
-			"{{ModId}}_MagGlass2/e {{ModId}}_MagGlass1/A SiBCMagGlass": "none/-1000 -1000/farmer -100 -100 2/end",
+			"{{ModId}}_MagGlass2/e {{ModId}}_MagGlass1/A SiBCMagGlass/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
 		}
 	},
 

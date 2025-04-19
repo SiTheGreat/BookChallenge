@@ -11,11 +11,9 @@ More books
 search cool_book in objects.json
 search 303 in objects.json
 search busstop in mapentries.json
-make book pngs
 add book desc and excerpt entries
 
-11 Solo Sonatas For The Wooden Flute seedshop 13 3 - SonataBook
-
+-11 Solo Sonatas For The Wooden Flute seedshop 13 3 - SonataBook
 -Advanced Neural Networks sciencehouse 10 4 - NeuralBook
 -Build Your Own Darkroom From Scratch haleyhouse 3 15 - DarkroomBook
 -Cookies For Every Season joshhouse 17 16 - CookiesBook
@@ -40,7 +38,8 @@ add book desc and excerpt entries
 -Teacher's Guidebook: 2nd Grade Trailer 2 4 (before house) - SecondGradeBook
 -UFO Mysteries samhouse 18 12 - UFOBook
 -Why JojaCo Must Be Stopped seedshop 25 7 - StopJojaBook
-
+-Super Fashion Girl Magazine haleyhouse 4 21 UPDATE !!!
+Curse The Countryside!... A Spellbook For The Rural Witch witchhut 1 9 - WitchBook
 
 Pro Gridball Season 44: Stats and Standings joshhouse 11 4
 Found Fashions: Photos From The Streets Of Zuzu City haleyhouse 1 7
@@ -49,7 +48,6 @@ Star Charts For Every Season sciencehouse 10 5
 Graphic Novel Sebastianroom 10 6
 Skateboard Magazine samhouse 17 12
 Carpentry Magazine sciencehouse 17 4
-Super Fashion Girl Magazine haleyhouse 4 21 UPDATE !!!
 
 More mine books
 patients log hospital 2 3

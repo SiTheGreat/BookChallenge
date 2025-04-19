@@ -92,6 +92,99 @@
 			},
         },
 
+		// SonataBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/SonataBook",
+			"FromFile": "Data/Assets/SonataBook.png"
+		},
+
+		{
+			"Target": "Mods/{{ModId}}/sonatabooktexture",
+			"Action": "Load",
+			"FromFile": "Data/Assets/sonatabooktexture.png",
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_SonataBookNote": {
+					"Name": "{{ModId}}_SonataBookNote",
+					"DisplayName": "{{i18n:Si.BC.SonataBookName}}",
+					"Description": "{{i18n:Si.BC.SonataBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/SonataBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"bc_book",
+					],
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_SonataBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": "unread_book",
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_HasSonataBook": true,
+			},
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_SonataBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": null,
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": true,
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_SonataBook": {
+					"Name": "{{ModId}}_SonataBook",
+					"DisplayName": "{{i18n:Si.BC.SonataBookName}}",
+					"Description": "{{i18n:Si.BC.SonataBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/SonataBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				}
+			}
+		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_SonataBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": true,
+			},
+        },
+
 		// NeuralBook
 
 		{
@@ -1724,6 +1817,95 @@
 				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": true,
 			},
         },
+
+		// WitchBookBook
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/WitchBookBook",
+			"FromFile": "Data/Assets/WitchBookBook.png"
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_WitchBookBookNote": {
+					"Name": "{{ModId}}_WitchBookBookNote",
+					"DisplayName": "{{i18n:Si.BC.WitchBookBookName}}",
+					"Description": "{{i18n:Si.BC.WitchBookBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/WitchBookBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"bc_book",
+					],
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_WitchBookBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": "unread_book",
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_HasWitchBookBook": true,
+			},
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_WitchBookBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": null,
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBookBook": true,
+			},
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"{{ModId}}_WitchBookBook": {
+					"Name": "{{ModId}}_WitchBookBook",
+					"DisplayName": "{{i18n:Si.BC.WitchBookBookName}}",
+					"Description": "{{i18n:Si.BC.WitchBookBookDesc}}",
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/WitchBookBook",
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book",
+						"bc_book",
+					],
+				}
+			}
+		},
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_WitchBookBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBookBook": true,
+			},
+        },
+
+		// CoalminerBook
 
 		{
 			"Action": "Load",
