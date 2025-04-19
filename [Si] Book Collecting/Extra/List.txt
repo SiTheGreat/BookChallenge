@@ -10,7 +10,6 @@ More books
 
 search cool_book in objects.json
 search 303 in objects.json
-search busstop in mapentries.json
 add book desc and excerpt entries
 
 -11 Solo Sonatas For The Wooden Flute seedshop 13 3 - SonataBook
@@ -21,7 +20,7 @@ add book desc and excerpt entries
 -Dealing With Loss joshhouse 12 4 - LossBook
 -Do-It-Yourself! Knee Surgery harveyroom 9 4 'step 1: don't panic' - KneeBook
 -The Enduring Value Of Small Business seedshop 20 4 - SmallBizBook
--Fairys, Junimos, and other Fables Trailer 1 9 (before house) - FableBook
+-Fairys, Junimos, and other Fables Trailer 1 9 (before house) - FableBook !!!
 -Fish of Ferngill - possibly to willy shop after catching legends - FerngillFishBook
 -Flailing With Purpose: A Modern Approach To The Art Of Dance haleyhouse 2 15 - DanceBook
 -The Gift of Tea - Tea book sunroom 4 5 (excerpt on te vs chai phrasing) 'the gift of tea' - TeaBook
@@ -29,17 +28,17 @@ add book desc and excerpt entries
 -How To Deal With Overbearing People leahhouse 9 4 - OverbearingBook
 -Living Off The Land: A Practical Guide leahhouse 8 4 - LandBook
 -The Lone Ranger Of Pulmonary Hypertension harveyroom 10 4 - PulmonaryBook
--Marcie And The Underground Castle Trailer 5 4 (before house) - CastleBook
+-Marcie And The Underground Castle Trailer 5 4 (before house) - CastleBook !!!
 -Maximizing Your Second Marriage sciencehouse 16 4 - SecondMarriageBook
 -Mega Muscles Magazine joshhouse 13 4 - MusclesBook
 -Parenting 101: Surviving The Teenage Years seedshop 21 4 - TeenagerBook
 -Practical Tips For First-Time Step-Dads sciencehouse 16 4 - StepdadBook
--The Solarion Chronicles Trailer 6 4 (before house) - SolarionBook
--Teacher's Guidebook: 2nd Grade Trailer 2 4 (before house) - SecondGradeBook
+-The Solarion Chronicles Trailer 6 4 (before house) - SolarionBook !!!
+-Teacher's Guidebook: 2nd Grade Trailer 2 4 (before house) - SecondGradeBook !!!
 -UFO Mysteries samhouse 18 12 - UFOBook
 -Why JojaCo Must Be Stopped seedshop 25 7 - StopJojaBook
 -Super Fashion Girl Magazine haleyhouse 4 21 UPDATE !!!
-Curse The Countryside!... A Spellbook For The Rural Witch witchhut 1 9 - WitchBook
+-Curse The Countryside!... A Spellbook For The Rural Witch witchhut 1 9 - WitchBook
 
 Pro Gridball Season 44: Stats and Standings joshhouse 11 4
 Found Fashions: Photos From The Streets Of Zuzu City haleyhouse 1 7

@@ -80,14 +80,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 13, "Y": 3 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SonataBookTrigger"
@@ -98,14 +98,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 13, "Y": 3 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SonataBookTrigger"
@@ -135,14 +135,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 10, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NeuralBookTrigger"
@@ -153,14 +153,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 10, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NeuralBookTrigger"
@@ -746,14 +746,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 3, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DarkroomBookTrigger"
@@ -764,14 +764,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 3, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DarkroomBookTrigger"
@@ -1027,14 +1027,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CookiesBookTrigger"
@@ -1045,14 +1045,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CookiesBookTrigger"
@@ -1137,14 +1137,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/WitchHut",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookBookTrigger"
@@ -1155,14 +1155,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/WitchHut",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookBookTrigger"
@@ -1192,14 +1192,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CoalminerBookTrigger"
@@ -1210,14 +1210,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CoalminerBookTrigger"
@@ -1247,14 +1247,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 12, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LossBookTrigger"
@@ -1265,14 +1265,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 12, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LossBookTrigger"
@@ -1302,14 +1302,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 9, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_KneeBookTrigger"
@@ -1320,14 +1320,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 9, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_KneeBookTrigger"
@@ -1412,14 +1412,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 20, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SmallBizBookTrigger"
@@ -1430,14 +1430,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 20, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SmallBizBookTrigger"
@@ -1522,14 +1522,15 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FableBookTrigger"
@@ -1540,14 +1541,53 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 1, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FableBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After house
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FableBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After house
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FableBookTrigger"
@@ -1796,39 +1836,19 @@
 		},
 
 		{
-			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Action": "EditData",
+			"Target": "Data/Shops",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+					"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": false,
 			},
-			"Priority": "Late",
-			"MapTiles": [
-				{
-					"Position": { "X": 26, "Y": 21 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FerngillFishBookTrigger"
-					}
+			"TargetField": [ "FishShop", "Items" ],
+			"Entries":{
+				"{{ModId}}_LegendBook": {
+					"ItemId": "(O){{ModId}}_FerngillFishBookNote",
+					"AvailableStock": 1,
+					"PerItemCondition": "PLAYER_HAS_CAUGHT_FISH Current 163", // has caught the Legend fish
 				},
-			],
-		},
-
-		{
-			"Action": "EditMap",
-			"Target": "Maps/BusStop",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
-			"Priority": "Late",
-			"MapTiles": [
-				{
-					"Position": { "X": 26, "Y": 21 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_FerngillFishBookTrigger"
-					}
-				},
-			],
 		},
 
 		// DanceBook
@@ -1852,14 +1872,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DanceBookTrigger"
@@ -1870,14 +1890,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DanceBookTrigger"
@@ -1907,14 +1927,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SunRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 4, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeaBookTrigger"
@@ -1925,14 +1945,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SunRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 4, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeaBookTrigger"
@@ -2017,14 +2037,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_RadioBookTrigger"
@@ -2035,14 +2055,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_RadioBookTrigger"
@@ -2182,14 +2202,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 9, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_OverbearingBookTrigger"
@@ -2200,14 +2220,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 9, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_OverbearingBookTrigger"
@@ -2566,14 +2586,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 8, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LandBookTrigger"
@@ -2584,14 +2604,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 8, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LandBookTrigger"
@@ -2621,14 +2641,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 10, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PulmonaryBookTrigger"
@@ -2639,14 +2659,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 10, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PulmonaryBookTrigger"
@@ -2674,40 +2694,6 @@
 			},
 		},
 
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/BusStop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 21 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HomeownerBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/BusStop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 21 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_HomeownerBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
 		// CastleBook
 
 		{
@@ -2729,14 +2715,15 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 5, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CastleBookTrigger"
@@ -2747,14 +2734,53 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 5, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CastleBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After House
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 5, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CastleBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After House
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 5, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CastleBookTrigger"
@@ -2894,14 +2920,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 16, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondMarriageBookTrigger"
@@ -2912,14 +2938,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 16, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondMarriageBookTrigger"
@@ -2949,14 +2975,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 13, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MusclesBookTrigger"
@@ -2967,14 +2993,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 13, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_MusclesBookTrigger"
@@ -3210,14 +3236,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 21, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeenagerBookTrigger"
@@ -3228,14 +3254,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 21, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeenagerBookTrigger"
@@ -3320,14 +3346,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 16, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StepdadBookTrigger"
@@ -3338,14 +3364,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 16, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StepdadBookTrigger"
@@ -3546,14 +3572,15 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 6, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SolarionBookTrigger"
@@ -3564,14 +3591,53 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 6, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SolarionBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After House
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 6, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SolarionBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_Big", // After House
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 6, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SolarionBookTrigger"
@@ -3654,40 +3720,6 @@
 			},
 		},
 
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/BusStop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 21 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CareBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/BusStop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 21 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CareBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
 		// ChimneyBook
 
 		{
@@ -3764,14 +3796,15 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondGradeBookTrigger"
@@ -3782,14 +3815,15 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 2, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondGradeBookTrigger"
@@ -3819,14 +3853,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 12 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_UFOBookTrigger"
@@ -3837,14 +3871,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 18, "Y": 12 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_UFOBookTrigger"
@@ -3931,14 +3965,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 25, "Y": 7 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StopJojaBookTrigger"
@@ -3949,14 +3983,14 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/BusStop",
+			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 26, "Y": 21 },
+					"Position": { "X": 25, "Y": 7 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_StopJojaBookTrigger"
