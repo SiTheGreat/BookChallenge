@@ -54,7 +54,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Sebastian",
 		"Entries": {
-			"AcceptGift_game_book": "{{i18n:Si.BC.Sebastian.game}}",
+			"AcceptGift_dnd_book": "{{i18n:Si.BC.Sebastian.dnd}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Sebastian.book}}",
 		},
 	},
@@ -87,7 +87,7 @@
 		"Entries": {
 			"AcceptGift_comic_book": "{{i18n:Si.BC.Sam.comic}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Sam.adventure}}",
-			"AcceptGift_game_book": "{{i18n:Si.BC.Sam.game}}",
+			"AcceptGift_dnd_book": "{{i18n:Si.BC.Sam.dnd}}",
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Sam.scifi}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Sam.book}}",
 		},

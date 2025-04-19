@@ -68,7 +68,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Sebastian", 1],
-				"Value": "game_book",
+				"Value": "dnd_book",
 				"Delimiter": " "
 			},
 			// Demetrius
@@ -95,7 +95,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Sam", 1],
-				"Value": "adventure_book game_book scifi_book comic_book",
+				"Value": "adventure_book dnd_book scifi_book comic_book",
 				"Delimiter": " "
 			},
 			// Vincent
