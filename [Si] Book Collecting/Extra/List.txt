@@ -7,49 +7,51 @@ Locations for: elliott books, yoba -> seedshop, leaf book (make reward?), MR boo
 Figure out hasreceived flag for mailed/other letters - done
 
 More books
+The Enduring Value Of Small Business seedshop 20 4 -
+Parenting 101: Surviving The Teenage Years seedshop 21 4 -
+Why JojaCo Must Be Stopped seedshop 25 7 -
+Ground-To-Air Radio Protocol harveyroom 2 8 -
+Do-It-Yourself! Knee Surgery harveyroom 9 4 'step 1: don't panic' -
+The Lone Ranger Of Pulmonary Hypertension harveyroom 10 4 -
+Dealing With Loss joshhouse 12 4 -
+Mega Muscles Magazine joshhouse 13 4 -
+Cookies For Every Season joshhouse 17 16 -
+The Dark Blue Life: A Coal-miner's Memoir joshhouse 18 16 -
+Teacher's Guidebook: 2nd Grade Trailer 2 4 (before house) -
+The Solarion Chronicles Trailer 6 4 (before house) -
+Marcie And The Underground Castle Trailer 5 4 (before house) -
+Fairys, Junimos, and other Fables Trailer 1 9 (before house) -
+Flailing With Purpose: A Modern Approach To The Art Of Dance haleyhouse 2 15 -
+Build Your Own Darkroom From Scratch haleyhouse 3 15 -
+UFO Mysteries samhouse 18 12 -
+Living Off The Land: A Practical Guide leahhouse 8 4 -
+How To Deal With Overbearing People leahhouse 9 4 -
+Advanced Neural Networks sciencehouse 10 4 -
+Maximizing Your Second Marriage sciencehouse 16 4 -
+Practical Tips For First-Time Step-Dads sciencehouse 16 4 -
+
 11 Solo Sonatas For The Wooden Flute seedshop 13 3
-The Enduring Value Of Small Business seedshop 20 4
-Parenting 101: Surviving The Teenage Years seedshop 21 4
-Why JojaCo Must Be Stopped seedshop 25 7
-Ground-To-Air Radio Protocol harveyroom 2 8
-Do-It-Yourself! Knee Surgery harveyroom 9 4 'step 1: don't panic'
-The Lone Ranger Of Pulmonary Hypertension harveyroom 10 4
 Pro Gridball Season 44: Stats and Standings joshhouse 11 4
-Dealing With Loss joshhouse 12 4
-Mega Muscles Magazine joshhouse 13 4
-Cookies For Every Season joshhouse 17 16
-The Dark Blue Life: A Coal-miner's Memoir joshhouse 18 16
-Teacher's Guidebook: 2nd Grade Trailer 2 4 (before house)
-The Solarion Chronicles Trailer 6 4 (before house)
-Marcie And The Underground Castle Trailer 5 4 (before house)
-Fairys, Junimos, and other Fables Trailer 1 9 (before house)
-Super Fashion Girl Magazine haleyhouse 4 21
-Flailing With Purpose: A Modern Approach To The Art Of Dance haleyhouse 2 15
-Build Your Own Darkroom From Scratch haleyhouse 3 15
 Found Fashions: Photos From The Streets Of Zuzu City haleyhouse 1 7
-UFO Mysteries samhouse 18 12
-Skateboard Magazine samhouse 17 12
-Living Off The Land: A Practical Guided leahhouse 8 4
-How To Deal With Overbearing People leahhouse 9 4
 Junimo Coloring Book -- Deluxe Edition animalshop 5 4
-Graphic Novel Sebastianroom 10 6
-Advanced Neural Networks sciencehouse 10 4
 Star Charts For Every Season sciencehouse 10 5
+Graphic Novel Sebastianroom 10 6
+Skateboard Magazine samhouse 17 12
 Carpentry Magazine sciencehouse 17 4
-Mximizing Your Second Marriage sciencehouse 16 4
-Practical Tips For First-Time Step-Dads sciencehouse 16 4
+Super Fashion Girl Magazine haleyhouse 4 21 UPDATE !!!
 
 More mine books
-Tea book sunroom 4 5 (excerpt on te vs chai phrasing)
+Tea book sunroom 4 5 (excerpt on te vs chai phrasing) 'the gift of tea' -
 patients log hospital 2 3
 wiz has a bunch more spots, use them
 CC too
 Adv guild 11 6 free
-Add back in fish of ferngill - possibly to willy shop after catching legends
+Add back in fish of ferngill - possibly to willy shop after catching legends -
 - book on ferngill gotoro war sold by cart?
 - a book dropped by the train?
 -one of the prizes is a hat like a medieval poet
 -book in the claw machine?
+-Pierre sells one read book a day?
 
 - add on mod for festival books that's also an example fpr mod authors (14 books - one for each festival and passive festival, 2 for spirit eve, 1 for book fair) and an added stall at book fair w fest_book tag
 - oh also - maybe books for berry seasons that can be traded for those berries at raccoon shop? And maybe a shell season one too. Could be poem_books; book of spring/summer/fall/the sea (need a winter one?)
