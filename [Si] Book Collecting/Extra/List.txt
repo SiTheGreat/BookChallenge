@@ -8,9 +8,8 @@ Figure out hasreceived flag for mailed/other letters - done
 
 More books
 
-search cool_book in objects.json
-search 303 in objects.json
 add book desc and excerpt entries
+add'l gift tastes and responses
 
 -11 Solo Sonatas For The Wooden Flute seedshop 13 3 - SonataBook
 -Advanced Neural Networks sciencehouse 10 4 - NeuralBook
@@ -106,7 +105,7 @@ Upper right tile is town 62 4
 Lower right tile is town 62 15
 
 Context Tags:
-- future (unimplemented): craft_book, creature_book, draft_book, fantasy_book, music_book, poem_book
+- future (unimplemented): craft_book, creature_book, draft_book, poem_book, business_book
 - bc_book - all books
 - fiction_book
 - nonfiction_book
@@ -133,6 +132,8 @@ Context Tags:
 - magic_book
 - history_book
 - fish_book
+- music_book
+- fantasy_book
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
 
