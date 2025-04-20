@@ -142,7 +142,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 10, "Y": 4 },
+					"Position": { "X": 10, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NeuralBookTrigger"
@@ -160,7 +160,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 10, "Y": 4 },
+					"Position": { "X": 10, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_NeuralBookTrigger"
@@ -575,7 +575,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
@@ -585,7 +585,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 44, "Y": 34 },
+					"Position": { "X": 1, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotTowerBookTrigger"
@@ -596,7 +596,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
@@ -606,7 +606,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 44, "Y": 34 },
+					"Position": { "X": 1, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotTowerBookTrigger"
@@ -771,7 +771,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 3, "Y": 15 },
+					"Position": { "X": 8, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DarkroomBookTrigger"
@@ -856,7 +856,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
@@ -866,7 +866,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 90, "Y": 38 },
+					"Position": { "X": 7, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotStationBookTrigger"
@@ -877,7 +877,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
@@ -887,7 +887,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 90, "Y": 38 },
+					"Position": { "X": 7, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotStationBookTrigger"
@@ -1034,7 +1034,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 18, "Y": 16 },
+					"Position": { "X": 17, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CookiesBookTrigger"
@@ -1052,7 +1052,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 18, "Y": 16 },
+					"Position": { "X": 17, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CookiesBookTrigger"
@@ -1116,20 +1116,20 @@
 			],
 		},
 
-		// WitchBookBook
+		// WitchBook
 
 		{
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
-				"{{ModId}}_WitchBookBookTrigger": {
-					"Id": "{{ModId}}_WitchBookBookTrigger",
+				"{{ModId}}_WitchBookTrigger": {
+					"Id": "{{ModId}}_WitchBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasWitchBookBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasWitchBook",
 					"Actions": [
-						"AddItem {{ModId}}_WitchBookBookNote",
-						"AddMail Current {{ModId}}_HasWitchBookBook",
+						"AddItem {{ModId}}_WitchBookNote",
+						"AddMail Current {{ModId}}_HasWitchBook",
 					]
 				}
 			},
@@ -1147,7 +1147,7 @@
 					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookBookTrigger"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookTrigger"
 					}
 				},
 			],
@@ -1165,7 +1165,7 @@
 					"Position": { "X": 1, "Y": 9 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookBookTrigger"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_WitchBookTrigger"
 					}
 				},
 			],
@@ -1897,7 +1897,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 2, "Y": 15 },
+					"Position": { "X": 7, "Y": 15 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_DanceBookTrigger"
@@ -2927,7 +2927,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 16, "Y": 4 },
+					"Position": { "X": 17, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondMarriageBookTrigger"
@@ -2945,7 +2945,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 16, "Y": 4 },
+					"Position": { "X": 17, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SecondMarriageBookTrigger"
@@ -3511,7 +3511,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
 				"HasSeenEvent: |contains=39": true,
@@ -3521,7 +3521,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 44, "Y": 10 },
+					"Position": { "X": 14, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotPlanetBookTrigger"
@@ -3532,7 +3532,7 @@
 
 		{
 			"Action": "EditMap",
-			"Target": "Maps/Beach",
+			"Target": "Maps/ElliottHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasSeenEvent: |contains=39": true,
@@ -3542,7 +3542,7 @@
 			"Priority": "Late",
 			"MapTiles": [
 				{
-					"Position": { "X": 44, "Y": 10 },
+					"Position": { "X": 14, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_ElliotPlanetBookTrigger"

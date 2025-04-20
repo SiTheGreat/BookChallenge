@@ -1820,26 +1820,26 @@
 			},
         },
 
-		// WitchBookBook
+		// WitchBook
 
 		{
 			"Action": "Load",
-			"Target": "Mods/{{ModId}}/WitchBookBook",
-			"FromFile": "Data/Assets/WitchBookBook.png"
+			"Target": "Mods/{{ModId}}/WitchBook",
+			"FromFile": "Data/Assets/WitchBook.png"
 		},
 
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"{{ModId}}_WitchBookBookNote": {
-					"Name": "{{ModId}}_WitchBookBookNote",
-					"DisplayName": "{{i18n:Si.BC.WitchBookBookName}}",
-					"Description": "{{i18n:Si.BC.WitchBookBookDesc}}",
+				"{{ModId}}_WitchBookNote": {
+					"Name": "{{ModId}}_WitchBookNote",
+					"DisplayName": "{{i18n:Si.BC.WitchBookName}}",
+					"Description": "{{i18n:Si.BC.WitchBookDesc}}",
 					"Type": "asdf",
 					"Category": 0,
 					"Price": 303,
-					"Texture": "Mods/{{ModId}}/WitchBookBook",
+					"Texture": "Mods/{{ModId}}/WitchBook",
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
@@ -1852,24 +1852,24 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_WitchBookBookNote", "ContextTags" ],
+			"TargetField": [ "{{ModId}}_WitchBookNote", "ContextTags" ],
 			"Entries": {
 				"unread_book": "unread_book",
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_HasWitchBookBook": true,
+				"HasFlag: |contains={{ModId}}_HasWitchBook": true,
 			},
 		},
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_WitchBookBookNote", "ContextTags" ],
+			"TargetField": [ "{{ModId}}_WitchBookNote", "ContextTags" ],
 			"Entries": {
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedWitchBookBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": true,
 			},
 		},
 
@@ -1877,14 +1877,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"{{ModId}}_WitchBookBook": {
-					"Name": "{{ModId}}_WitchBookBook",
-					"DisplayName": "{{i18n:Si.BC.WitchBookBookName}}",
-					"Description": "{{i18n:Si.BC.WitchBookBookDesc}}",
+				"{{ModId}}_WitchBook": {
+					"Name": "{{ModId}}_WitchBook",
+					"DisplayName": "{{i18n:Si.BC.WitchBookName}}",
+					"Description": "{{i18n:Si.BC.WitchBookDesc}}",
 					"Type": "asdf",
 					"Category": 0,
 					"Price": 464,
-					"Texture": "Mods/{{ModId}}/WitchBookBook",
+					"Texture": "Mods/{{ModId}}/WitchBook",
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
@@ -1898,12 +1898,12 @@
 		{
             "Action": "EditData",
             "Target": "Data/Objects",
-            "TargetField": [ "{{ModId}}_WitchBookBook", "ContextTags" ],
+            "TargetField": [ "{{ModId}}_WitchBook", "ContextTags" ],
             "Entries": {
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedWitchBookBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": true,
 			},
         },
 
