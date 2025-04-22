@@ -5620,6 +5620,7 @@
 					"ContextTags": [
 						"fantasy_book",
 						"adventure_book",
+						"dnd_book",
 						"fiction_book",
 						"bc_book",
 					],
@@ -6060,6 +6061,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"travel_book",
 						"history_book",
 						"guide_book",
 						"bc_book",

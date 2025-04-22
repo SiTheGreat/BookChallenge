@@ -79,12 +79,12 @@
 		},
 	},
 
-	// SeedShop //////////////////////////////////////////////////////////
+	// Travelling Cart //////////////////////////////////////////////////////////
 
 	{
         "Action": "EditData",
         "Target": "Data/Shops",
-        "TargetField": [ "SeedShop", "Items" ],
+        "TargetField": [ "Traveler", "Items" ],
         "Entries":{
             "{{ModId}}_SoldBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",

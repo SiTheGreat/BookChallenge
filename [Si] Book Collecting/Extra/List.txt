@@ -105,7 +105,7 @@ Upper right tile is town 62 4
 Lower right tile is town 62 15
 
 Context Tags:
-- future (unimplemented): craft_book, creature_book, draft_book, poem_book, business_book
+- future (unimplemented): craft_book, creature_book, draft_book, poem_book, business_book, photo_book
 - bc_book - all books
 - fiction_book
 - nonfiction_book

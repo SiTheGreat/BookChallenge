@@ -28,7 +28,7 @@
 			{
 			"Operation": "Append",
 			"Target": ["Fields", "Abigail", 1],
-			"Value": "adventure_book guild_book scifi_book mystery_book",
+			"Value": "adventure_book guild_book scifi_book mystery_book music_book",
 			"Delimiter": " "
 			},
 			{
@@ -47,7 +47,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Caroline", 1],
-				"Value": "travel_book mystery_book",
+				"Value": "travel_book mystery_book {{ModId}}_TeaBook",
 				"Delimiter": " "
 			},
 			// Pierre
@@ -68,14 +68,14 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Sebastian", 1],
-				"Value": "dnd_book",
+				"Value": "dnd_book music_book",
 				"Delimiter": " "
 			},
 			// Demetrius
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Demetrius", 1],
-				"Value": "science_book culture_book",
+				"Value": "science_book culture_book {{ModId}}_StepdadBook",
 				"Delimiter": " "
 			},
 			{
@@ -95,7 +95,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Sam", 1],
-				"Value": "adventure_book dnd_book scifi_book comic_book",
+				"Value": "adventure_book dnd_book scifi_book comic_book music_book {{ModId}}_UFOBook",
 				"Delimiter": " "
 			},
 			// Vincent
@@ -179,7 +179,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Penny", 1],
-				"Value": "mystery_book romance_book adventure_book kid_book",
+				"Value": "mystery_book romance_book adventure_book fantasy_book travel_book kid_book",
 				"Delimiter": " "
 			},
 			// Pam
@@ -213,7 +213,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Haley", 1],
-				"Value": "romance_book {{ModId}}_NatGeoBook fashion_book",
+				"Value": "romance_book {{ModId}}_NatGeoBook fashion_book {{ModId}}_DarkroomBook",
 				"Delimiter": " "
 			},
 			{
@@ -233,7 +233,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Harvey", 1],
-				"Value": "medical_book travel_book",
+				"Value": "medical_book travel_book {{ModId}}_RadioBook",
 				"Delimiter": " "
 			},
 			// Gus
@@ -275,7 +275,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Wizard", 1],
-				"Value": "magic_book history_book",
+				"Value": "magic_book history_book {{ModId}}_TeaBook",
 				"Delimiter": " "
 			},
 			// Dwarf

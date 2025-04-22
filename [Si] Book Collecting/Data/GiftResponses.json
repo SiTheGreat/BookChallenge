@@ -14,6 +14,7 @@
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Abigail.scifi}}",
 			"AcceptGift_mystery_book": "{{i18n:Si.BC.Abigail.mystery}}",
 			"AcceptGift_guild_book": "{{i18n:Si.BC.Abigail.guild}}",
+			"AcceptGift_music_book": "{{i18n:Si.BC.Abigail.music}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Abigail.book}}",
 		},
 	},
@@ -22,6 +23,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Caroline",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_TeaBook": "{{i18n:Si.BC.Caroline.Tea}}",
 			"AcceptGift_travel_book": "{{i18n:Si.BC.Caroline.travel}}",
 			"AcceptGift_mystery_book": "{{i18n:Si.BC.Caroline.mystery}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Caroline.book}}",
@@ -42,6 +44,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Maru",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_UFOBook": "{{i18n:Si.BC.Maru.UFO}}",
 			"AcceptGift_medical_book": "{{i18n:Si.BC.Maru.medical}}",
 			"AcceptGift_space_book": "{{i18n:Si.BC.Maru.space}}",
 			"AcceptGift_science_book": "{{i18n:Si.BC.Maru.science}}",
@@ -55,6 +58,7 @@
 		"Target": "Characters/Dialogue/Sebastian",
 		"Entries": {
 			"AcceptGift_dnd_book": "{{i18n:Si.BC.Sebastian.dnd}}",
+			"AcceptGift_music_book": "{{i18n:Si.BC.Sebastian.music}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Sebastian.book}}",
 		},
 	},
@@ -63,6 +67,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Demetrius",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_StepdadBook": "{{i18n:Si.BC.Demetrius.Stepdad}}",
 			"AcceptGift_science_book": "{{i18n:Si.BC.Demetrius.science}}",
 			"AcceptGift_culture_book": "{{i18n:Si.BC.Demetrius.culture}}",
 			"AcceptGift_fiction_book": "{{i18n:Si.BC.Demetrius.fiction}}",
@@ -75,6 +80,7 @@
 		"Target": "Characters/Dialogue/Robin",
 		"Entries": {
 			"AcceptGift_(O){{ModId}}_WoodBook": "{{i18n:Si.BC.Robin.Wood}}",
+			"AcceptGift_(O){{ModId}}_SecondMarriageBook": "{{i18n:Si.BC.Robin.SecondMarriage}}",
 			"AcceptGift_sport_book": "{{i18n:Si.BC.Robin.sport}}",
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Robin.scifi}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Robin.book}}",
@@ -85,10 +91,12 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Sam",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_UFOBook": "{{i18n:Si.BC.Sam.UFO}}",
 			"AcceptGift_comic_book": "{{i18n:Si.BC.Sam.comic}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Sam.adventure}}",
 			"AcceptGift_dnd_book": "{{i18n:Si.BC.Sam.dnd}}",
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Sam.scifi}}",
+			"AcceptGift_music_book": "{{i18n:Si.BC.Sam.music}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Sam.book}}",
 		},
 	},
@@ -110,6 +118,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Jodi",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_TeaBook": "{{i18n:Si.BC.Jodi.Tea}}",
 			"AcceptGift_(O){{ModId}}_ReadersDigestBook": "{{i18n:Si.BC.Jodi.ReadersDigest}}",
 			"AcceptGift_recipe_book": "{{i18n:Si.BC.Jodi.recipe}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Jodi.adventure}}",
@@ -239,6 +248,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Penny",
 		"Entries": {
+			"AcceptGift_fantasy_book": "{{i18n:Si.BC.Penny.fantasy}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Penny.nature}}",
 			"AcceptGift_medical_book": "{{i18n:Si.BC.Penny.medical}}",
 			"AcceptGift_mystery_book": "{{i18n:Si.BC.Penny.mystery}}",
@@ -299,6 +309,7 @@
 		"Entries": {
 			"AcceptGift_(O){{ModId}}_NatGeoBook": "{{i18n:Si.BC.Haley.NatGeo}}",
 			"AcceptGift_(O){{ModId}}_CloakBook": "{{i18n:Si.BC.Haley.Cloak}}",
+			"AcceptGift_(O){{ModId}}_DarkroomBook": "{{i18n:Si.BC.Haley.Darkroom}}",
 			"AcceptGift_romance_book": "{{i18n:Si.BC.Haley.romance}}",
 			"AcceptGift_fashion_book": "{{i18n:Si.BC.Haley.fashion}}",
 			"AcceptGift_bc_book": "{{i18n:Si.BC.Haley.book}}",
@@ -358,6 +369,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Harvey",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_RadioBook": "{{i18n:Si.BC.Harvey.Radio}}",
 			"AcceptGift_medical_book": "{{i18n:Si.BC.Harvey.medical}}",
 			"AcceptGift_adventure_book": "{{i18n:Si.BC.Harvey.adventure}}",
 			"AcceptGift_travel_book": "{{i18n:Si.BC.Harvey.travel}}",
@@ -418,6 +430,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Willy",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_UFOBook": "{{i18n:Si.BC.Willy.UFO}}",
 			"AcceptGift_(O){{ModId}}_NavBook": "{{i18n:Si.BC.Willy.Nav}}",
 			"AcceptGift_travel_book": "{{i18n:Si.BC.Willy.travel}}",
 			"AcceptGift_romance_book": "{{i18n:Si.BC.Willy.romance}}",
