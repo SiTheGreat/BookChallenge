@@ -91,7 +91,7 @@
 	"Si.BC.LossBookContent": "^^Crying is a very healthy response to loss. Giving your emotions an open outlet provides space for you to feel and recognize them.",
 	"Si.BC.KneeBookName": "Do-It-Yourself! Knee Surgery",
 	"Si.BC.KneeBookDesc": "This book says it was approved by the Ferngill Medical Association.",
-	"Si.BC.KneeBookContent": "In summary:^Step one: don't panic.^^Step two: assess the injury.^^Step three: assess your available tools.",
+	"Si.BC.KneeBookContent": "^In summary:^^Step one: don't panic.^^Step two: assess the injury.^^Step three: assess your available tools.",
 	"Si.BC.DMGBookName": "Dungeon Master's Guide",
 	"Si.BC.DMGBookDesc": "A guide for hosting a tabletop game.",
 	"Si.BC.DMGBookContent": "^^Challenge Rating, or CR, helps you plan encounters by putting a measure on how dangerous an enemy is. As a very general rule of thumb, an average party of four level 5 adventurers should be able to handle one CR 5 enemy with some difficulty but no serious damage to the party.",

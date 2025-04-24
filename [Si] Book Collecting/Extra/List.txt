@@ -53,12 +53,13 @@ wiz has a bunch more spots, use them
 CC too
 Adv guild 11 6 free
 - book on ferngill gotoro war sold by cart?
-- a book dropped by the train?
+- a book dropped by the train? can I do that in cp?
 -one of the prizes is a hat like a medieval poet
--book in the claw machine?
+-book in the claw machine? can I do that too?
 -Pierre sells one read book a day?
 -Receive a guest book post wedding? Maybe in mail from Lewis
 -witch hut book?
+-leah's sketchbook
 
 - add on mod for festival books that's also an example fpr mod authors (14 books - one for each festival and passive festival, 2 for spirit eve, 1 for book fair) and an added stall at book fair w fest_book tag
 - oh also - maybe books for berry seasons that can be traded for those berries at raccoon shop? And maybe a shell season one too. Could be poem_books; book of spring/summer/fall/the sea (need a winter one?)
@@ -95,17 +96,8 @@ Adv guild 11 6 free
 -passerby cemetary pop dialogue: found a book sbout stars, likes space
 
 
-
-
-
-Book fair map patch
-Upper left tile is town 44 4
-Lower left tile is town 44 15
-Upper right tile is town 62 4
-Lower right tile is town 62 15
-
 Context Tags:
-- future (unimplemented): craft_book, creature_book, draft_book, poem_book, business_book, photo_book
+- future (unimplemented): craft_book, animal_book, elliott_book, poem_book, business_book, photo_book, relationship_book, humor_book, activity_book, graphicnovel_book, art_book
 - bc_book - all books
 - fiction_book
 - nonfiction_book
@@ -136,6 +128,19 @@ Context Tags:
 - fantasy_book
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
+
+Shops
+bookseller: any
+cart: fiction
+pierre: guide, business
+guild: guild, magic
+willy: fish, travel, culture
+power: skill, unread
+nonfiction: nonfiction, guide, business
+science: science, space, nature, fish, medical, animal
+mag: magazine, travel, culture, history, fashion, sport, photo
+recipe: recipe, selfhelp, relationship, kid, art, poem, music, activity_book, craft_book
+fiction: fiction, dnd, magic, guild, graphicnovel_book, comic_book, humor_book
 
 Vanilla
 

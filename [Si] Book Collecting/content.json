@@ -34,6 +34,308 @@
 			// 	"DarkMode": false,
 			// },
 		},
+
+		// Shop Book Amounts
+
+		{
+			"Name": "BooksellerBooks",
+			"Value": "5",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "BooksellerBooks",
+			"Value": "7",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "BooksellerBooks",
+			"Value": "10",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "TravellerBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "TravellerBooks",
+			"Value": "2",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+		
+		{
+			"Name": "TravellerBooks",
+			"Value": "3",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "PierreBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "PierreBooks",
+			"Value": "2",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "PierreBooks",
+			"Value": "3",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "GuildBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "GuildBooks",
+			"Value": "2",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "GuildBooks",
+			"Value": "3",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "OceanBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "OceanBooks",
+			"Value": "2",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "OceanBooks",
+			"Value": "3",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		// Book Fair Book Amounts
+
+		{
+			"Name": "PowerShopBooks",
+			"Value": "5",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "PowerShopBooks",
+			"Value": "8",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "PowerShopBooks",
+			"Value": "12",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "NonfictionShopBooks",
+			"Value": 4,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "NonfictionShopBooks",
+			"Value": 8,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "NonfictionShopBooks",
+			"Value": 12,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "ScienceShopBooks",
+			"Value": 3,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "ScienceShopBooks",
+			"Value": 7,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "ScienceShopBooks",
+			"Value": 10,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "MagShopBooks",
+			"Value": 4,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "MagShopBooks",
+			"Value": 7,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "MagShopBooks",
+			"Value": 10,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "RecipeShopBooks",
+			"Value": 5,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "RecipeShopBooks",
+			"Value": 9,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "RecipeShopBooks",
+			"Value": 14,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "FictionShopBooks",
+			"Value": 4,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "FictionShopBooks",
+			"Value": 8,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "FictionShopBooks",
+			"Value": 12,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
 	],
 
 	// Content //////////////////////////////////////////////////////////
@@ -61,7 +363,7 @@
 	// 		},
 	// },
 
-	// Stock Limit Trigger //////////////////////////////////////////////////////////
+	// Stock Limit Triggers //////////////////////////////////////////////////////////
 
 	{
 		"Action": "EditData",
@@ -71,7 +373,7 @@
 				"Id": "{{ModId}}_StockLimit1",
 				"MarkActionApplied": true,
 				"Trigger": "DayEnding",
-				"Condition": "PLAYER_STAT Current bc_hasbooks 37",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 35",
 				"Actions": [
 					"AddMail All {{ModId}}_BookStock1",
 				]
@@ -79,20 +381,20 @@
 		},
 	},
 
-	// Travelling Cart //////////////////////////////////////////////////////////
-
 	{
-        "Action": "EditData",
-        "Target": "Data/Shops",
-        "TargetField": [ "Traveler", "Items" ],
-        "Entries":{
-            "{{ModId}}_SoldBooks": {
-                "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": 1,
-                "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
-		    },
-        },
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
+			"{{ModId}}_StockLimit2": {
+				"Id": "{{ModId}}_StockLimit2",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 70",
+				"Actions": [
+					"AddMail All {{ModId}}_BookStock2",
+				]
+			}
+		},
 	},
 
 	// Hidden Event //////////////////////////////////////////////////////////
@@ -104,16 +406,24 @@
 				"HasWalletItem |contains=MagnifyingGlass": true,
 		},
 		"Entries": {
-			"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/addConversationTopic SiBCMagGlass 1/end",
+			"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
 		}
 	},
 
 	{
 		"Action": "EditData",
-		"Target": "Data/Events/Farm",
+		"Target": "Data/TriggerActions",
 		"Entries": {
-			"{{ModId}}_MagGlass2/e {{ModId}}_MagGlass1/A SiBCMagGlass/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
-		}
+			"{{ModId}}_MagGlass2": {
+				"Id": "{{ModId}}_MagGlass2",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MagGlass1",
+				"Actions": [
+					"AddMail Current {{ModId}}_MagGlass3",
+				]
+			}
+		},
 	},
 
 	// Includes //////////////////////////////////////////////////////////
@@ -124,7 +434,7 @@
 		"FromFile": "Data/Objects.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -134,7 +444,7 @@
 		"FromFile": "Data/SecretNotes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -144,7 +454,7 @@
 		"FromFile": "Data/MapEntries.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -154,7 +464,7 @@
 		"FromFile": "Data/Events.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -164,7 +474,7 @@
 		"FromFile": "Data/GiftTastes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -174,17 +484,17 @@
 		"FromFile": "Data/GiftResponses.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
 	{
-		// Bookseller shop entries
+		// Shop entries
 		"Action": "Include",
-		"FromFile": "Data/Bookseller.json",
+		"FromFile": "Data/Shops.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+				"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 
@@ -195,7 +505,7 @@
 		"When": {
 			"HasFlag: |contains={{ModId}}_StartBookFair": true,
 			"HasWalletItem |contains=MagnifyingGlass": true,
-			"HasSeenEvent:hostPlayer |contains={{ModId}}_MagGlass2": true,
+			"HasFlag: |contains={{ModId}}_MagGlass3": true,
 		},
 	},
 	
