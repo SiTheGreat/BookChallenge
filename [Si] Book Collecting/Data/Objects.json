@@ -167,7 +167,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"music_book",
-						"guide_book",
 						"bc_book",
 					],
 				}
@@ -342,9 +341,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"magazine_book",
 						"guild_book",
-						"nonfiction_book",
+						"magazine_book",
 						"bc_book",
 					],
 				}
@@ -432,8 +430,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"medical_book",
-						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -700,7 +696,6 @@
 						"space_book",
 						"science_book",
 						"magazine_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -788,6 +783,7 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"kid_book",
+						"poem_book",
 						"fiction_book",
 						"bc_book",
 					],
@@ -876,7 +872,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"recipe_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -986,6 +981,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"elliott_book",
 						"mystery_book",
 						"fiction_book",
 						"bc_book",
@@ -1161,8 +1157,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"business_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -1250,7 +1246,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -1338,7 +1333,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -1448,6 +1442,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"elliott_book",
 						"romance_book",
 						"fiction_book",
 						"bc_book",
@@ -1538,7 +1533,6 @@
 					"ContextTags": [
 						"recipe_book",
 						"nature_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -1625,8 +1619,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"animal_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -1714,7 +1708,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"recipe_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2063,8 +2056,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2152,7 +2145,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"medical_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2240,7 +2232,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"dnd_book",
-						"guide_book",
 						"bc_book",
 					],
 				}
@@ -2327,8 +2318,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"business_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2416,7 +2407,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"science_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2593,7 +2583,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"travel_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2680,8 +2669,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"craft_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2770,7 +2759,6 @@
 					"ContextTags": [
 						"fashion_book",
 						"guild_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -2857,9 +2845,9 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"craft_book",
 						"guide_book",
-						"nonfiction_book",
-						"nonfiction_book",
+						"bc_book",
 					],
 				}
 			}
@@ -3035,7 +3023,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"sport_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3124,7 +3111,6 @@
 					"ContextTags": [
 						"culture_book",
 						"history_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3213,7 +3199,6 @@
 					"ContextTags": [
 						"sport_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3301,7 +3286,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3388,8 +3372,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"craft_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3477,8 +3461,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"magic_book",
-						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3565,6 +3547,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
 						"bc_book",
 					],
@@ -3652,8 +3635,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"animal_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3741,8 +3724,8 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"culture_book",
+						"relationship_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3831,7 +3814,6 @@
 					"ContextTags": [
 						"culture_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -3921,7 +3903,6 @@
 						"nature_book",
 						"culture_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4009,7 +3990,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4098,7 +4078,6 @@
 					"ContextTags": [
 						"nature_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4186,7 +4165,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"medical_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4450,8 +4428,9 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"business_book",
+						"art_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4538,8 +4517,8 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"animal_book",
 						"personal_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4626,6 +4605,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
 						"bc_book",
 					],
@@ -4892,7 +4872,6 @@
 						"nature_book",
 						"science_book",
 						"magazine_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -4981,7 +4960,6 @@
 					"ContextTags": [
 						"travel_book",
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -5068,6 +5046,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
 						"bc_book",
 					],
@@ -5156,7 +5135,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"dnd_book",
-						"guide_book",
 						"bc_book",
 					],
 				}
@@ -5243,6 +5221,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
 						"bc_book",
 					],
@@ -5530,6 +5509,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"elliott_book",
 						"scifi_book",
 						"fiction_book",
 						"bc_book",
@@ -5710,7 +5690,6 @@
 					"ContextTags": [
 						"fashion_book",
 						"magazine_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -5798,7 +5777,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"selfhelp_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -5974,7 +5952,6 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"guide_book",
-						"nonfiction_book",
 						"bc_book",
 					],
 				}
@@ -6150,6 +6127,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"relationship_book",
 						"selfhelp_book",
 						"nonfiction_book",
 						"bc_book",
@@ -6238,6 +6216,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"business_book",
 						"guide_book",
 						"bc_book",
 					],

@@ -97,7 +97,7 @@ Adv guild 11 6 free
 
 
 Context Tags:
-- future (unimplemented): craft_book, animal_book, elliott_book, poem_book, business_book, photo_book, relationship_book, humor_book, activity_book, graphicnovel_book, art_book
+- more: craft_book, animal_book, elliott_book, poem_book, business_book, photo_book, relationship_book, humor_book, activity_book, graphicnovel_book, art_book
 - bc_book - all books
 - fiction_book
 - nonfiction_book
