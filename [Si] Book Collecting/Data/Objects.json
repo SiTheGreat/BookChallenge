@@ -4869,6 +4869,7 @@
 					"ExcludeFromShippingCollection": true,
 					"SpriteIndex": 0,
 					"ContextTags": [
+						"photo_book",
 						"nature_book",
 						"science_book",
 						"magazine_book",

@@ -40,7 +40,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Abigail", 4],
-				"Value": "{{ModId}}_BookkeepingBook",
+				"Value": "business_book",
 				"Delimiter": " "
 			},
 			// Caroline
@@ -54,7 +54,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Pierre", 1],
-				"Value": "{{ModId}}_BookkeepingBook guide_book",
+				"Value": "business_book guide_book",
 				"Delimiter": " "
 			},
 			// Maru
@@ -137,7 +137,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Jas", 1],
-				"Value": "kid_book nature_book",
+				"Value": "kid_book nature_book animal_book",
 				"Delimiter": " "
 			},
 			// Shane
@@ -213,7 +213,7 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Haley", 1],
-				"Value": "romance_book {{ModId}}_NatGeoBook fashion_book {{ModId}}_DarkroomBook",
+				"Value": "romance_book photo_book fashion_book {{ModId}}_DarkroomBook",
 				"Delimiter": " "
 			},
 			{
@@ -254,14 +254,14 @@
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Clint", 1],
-				"Value": "{{ModId}}_FireproofingBook {{ModId}}_ToolboxBook {{ModId}}_ArchGuide",
+				"Value": "{{ModId}}_FireproofingBook {{ModId}}_ToolboxBook {{ModId}}_ArchGuide craft_book",
 				"Delimiter": " "
 			},
 			// Leah
 			{
 				"Operation": "Append",
 				"Target": ["Fields", "Leah", 1],
-				"Value": "{{ModId}}_MarketArtBook {{ModId}}_WoodBook nature_book",
+				"Value": "{{ModId}}_MarketArtBook {{ModId}}_WoodBook nature_book art_book",
 				"Delimiter": " "
 			},
 			// Willy

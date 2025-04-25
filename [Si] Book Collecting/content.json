@@ -489,7 +489,7 @@
 	},
 
 	{
-		// Shop entries
+		// Bookseller and vanilla shop entries
 		"Action": "Include",
 		"FromFile": "Data/Shops.json",
 		"When": {
