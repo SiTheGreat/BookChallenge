@@ -1839,7 +1839,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"When": {
-					"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": false,
+					"HasFlag: |contains={{ModId}}_ReadFerngillFishBook": false,
 			},
 			"TargetField": [ "FishShop", "Items" ],
 			"Entries":{
@@ -2314,7 +2314,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"When": {
-					"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": false,
+					"HasFlag: |contains={{ModId}}_ReadHuman101Book": false,
 			},
 			"TargetField": [ "ShadowShop", "Items" ],
 			"Entries":{

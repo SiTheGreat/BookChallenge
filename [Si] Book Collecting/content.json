@@ -389,7 +389,7 @@
 				"Id": "{{ModId}}_StockLimit2",
 				"MarkActionApplied": true,
 				"Trigger": "DayEnding",
-				"Condition": "PLAYER_STAT Current bc_hasbooks 70",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 60",
 				"Actions": [
 					"AddMail All {{ModId}}_BookStock2",
 				]
