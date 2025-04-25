@@ -50,6 +50,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReadinsertBook": false,
 			},
 		},
 	
@@ -61,7 +62,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReadinsertBook": true,
 			},
 		},
 
@@ -95,7 +96,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReadinsertBook": true,
 			},
         },
 
@@ -166,7 +167,7 @@
 			"NoteTextColor": "rgb(12, 12, 80)",
 			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 			"ActionsOnFirstRead": [
-				"AddMail Current {{ModId}}_ReceivedinsertBook",
+				"AddMail Current {{ModId}}_ReadinsertBook",
 				"IncrementStat bc_hasbooks 1",
 			]
 		},
