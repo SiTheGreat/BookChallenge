@@ -39,7 +39,7 @@
 	{
         "Action": "EditData",
         "Target": "Data/Shops",
-        "TargetField": [ "Traveler", "Items" ],
+        "TargetField": [ "SeedShop", "Items" ],
         "Entries":{
             "{{ModId}}_PierreBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
@@ -55,7 +55,7 @@
 	{
         "Action": "EditData",
         "Target": "Data/Shops",
-        "TargetField": [ "Traveler", "Items" ],
+        "TargetField": [ "AdventureShop", "Items" ],
         "Entries":{
             "{{ModId}}_GuildBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
@@ -71,7 +71,7 @@
 	{
         "Action": "EditData",
         "Target": "Data/Shops",
-        "TargetField": [ "Traveler", "Items" ],
+        "TargetField": [ "FishShop", "Items" ],
         "Entries":{
             "{{ModId}}_OceanBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",

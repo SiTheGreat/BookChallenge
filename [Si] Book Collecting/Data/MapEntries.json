@@ -1839,7 +1839,7 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"When": {
-					"HasFlag: |contains={{ModId}}_ReadFerngillFishBook": false,
+					"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": false,
 			},
 			"TargetField": [ "FishShop", "Items" ],
 			"Entries":{

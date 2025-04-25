@@ -42,7 +42,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSaltBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSaltBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false,
 			},
 		},
 	
@@ -54,7 +54,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSaltBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true,
 			},
 		},
 
@@ -89,7 +89,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSaltBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true,
 			},
         },
 
@@ -137,7 +137,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSonataBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSonataBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": false,
 			},
 		},
 	
@@ -149,7 +149,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSonataBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": true,
 			},
 		},
 
@@ -183,7 +183,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSonataBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": true,
 			},
         },
 
@@ -225,7 +225,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasNeuralBook": true,
-				"HasFlag: |contains={{ModId}}_ReadNeuralBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNeuralBook": false,
 			},
 		},
 	
@@ -237,7 +237,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNeuralBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNeuralBook": true,
 			},
 		},
 
@@ -271,7 +271,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNeuralBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNeuralBook": true,
 			},
         },
 
@@ -314,7 +314,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasAdvMagBook": true,
-				"HasFlag: |contains={{ModId}}_ReadAdvMagBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": false,
 			},
 		},
 	
@@ -326,7 +326,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAdvMagBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": true,
 			},
 		},
 
@@ -361,7 +361,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAdvMagBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": true,
 			},
         },
 
@@ -403,7 +403,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasAdvHealBook": true,
-				"HasFlag: |contains={{ModId}}_ReadAdvHealBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": false,
 			},
 		},
 	
@@ -415,7 +415,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAdvHealBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": true,
 			},
 		},
 
@@ -449,7 +449,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAdvHealBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": true,
 			},
         },
 
@@ -491,7 +491,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasAardvarkBook": true,
-				"HasFlag: |contains={{ModId}}_ReadAardvarkBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": false,
 			},
 		},
 	
@@ -503,7 +503,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAardvarkBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": true,
 			},
 		},
 
@@ -538,7 +538,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAardvarkBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": true,
 			},
         },
 
@@ -580,7 +580,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasArchGuide": true,
-				"HasFlag: |contains={{ModId}}_ReadArchGuide": false,
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": false,
 			},
 		},
 	
@@ -592,7 +592,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadArchGuide": true,
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": true,
 			},
 		},
 
@@ -628,7 +628,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadArchGuide": true,
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": true,
 			},
         },
 
@@ -670,7 +670,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasAstroBook": true,
-				"HasFlag: |contains={{ModId}}_ReadAstroBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": false,
 			},
 		},
 	
@@ -682,7 +682,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAstroBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": true,
 			},
 		},
 
@@ -718,7 +718,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadAstroBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": true,
 			},
         },
 
@@ -760,7 +760,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasBatMatBook": true,
-				"HasFlag: |contains={{ModId}}_ReadBatMatBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": false,
 			},
 		},
 	
@@ -772,7 +772,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBatMatBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": true,
 			},
 		},
 
@@ -808,7 +808,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBatMatBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": true,
 			},
         },
 
@@ -850,7 +850,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasBetterHomesBook": true,
-				"HasFlag: |contains={{ModId}}_ReadBetterHomesBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": false,
 			},
 		},
 	
@@ -862,7 +862,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBetterHomesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": true,
 			},
 		},
 
@@ -896,7 +896,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBetterHomesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": true,
 			},
         },
 
@@ -961,7 +961,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasElliotTowerBook": true,
-				"HasFlag: |contains={{ModId}}_ReadElliotTowerBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": false,
 			},
 		},
 	
@@ -973,7 +973,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotTowerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": true,
 			},
 		},
 
@@ -1009,7 +1009,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotTowerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": true,
 			},
         },
 
@@ -1051,7 +1051,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasYobaBook": true,
-				"HasFlag: |contains={{ModId}}_ReadYobaBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": false,
 			},
 		},
 	
@@ -1063,7 +1063,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadYobaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": true,
 			},
 		},
 
@@ -1097,7 +1097,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadYobaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": true,
 			},
         },
 
@@ -1139,7 +1139,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasBookkeepingBook": true,
-				"HasFlag: |contains={{ModId}}_ReadBookkeepingBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
 			},
 		},
 	
@@ -1151,7 +1151,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBookkeepingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": true,
 			},
 		},
 
@@ -1186,7 +1186,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBookkeepingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": true,
 			},
         },
 
@@ -1228,7 +1228,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasDarkroomBook": true,
-				"HasFlag: |contains={{ModId}}_ReadDarkroomBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDarkroomBook": false,
 			},
 		},
 	
@@ -1240,7 +1240,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDarkroomBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDarkroomBook": true,
 			},
 		},
 
@@ -1274,7 +1274,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDarkroomBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDarkroomBook": true,
 			},
         },
 
@@ -1316,7 +1316,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCSharpBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCSharpBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": false,
 			},
 		},
 	
@@ -1328,7 +1328,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCSharpBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": true,
 			},
 		},
 
@@ -1362,7 +1362,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCSharpBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": true,
 			},
         },
 
@@ -1427,7 +1427,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasElliotStationBook": true,
-				"HasFlag: |contains={{ModId}}_ReadElliotStationBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": false,
 			},
 		},
 	
@@ -1439,7 +1439,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotStationBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": true,
 			},
 		},
 
@@ -1475,7 +1475,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotStationBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": true,
 			},
         },
 
@@ -1517,7 +1517,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCampfireBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCampfireBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": false,
 			},
 		},
 	
@@ -1529,7 +1529,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCampfireBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": true,
 			},
 		},
 
@@ -1564,7 +1564,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCampfireBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": true,
 			},
         },
 
@@ -1606,7 +1606,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasChickenBook": true,
-				"HasFlag: |contains={{ModId}}_ReadChickenBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": false,
 			},
 		},
 	
@@ -1618,7 +1618,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadChickenBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": true,
 			},
 		},
 
@@ -1653,7 +1653,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadChickenBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": true,
 			},
         },
 
@@ -1695,7 +1695,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCookiesBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCookiesBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCookiesBook": false,
 			},
 		},
 	
@@ -1707,7 +1707,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCookiesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCookiesBook": true,
 			},
 		},
 
@@ -1741,7 +1741,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCookiesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCookiesBook": true,
 			},
         },
 
@@ -1783,7 +1783,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCrystalBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCrystalBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": false,
 			},
 		},
 	
@@ -1795,7 +1795,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCrystalBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": true,
 			},
 		},
 
@@ -1829,7 +1829,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCrystalBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": true,
 			},
         },
 
@@ -1871,7 +1871,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasWitchBook": true,
-				"HasFlag: |contains={{ModId}}_ReadWitchBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": false,
 			},
 		},
 	
@@ -1883,7 +1883,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadWitchBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": true,
 			},
 		},
 
@@ -1917,7 +1917,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadWitchBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": true,
 			},
         },
 
@@ -1959,7 +1959,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCoalminerBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCoalminerBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCoalminerBook": false,
 			},
 		},
 	
@@ -1971,7 +1971,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCoalminerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCoalminerBook": true,
 			},
 		},
 
@@ -2006,7 +2006,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCoalminerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCoalminerBook": true,
 			},
         },
 
@@ -2048,7 +2048,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasLossBook": true,
-				"HasFlag: |contains={{ModId}}_ReadLossBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": false,
 			},
 		},
 	
@@ -2060,7 +2060,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadLossBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": true,
 			},
 		},
 
@@ -2095,7 +2095,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadLossBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": true,
 			},
         },
 
@@ -2137,7 +2137,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasKneeBook": true,
-				"HasFlag: |contains={{ModId}}_ReadKneeBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedKneeBook": false,
 			},
 		},
 	
@@ -2149,7 +2149,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadKneeBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedKneeBook": true,
 			},
 		},
 
@@ -2183,7 +2183,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadKneeBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedKneeBook": true,
 			},
         },
 
@@ -2225,7 +2225,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasDMGBook": true,
-				"HasFlag: |contains={{ModId}}_ReadDMGBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": false,
 			},
 		},
 	
@@ -2237,7 +2237,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDMGBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": true,
 			},
 		},
 
@@ -2271,7 +2271,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDMGBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": true,
 			},
         },
 
@@ -2313,7 +2313,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSmallBizBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSmallBizBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": false,
 			},
 		},
 	
@@ -2325,7 +2325,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSmallBizBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": true,
 			},
 		},
 
@@ -2360,7 +2360,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSmallBizBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": true,
 			},
         },
 
@@ -2402,7 +2402,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasToolboxBook": true,
-				"HasFlag: |contains={{ModId}}_ReadToolboxBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": false,
 			},
 		},
 	
@@ -2414,7 +2414,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadToolboxBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": true,
 			},
 		},
 
@@ -2448,7 +2448,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadToolboxBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": true,
 			},
         },
 
@@ -2490,7 +2490,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasFableBook": true,
-				"HasFlag: |contains={{ModId}}_ReadFableBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": false,
 			},
 		},
 	
@@ -2502,7 +2502,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFableBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": true,
 			},
 		},
 
@@ -2538,7 +2538,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFableBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": true,
 			},
         },
 
@@ -2580,7 +2580,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasFernBook": true,
-				"HasFlag: |contains={{ModId}}_ReadFernBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": false,
 			},
 		},
 	
@@ -2592,7 +2592,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFernBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": true,
 			},
 		},
 
@@ -2626,7 +2626,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFernBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": true,
 			},
         },
 
@@ -2668,7 +2668,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasWoodBook": true,
-				"HasFlag: |contains={{ModId}}_ReadWoodBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": false,
 			},
 		},
 	
@@ -2680,7 +2680,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadWoodBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": true,
 			},
 		},
 
@@ -2715,7 +2715,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadWoodBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": true,
 			},
         },
 
@@ -2757,7 +2757,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCloakBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCloakBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": false,
 			},
 		},
 	
@@ -2769,7 +2769,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCloakBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": true,
 			},
 		},
 
@@ -2804,7 +2804,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCloakBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": true,
 			},
         },
 
@@ -2846,7 +2846,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasFireproofingBook": true,
-				"HasFlag: |contains={{ModId}}_ReadFireproofingBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": false,
 			},
 		},
 	
@@ -2858,7 +2858,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFireproofingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": true,
 			},
 		},
 
@@ -2893,7 +2893,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFireproofingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": true,
 			},
         },
 
@@ -2935,7 +2935,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasFerngillFishBook": true,
-				"HasFlag: |contains={{ModId}}_ReadFerngillFishBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": false,
 			},
 		},
 	
@@ -2947,7 +2947,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFerngillFishBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": true,
 			},
 		},
 
@@ -2983,7 +2983,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFerngillFishBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFerngillFishBook": true,
 			},
         },
 
@@ -3025,7 +3025,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasDanceBook": true,
-				"HasFlag: |contains={{ModId}}_ReadDanceBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDanceBook": false,
 			},
 		},
 	
@@ -3037,7 +3037,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDanceBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDanceBook": true,
 			},
 		},
 
@@ -3071,7 +3071,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadDanceBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDanceBook": true,
 			},
         },
 
@@ -3113,7 +3113,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasTeaBook": true,
-				"HasFlag: |contains={{ModId}}_ReadTeaBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedTeaBook": false,
 			},
 		},
 	
@@ -3125,7 +3125,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadTeaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeaBook": true,
 			},
 		},
 
@@ -3160,7 +3160,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadTeaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeaBook": true,
 			},
         },
 
@@ -3202,7 +3202,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasGridballBook": true,
-				"HasFlag: |contains={{ModId}}_ReadGridballBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": false,
 			},
 		},
 	
@@ -3214,7 +3214,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGridballBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": true,
 			},
 		},
 
@@ -3249,7 +3249,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGridballBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": true,
 			},
         },
 
@@ -3291,7 +3291,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasRadioBook": true,
-				"HasFlag: |contains={{ModId}}_ReadRadioBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedRadioBook": false,
 			},
 		},
 	
@@ -3303,7 +3303,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadRadioBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedRadioBook": true,
 			},
 		},
 
@@ -3337,7 +3337,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadRadioBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedRadioBook": true,
 			},
         },
 
@@ -3379,7 +3379,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasGoldBook": true,
-				"HasFlag: |contains={{ModId}}_ReadGoldBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": false,
 			},
 		},
 	
@@ -3391,7 +3391,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGoldBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": true,
 			},
 		},
 
@@ -3426,7 +3426,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGoldBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": true,
 			},
         },
 
@@ -3468,7 +3468,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCleanSpellsBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCleanSpellsBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": false,
 			},
 		},
 	
@@ -3480,7 +3480,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCleanSpellsBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": true,
 			},
 		},
 
@@ -3514,7 +3514,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCleanSpellsBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": true,
 			},
         },
 
@@ -3556,7 +3556,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasOverbearingBook": true,
-				"HasFlag: |contains={{ModId}}_ReadOverbearingBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedOverbearingBook": false,
 			},
 		},
 	
@@ -3568,7 +3568,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadOverbearingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedOverbearingBook": true,
 			},
 		},
 
@@ -3603,7 +3603,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadOverbearingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedOverbearingBook": true,
 			},
         },
 
@@ -3645,7 +3645,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasGuineaBook": true,
-				"HasFlag: |contains={{ModId}}_ReadGuineaBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": false,
 			},
 		},
 	
@@ -3657,7 +3657,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGuineaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": true,
 			},
 		},
 
@@ -3692,7 +3692,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadGuineaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": true,
 			},
         },
 
@@ -3734,7 +3734,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasHuman101Book": true,
-				"HasFlag: |contains={{ModId}}_ReadHuman101Book": false,
+				"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": false,
 			},
 		},
 	
@@ -3746,7 +3746,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHuman101Book": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": true,
 			},
 		},
 
@@ -3782,7 +3782,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHuman101Book": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHuman101Book": true,
 			},
         },
 
@@ -3824,7 +3824,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasHumanLingoBook": true,
-				"HasFlag: |contains={{ModId}}_ReadHumanLingoBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": false,
 			},
 		},
 	
@@ -3836,7 +3836,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHumanLingoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": true,
 			},
 		},
 
@@ -3871,7 +3871,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHumanLingoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": true,
 			},
         },
 
@@ -3913,7 +3913,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasFlowerLingoBook": true,
-				"HasFlag: |contains={{ModId}}_ReadFlowerLingoBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": false,
 			},
 		},
 	
@@ -3925,7 +3925,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFlowerLingoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": true,
 			},
 		},
 
@@ -3961,7 +3961,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadFlowerLingoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": true,
 			},
         },
 
@@ -4003,7 +4003,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasBusBook": true,
-				"HasFlag: |contains={{ModId}}_ReadBusBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
 			},
 		},
 	
@@ -4015,7 +4015,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBusBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": true,
 			},
 		},
 
@@ -4049,7 +4049,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadBusBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": true,
 			},
         },
 
@@ -4091,7 +4091,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasLandBook": true,
-				"HasFlag: |contains={{ModId}}_ReadLandBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedLandBook": false,
 			},
 		},
 	
@@ -4103,7 +4103,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadLandBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLandBook": true,
 			},
 		},
 
@@ -4138,7 +4138,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadLandBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLandBook": true,
 			},
         },
 
@@ -4180,7 +4180,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasPulmonaryBook": true,
-				"HasFlag: |contains={{ModId}}_ReadPulmonaryBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPulmonaryBook": false,
 			},
 		},
 	
@@ -4192,7 +4192,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPulmonaryBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPulmonaryBook": true,
 			},
 		},
 
@@ -4226,7 +4226,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPulmonaryBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPulmonaryBook": true,
 			},
         },
 
@@ -4268,7 +4268,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasHomeownerBook": true,
-				"HasFlag: |contains={{ModId}}_ReadHomeownerBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedHomeownerBook": false,
 			},
 		},
 	
@@ -4280,7 +4280,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHomeownerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHomeownerBook": true,
 			},
 		},
 
@@ -4315,7 +4315,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadHomeownerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHomeownerBook": true,
 			},
         },
 
@@ -4357,7 +4357,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCastleBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCastleBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": false,
 			},
 		},
 	
@@ -4369,7 +4369,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCastleBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": true,
 			},
 		},
 
@@ -4405,7 +4405,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCastleBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": true,
 			},
         },
 
@@ -4447,7 +4447,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasMarketArtBook": true,
-				"HasFlag: |contains={{ModId}}_ReadMarketArtBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": false,
 			},
 		},
 	
@@ -4459,7 +4459,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMarketArtBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": true,
 			},
 		},
 
@@ -4495,7 +4495,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMarketArtBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": true,
 			},
         },
 
@@ -4537,7 +4537,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasMarnieLogBook": true,
-				"HasFlag: |contains={{ModId}}_ReadMarnieLogBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": false,
 			},
 		},
 	
@@ -4549,7 +4549,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMarnieLogBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": true,
 			},
 		},
 
@@ -4584,7 +4584,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMarnieLogBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": true,
 			},
         },
 
@@ -4626,7 +4626,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSecondMarriageBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSecondMarriageBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondMarriageBook": false,
 			},
 		},
 	
@@ -4638,7 +4638,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSecondMarriageBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondMarriageBook": true,
 			},
 		},
 
@@ -4673,7 +4673,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSecondMarriageBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondMarriageBook": true,
 			},
         },
 
@@ -4715,7 +4715,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasMusclesBook": true,
-				"HasFlag: |contains={{ModId}}_ReadMusclesBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMusclesBook": false,
 			},
 		},
 	
@@ -4727,7 +4727,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMusclesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMusclesBook": true,
 			},
 		},
 
@@ -4762,7 +4762,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadMusclesBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMusclesBook": true,
 			},
         },
 
@@ -4804,7 +4804,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasPennyBook": true,
-				"HasFlag: |contains={{ModId}}_ReadPennyBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
 			},
 		},
 	
@@ -4816,7 +4816,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPennyBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": true,
 			},
 		},
 
@@ -4851,7 +4851,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPennyBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": true,
 			},
         },
 
@@ -4893,7 +4893,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasNatGeoBook": true,
-				"HasFlag: |contains={{ModId}}_ReadNatGeoBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": false,
 			},
 		},
 	
@@ -4905,7 +4905,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNatGeoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": true,
 			},
 		},
 
@@ -4942,7 +4942,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNatGeoBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": true,
 			},
         },
 
@@ -4984,7 +4984,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasNavBook": true,
-				"HasFlag: |contains={{ModId}}_ReadNavBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": false,
 			},
 		},
 	
@@ -4996,7 +4996,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNavBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": true,
 			},
 		},
 
@@ -5031,7 +5031,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadNavBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": true,
 			},
         },
 
@@ -5073,7 +5073,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasTeenagerBook": true,
-				"HasFlag: |contains={{ModId}}_ReadTeenagerBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": false,
 			},
 		},
 	
@@ -5085,7 +5085,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadTeenagerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": true,
 			},
 		},
 
@@ -5120,7 +5120,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadTeenagerBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": true,
 			},
         },
 
@@ -5162,7 +5162,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasPHBBook": true,
-				"HasFlag: |contains={{ModId}}_ReadPHBBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": false,
 			},
 		},
 	
@@ -5174,7 +5174,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPHBBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": true,
 			},
 		},
 
@@ -5208,7 +5208,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPHBBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": true,
 			},
         },
 
@@ -5250,7 +5250,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasStepdadBook": true,
-				"HasFlag: |contains={{ModId}}_ReadStepdadBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStepdadBook": false,
 			},
 		},
 	
@@ -5262,7 +5262,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStepdadBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStepdadBook": true,
 			},
 		},
 
@@ -5297,7 +5297,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStepdadBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStepdadBook": true,
 			},
         },
 
@@ -5339,7 +5339,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasPrincessBook": true,
-				"HasFlag: |contains={{ModId}}_ReadPrincessBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": false,
 			},
 		},
 	
@@ -5351,7 +5351,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPrincessBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": true,
 			},
 		},
 
@@ -5388,7 +5388,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadPrincessBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": true,
 			},
         },
 
@@ -5430,7 +5430,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasReadersDigestBook": true,
-				"HasFlag: |contains={{ModId}}_ReadReadersDigestBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": false,
 			},
 		},
 	
@@ -5442,7 +5442,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadReadersDigestBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": true,
 			},
 		},
 
@@ -5476,7 +5476,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadReadersDigestBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": true,
 			},
         },
 
@@ -5541,7 +5541,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasElliotPlanetBook": true,
-				"HasFlag: |contains={{ModId}}_ReadElliotPlanetBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": false,
 			},
 		},
 	
@@ -5553,7 +5553,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotPlanetBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": true,
 			},
 		},
 
@@ -5589,7 +5589,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadElliotPlanetBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": true,
 			},
         },
 
@@ -5631,7 +5631,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSolarionBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSolarionBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": false,
 			},
 		},
 	
@@ -5643,7 +5643,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSolarionBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": true,
 			},
 		},
 
@@ -5680,7 +5680,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSolarionBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": true,
 			},
         },
 
@@ -5722,7 +5722,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasStyleBook": true,
-				"HasFlag: |contains={{ModId}}_ReadStyleBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": false,
 			},
 		},
 	
@@ -5734,7 +5734,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStyleBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": true,
 			},
 		},
 
@@ -5769,7 +5769,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStyleBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": true,
 			},
         },
 
@@ -5811,7 +5811,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasCareBook": true,
-				"HasFlag: |contains={{ModId}}_ReadCareBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCareBook": false,
 			},
 		},
 	
@@ -5823,7 +5823,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCareBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCareBook": true,
 			},
 		},
 
@@ -5857,7 +5857,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadCareBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCareBook": true,
 			},
         },
 
@@ -5899,7 +5899,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasChimneyBook": true,
-				"HasFlag: |contains={{ModId}}_ReadChimneyBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": false,
 			},
 		},
 	
@@ -5911,7 +5911,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadChimneyBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": true,
 			},
 		},
 
@@ -5946,7 +5946,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadChimneyBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": true,
 			},
         },
 
@@ -5988,7 +5988,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSecondGradeBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSecondGradeBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": false,
 			},
 		},
 	
@@ -6000,7 +6000,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSecondGradeBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": true,
 			},
 		},
 
@@ -6034,7 +6034,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSecondGradeBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": true,
 			},
         },
 
@@ -6076,7 +6076,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasUFOBook": true,
-				"HasFlag: |contains={{ModId}}_ReadUFOBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedUFOBook": false,
 			},
 		},
 	
@@ -6088,7 +6088,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadUFOBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedUFOBook": true,
 			},
 		},
 
@@ -6124,7 +6124,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadUFOBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedUFOBook": true,
 			},
         },
 
@@ -6166,7 +6166,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasSoldierBook": true,
-				"HasFlag: |contains={{ModId}}_ReadSoldierBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": false,
 			},
 		},
 	
@@ -6178,7 +6178,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSoldierBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": true,
 			},
 		},
 
@@ -6214,7 +6214,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadSoldierBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": true,
 			},
         },
 
@@ -6256,7 +6256,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasStopJojaBook": true,
-				"HasFlag: |contains={{ModId}}_ReadStopJojaBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStopJojaBook": false,
 			},
 		},
 	
@@ -6268,7 +6268,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStopJojaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStopJojaBook": true,
 			},
 		},
 
@@ -6303,7 +6303,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadStopJojaBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStopJojaBook": true,
 			},
         },
 
