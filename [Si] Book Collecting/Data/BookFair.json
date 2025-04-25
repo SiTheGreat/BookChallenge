@@ -459,21 +459,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Penny",
 		"Entries": {
-			"spring_9": "730 Trailer 6 5 0/820 Town 52 24 1/1310 Town 68 30 0/1520 Town 60 33 0/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Penny",
-		"Entries": {
-			"spring_9": "730 Trailer 6 5 0/820 Town 53 24 1/1310 Town 68 30 0/1520 Town 60 33 0/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"spring_9": "710 Trailer 6 5 0/740 Town 53 24 1/1110 Town 68 30 0/1320 Town 60 33 0/1620 Town 17 90 3 penny_wave_left/1750 Forest 92 20 3 penny_wave_left/1830 Trailer 4 9 1 penny_sleep",
 		},
 	},
 
@@ -481,21 +467,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Jas",
 		"Entries": {
-			"spring_9": "730 Town 57 25 0/1320 Town 58 31 1/1540 Town 62 27 1/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Jas",
-		"Entries": {
-			"spring_9": "730 Town 55 25 0/1320 Town 56 31 1/1540 Town 62 27 1/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"spring_9": "730 Town 55 25 0/1220 Town 58 31 1/1340 Town 62 27 1/1620 Town 16 91 0/1750 AnimalShop 1 7 3 jas_sleep",
 		},
 	},
 
@@ -503,21 +475,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Vincent",
 		"Entries": {
-			"spring_9": "750 Town 58 25 0/1310 Town 57 28 1/1530 Town 54 30 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Vincent",
-		"Entries": {
-			"spring_9": "750 Town 56 25 0/1310 Town 55 28 1/1530 Town 52 30 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"spring_9": "750 Town 56 25 0/1250 Town 57 28 1/1530 Town 54 30 3/1620 Town 15 90 1/1740 SamHouse 4 8 0/2000 SamHouse 8 22 3 vincent_sleep",
 		},
 	},
 
@@ -530,44 +488,13 @@
 		"When": {
 				"HasSeenEvent:hostPlayer |contains=6497428": true,
 		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Leo",
-		"Entries": {
-			"spring_9": "0 LeoTreeHouse 2 2 0/740 Town 62 33 0/1330 Town 60 23 3/1540 Town 57 28 1/1620 Mountain 30 9 3 \"Strings\\schedules\\Leo:dinner\"/2000 LeoTreeHouse 2 5 3/2200 LeoTreeHouse 5 4 1 leo_sleep",
-		},
-		"When": {
-				"HasSeenEvent:hostPlayer |contains=6497428": true,
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		},
 	},
 
 	{
 		"Action": "EditData",
 		"Target": "Characters/schedules/Elliott",
 		"Entries": {
-			"spring_9": "720 Town 70 28 3/1410 Town 53 23 3/1550 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Elliott",
-		"Entries": {
-			"spring_9": "720 Town 70 28 3/1410 Town 53 23 3/1550 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"spring_9": "620 Town 70 28 3/1410 Town 53 23 3/1550 ElliottHouse 7 7 2/2000 ElliottHouse 1 5 0/2400 ElliottHouse 13 4 1 elliott_sleep",
 		},
 	},
 
@@ -575,21 +502,7 @@
 		"Action": "EditData",
 		"Target": "Characters/schedules/Leah",
 		"Entries": {
-			"spring_9": "630 LeahHouse 3 7 3 leah_sculpt/710 Town 64 23 1/1410 Town 52 23 1/1550 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Leah",
-		"Entries": {
-			"spring_9": "630 LeahHouse 3 7 3 leah_sculpt/710 Town 64 23 1/1410 Town 52 23 1/1550 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+			"spring_9": "620 LeahHouse 3 7 3 leah_sculpt/640 Town 64 23 1/1410 Town 52 23 1/1550 LeahHouse 8 5 0/2200 LeahHouse 13 10 2/2400 LeahHouse 2 4 3 leah_sleep",
 		},
 	},
 
@@ -598,20 +511,6 @@
 		"Target": "Characters/schedules/Lewis",
 		"Entries": {
 			"spring_9": "750 ManorHouse 8 5 0/810 Town 62 88 0/940 Town 65 86 3 lewis_garden/1020 Town 61 21 2/1540 ManorHouse 7 5 0 square_5_1_0/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Characters/schedules/Lewis",
-		"Entries": {
-			"spring_9": "750 ManorHouse 8 5 0/810 Town 62 88 0/940 Town 65 86 3 lewis_garden/1020 Town 61 21 2/1540 ManorHouse 7 5 0 square_5_1_0/2100 ManorHouse 3 6 0/2200 ManorHouse 22 4 1 lewis_sleep",
-		},
-		"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
 		},
 	},
 

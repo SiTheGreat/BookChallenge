@@ -254,6 +254,7 @@
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Penny",
 		"Entries": {
+			"AcceptGift_(O){{ModId}}_SecondGradeBook": "{{i18n:Si.BC.Penny.SecondGrade}}",
 			"AcceptGift_fantasy_book": "{{i18n:Si.BC.Penny.fantasy}}",
 			"AcceptGift_nature_book": "{{i18n:Si.BC.Penny.nature}}",
 			"AcceptGift_medical_book": "{{i18n:Si.BC.Penny.medical}}",
