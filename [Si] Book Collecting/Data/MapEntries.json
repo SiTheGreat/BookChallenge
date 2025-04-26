@@ -696,60 +696,21 @@
 
 		// BookkeepingBook
 
-		// {
-		// 	"Action": "EditData",
-		// 	"Target": "Data/TriggerActions",
-		// 	"Entries": {
-		// 		"{{ModId}}_BookkeepingBookTrigger": {
-		// 			"Id": "{{ModId}}_BookkeepingBookTrigger",
-		// 			"MarkActionApplied": true,
-		// 			"Trigger": "Manual",
-		// 			"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasBookkeepingBook",
-		// 			"Actions": [
-		// 				"AddItem {{ModId}}_BookkeepingBookNote",
-		// 				"AddMail Current {{ModId}}_HasBookkeepingBook",
-		// 			]
-		// 		}
-		// 	},
-		// },
-
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/SeedShop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		// 		"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
-		// 	},
-		// 	"Priority": "Late",
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 27, "Y": 24 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/SeedShop",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		// 		"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
-		// 	},
-		// 	"Priority": "Late",
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 23, "Y": 13 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_BookkeepingBookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"When": {
+					"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
+			},
+			"TargetField": [ "SeedShop", "Items" ],
+			"Entries":{
+				"{{ModId}}_SandyBook": {
+					"ItemId": "(O){{ModId}}_BookkeepingBookNote",
+					"AvailableStock": 1,
+					"PerItemCondition": "PLAYER_FRIENDSHIP_POINTS Current Pierre 2000",
+				},
+			},
+		},
 
 		// DarkroomBook
 

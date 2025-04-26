@@ -1129,24 +1129,23 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
-						"sold_book",
 					],
 				}
 			}
 		},
 
-		// {
-		// 	"Action": "EditData",
-		// 	"Target": "Data/Objects",
-		// 	"TargetField": [ "{{ModId}}_BookkeepingBookNote", "ContextTags" ],
-		// 	"Entries": {
-		// 		"unread_book": "unread_book",
-		// 	},
-		// 	"When": {
-		// 		"HasFlag: |contains={{ModId}}_HasBookkeepingBook": true,
-		// 		"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
-		// 	},
-		// },
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_BookkeepingBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": "unread_book",
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_HasBookkeepingBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
+			},
+		},
 	
 		{
 			"Action": "EditData",
