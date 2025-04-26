@@ -28,6 +28,7 @@
 			"Target": "Maps/Saloon",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -46,6 +47,7 @@
 			"Target": "Maps/Saloon",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -83,6 +85,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -101,6 +104,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSonataBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -138,6 +142,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNeuralBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -156,6 +161,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNeuralBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -193,6 +199,7 @@
 			"Target": "Maps/AdventureGuild",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -211,6 +218,7 @@
 			"Target": "Maps/AdventureGuild",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -248,6 +256,7 @@
 			"Target": "Maps/Hospital",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -266,6 +275,7 @@
 			"Target": "Maps/Hospital",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -303,6 +313,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -321,6 +332,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -358,6 +370,7 @@
 			"Target": "Maps/ArchaeologyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -376,6 +389,7 @@
 			"Target": "Maps/ArchaeologyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedArchGuide": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -413,6 +427,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -431,6 +446,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -468,6 +484,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -486,6 +503,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -523,6 +541,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -541,6 +560,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBetterHomesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -581,6 +601,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -602,6 +623,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_TowerFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotTowerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -639,6 +661,7 @@
 			"Target": "Maps/Seedshop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -657,6 +680,7 @@
 			"Target": "Maps/Seedshop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedYobaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -694,6 +718,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -712,6 +737,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -749,6 +775,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDarkroomBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -767,6 +794,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDarkroomBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -804,6 +832,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -822,6 +851,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -862,6 +892,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -883,6 +914,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_StationFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotStationBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -920,6 +952,7 @@
 			"Target": "Maps/Tent",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -938,6 +971,7 @@
 			"Target": "Maps/Tent",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCampfireBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -975,6 +1009,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -993,6 +1028,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChickenBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1030,6 +1066,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCookiesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1048,6 +1085,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCookiesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1085,6 +1123,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1103,6 +1142,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1140,6 +1180,7 @@
 			"Target": "Maps/WitchHut",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1158,6 +1199,7 @@
 			"Target": "Maps/WitchHut",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWitchBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1195,6 +1237,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCoalminerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1213,6 +1256,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCoalminerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1250,6 +1294,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1268,6 +1313,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1305,6 +1351,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedKneeBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1323,6 +1370,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedKneeBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1360,6 +1408,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1378,6 +1427,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1415,6 +1465,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1433,6 +1484,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1470,6 +1522,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1488,6 +1541,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedToolboxBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1525,6 +1579,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -1544,6 +1599,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -1563,6 +1619,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -1582,6 +1639,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFableBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -1620,6 +1678,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1638,6 +1697,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFernBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1675,6 +1735,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1693,6 +1754,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1730,6 +1792,7 @@
 			"Target": "Maps/AdventureGuild",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1748,6 +1811,7 @@
 			"Target": "Maps/AdventureGuild",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCloakBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1785,6 +1849,7 @@
 			"Target": "Maps/Blacksmith",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1803,6 +1868,7 @@
 			"Target": "Maps/Blacksmith",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFireproofingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1875,6 +1941,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedDanceBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1893,6 +1960,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedDanceBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1930,6 +1998,7 @@
 			"Target": "Maps/SunRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedTeaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1948,6 +2017,7 @@
 			"Target": "Maps/SunRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -1985,6 +2055,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2003,6 +2074,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2040,6 +2112,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedRadioBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2058,6 +2131,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedRadioBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2095,6 +2169,7 @@
 			"Target": "Maps/ManorHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2113,6 +2188,7 @@
 			"Target": "Maps/ManorHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGoldBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2150,6 +2226,7 @@
 			"Target": "Maps/WizardHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2168,6 +2245,7 @@
 			"Target": "Maps/Custom_WizardBasement",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCleanSpellsBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2205,6 +2283,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedOverbearingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2223,6 +2302,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedOverbearingBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2260,6 +2340,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2278,6 +2359,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2326,40 +2408,6 @@
 			},
 		},
 
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/Sewer",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 19 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
-		// {
-		// 	"Action": "EditMap",
-		// 	"Target": "Maps/Sewer",
-		// 	"When": {
-		// 		"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-		// 	},
-		// 	"MapTiles": [
-		// 		{
-		// 			"Position": { "X": 26, "Y": 19 },
-		// 			"Layer": "Buildings",
-		// 			"SetProperties": {
-		// 				"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Human101BookTrigger"
-		// 			}
-		// 		},
-		// 	],
-		// },
-
 		// HumanLingoBook
 
 		{
@@ -2384,6 +2432,7 @@
 			"Target": "Maps/Mine",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2402,6 +2451,7 @@
 			"Target": "Maps/Mine",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedHumanLingoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2439,6 +2489,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2457,6 +2508,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2494,6 +2546,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -2513,6 +2566,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -2532,6 +2586,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -2551,6 +2606,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -2589,6 +2645,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedLandBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2607,6 +2664,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLandBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2644,6 +2702,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPulmonaryBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2662,6 +2721,7 @@
 			"Target": "Maps/HarveyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPulmonaryBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2718,6 +2778,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -2737,6 +2798,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -2756,6 +2818,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -2775,6 +2838,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCastleBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -2813,6 +2877,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2831,6 +2896,7 @@
 			"Target": "Maps/LeahHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2868,6 +2934,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2886,6 +2953,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMarnieLogBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2923,6 +2991,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondMarriageBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2941,6 +3010,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondMarriageBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2978,6 +3048,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedMusclesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -2996,6 +3067,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedMusclesBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3033,6 +3105,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3052,6 +3125,7 @@
 			"Target": "Maps/Trailer", // Before house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3071,6 +3145,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3090,6 +3165,7 @@
 			"Target": "Maps/Trailer_Big", // After house
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3128,6 +3204,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3146,6 +3223,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3183,6 +3261,7 @@
 			"Target": "Maps/FishShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3201,6 +3280,7 @@
 			"Target": "Maps/Custom_WillyRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedNavBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3239,6 +3319,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3257,6 +3338,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3294,6 +3376,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3312,6 +3395,7 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3349,6 +3433,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStepdadBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3367,6 +3452,7 @@
 			"Target": "Maps/ScienceHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStepdadBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3404,6 +3490,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3422,6 +3509,7 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3459,6 +3547,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3477,6 +3566,7 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3517,6 +3607,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3538,6 +3629,7 @@
 				"HasSeenEvent: |contains=39": true,
 				"HasSeenEvent: |contains={{ModId}}_BookType": true,
 				"HasFlag: |contains={{ModId}}_PlanetFlag": false,
+				"HasFlag: |contains={{ModId}}_ReceivedElliotPlanetBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3575,6 +3667,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3594,6 +3687,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3613,6 +3707,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3632,6 +3727,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSolarionBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3670,6 +3766,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3688,6 +3785,7 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStyleBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3744,6 +3842,7 @@
 			"Target": "Maps/SandyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3762,6 +3861,7 @@
 			"Target": "Maps/SandyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedChimneyBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3799,6 +3899,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3818,6 +3919,7 @@
 			"Target": "Maps/Trailer", // Before House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": false,
 				"HasSeenEvent: |contains=611173": false,
 			},
 			"Priority": "Late",
@@ -3837,6 +3939,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3856,6 +3959,7 @@
 			"Target": "Maps/Trailer_Big", // After House
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSecondGradeBook": false,
 				"HasSeenEvent: |contains=611173": true,
 			},
 			"Priority": "Late",
@@ -3894,6 +3998,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedUFOBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3912,6 +4017,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedUFOBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -3949,6 +4055,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": false,
 				"HasSeenEvent: |contains=100": true,
 			},
 			"Priority": "Late",
@@ -3968,6 +4075,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": false,
 				"HasSeenEvent: |contains=100": true,
 			},
 			"Priority": "Late",
@@ -4006,6 +4114,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedStopJojaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -4024,6 +4133,7 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedStopJojaBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
