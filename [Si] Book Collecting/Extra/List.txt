@@ -144,45 +144,45 @@ fiction: fiction, dnd, magic, guild, graphicnovel_book, comic_book, humor_book
 
 Vanilla
 
-- Astronomic Magazine [Maru]
-- National Geography [Demetrius]
-- DMG [Sebastian]
-- PHB [Sebastian]
-- The Fine Art Of Wood Joinery [Robin] (also loved by Leah)
+- Astronomic Magazine [Maru] sold_book
+- National Geography [Demetrius] sold_book
+- DMG [Sebastian] sold_book
+- PHB [Sebastian] sold_book
+- The Fine Art Of Wood Joinery [Robin] (also loved by Leah) sold_book
 - The Engineer's Toolbox [Maru] (also loved by clint) (basement?)
 - C# Essentials [Sebastian] (make this book yellow)
 
 - Welcome Home: A Soldier's Guide to Returning to Civilian Life [Kent]
-- The Amazing Aardvark-Man [Sam]; comic book
-- The Bat On The Mat [Vincent]; idea from Rat: Does it happen to be about a vampire that gets trapped on a welcome mat because, though invited, it's not technically part of the house?
+- The Amazing Aardvark-Man [Sam]; comic book sold_book
+- The Bat On The Mat [Vincent]; idea from Rat: Does it happen to be about a vampire that gets trapped on a welcome mat because, though invited, it's not technically part of the house? sold_book
 - Better Homes and Gardens New Cook Book [Jodi]
 
 - The Princess And The Sword [Jas]
 - Chicken Rearing for Dummies [Shane] ('what? like you weren't a dummy the first time you tried to raise a chicken.')
 - Marnie's Logbook [Marnie]
 
-- Marketing Art [Leah]
+- Marketing Art [Leah] sold_book
 
 - Book of Yoba [Pam]; after getting new house
-- Lessons in Bus Driving [Pam]
-- The Mystery Of Firebrook Manor [Penny]
+- Lessons in Bus Driving [Pam] sold_book
+- The Mystery Of Firebrook Manor [Penny] sold_book
 
-- The Language of Flowers [Evelyn] (also loved by Sandy)
-- Reader's Digest [George]
+- The Language of Flowers [Evelyn] (also loved by Sandy) sold_book
+- Reader's Digest [George] sold_book
 - Gridball Rulebook [Alex]
 
 - Fine Capes and Cloaks [Marlon]
-- Adventurer Magazine [Gil]; reward after all monster goals complete
+- Adventurer Magazine [Gil]; reward after all monster goals complete sold_book
 - The Archaeologist's Field Guide [Gunther]
 - Housekeeping Charms & Spells [Wizard]
 
-- How to Train Your Guinea Pig [Abigail]
-- Fern Island Travel Brochure [Caroline]
-- Bookkeeping for Local Stores [Pierre]
+- How to Train Your Guinea Pig [Abigail] sold_book
+- Fern Island Travel Brochure [Caroline] sold_book
+- Bookkeeping for Local Stores [Pierre] sold_book
 
 - Crystallic Symbolism [Emily]
 - Style Magazine [Haley]
-- A Tale Of Two Chimneys [Sandy]
+- A Tale Of Two Chimneys [Sandy] sold by sandy
 
 - Adventures In Healing: The Field Medic's Handbook [Harvey]
 - Fireproofing Your Workshop [Clint]

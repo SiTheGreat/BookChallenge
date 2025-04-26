@@ -13,7 +13,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{BooksellerBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\"",
 		    },
         },
 	},

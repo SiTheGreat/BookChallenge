@@ -300,30 +300,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_AdvMagBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasAdvMagBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_AdvMagBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasAdvMagBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_AdvMagBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedAdvMagBook": true,
@@ -477,30 +478,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_AardvarkBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasAardvarkBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_AardvarkBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasAardvarkBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_AardvarkBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedAardvarkBook": true,
@@ -656,30 +658,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_AstroBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasAstroBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_AstroBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasAstroBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedAstroBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_AstroBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedAstroBook": true,
@@ -746,30 +749,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_BatMatBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasBatMatBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_BatMatBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasBatMatBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_BatMatBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedBatMatBook": true,
@@ -1125,30 +1129,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_BookkeepingBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasBookkeepingBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_BookkeepingBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasBookkeepingBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_BookkeepingBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": true,
@@ -2211,30 +2216,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_DMGBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasDMGBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_DMGBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasDMGBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedDMGBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_DMGBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedDMGBook": true,
@@ -2566,30 +2572,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_FernBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasFernBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedFernBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_FernBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasFernBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedFernBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_FernBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedFernBook": true,
@@ -2654,30 +2661,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_WoodBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasWoodBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_WoodBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasWoodBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedWoodBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_WoodBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedWoodBook": true,
@@ -3631,30 +3639,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_GuineaBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasGuineaBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_GuineaBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasGuineaBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_GuineaBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedGuineaBook": true,
@@ -3899,30 +3908,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_FlowerLingoBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasFlowerLingoBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_FlowerLingoBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasFlowerLingoBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_FlowerLingoBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedFlowerLingoBook": true,
@@ -3989,30 +3999,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_BusBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasBusBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_BusBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasBusBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedBusBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_BusBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedBusBook": true,
@@ -4433,30 +4444,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_MarketArtBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasMarketArtBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_MarketArtBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasMarketArtBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_MarketArtBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedMarketArtBook": true,
@@ -4790,30 +4802,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_PennyBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasPennyBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_PennyBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasPennyBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedPennyBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_PennyBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedPennyBook": true,
@@ -4879,30 +4892,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_NatGeoBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasNatGeoBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_NatGeoBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasNatGeoBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_NatGeoBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedNatGeoBook": true,
@@ -5148,30 +5162,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_PHBBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasPHBBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_PHBBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasPHBBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedPHBBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_PHBBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedPHBBook": true,
@@ -5416,30 +5431,31 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"bc_book",
+						"sold_book",
 					],
 				}
 			}
 		},
 
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [ "{{ModId}}_ReadersDigestBookNote", "ContextTags" ],
-			"Entries": {
-				"unread_book": "unread_book",
-			},
-			"When": {
-				"HasFlag: |contains={{ModId}}_HasReadersDigestBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": false,
-			},
-		},
+		// {
+		// 	"Action": "EditData",
+		// 	"Target": "Data/Objects",
+		// 	"TargetField": [ "{{ModId}}_ReadersDigestBookNote", "ContextTags" ],
+		// 	"Entries": {
+		// 		"unread_book": "unread_book",
+		// 	},
+		// 	"When": {
+		// 		"HasFlag: |contains={{ModId}}_HasReadersDigestBook": true,
+		// 		"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": false,
+		// 	},
+		// },
 	
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_ReadersDigestBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"sold_book": null,
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedReadersDigestBook": true,

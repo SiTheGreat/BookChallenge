@@ -212,7 +212,7 @@
 						"ItemId": "RANDOM_ITEMS (O)",
                 		"MaxItems": "{{NonfictionShopBooks}}",
 						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target business_book\" \"ITEM_CONTEXT_TAG Target guide_book\" \"ITEM_CONTEXT_TAG Target nonfiction_book\"",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target business_book read_book\" \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target nonfiction_book read_book\" \"ITEM_CONTEXT_TAG Target sold_book read_book\"",
 					},
 				],
 			},
