@@ -39,7 +39,7 @@
 
 		{
 			"Name": "BooksellerBooks",
-			"Value": "1",
+			"Value": "2",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock0": false,
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
