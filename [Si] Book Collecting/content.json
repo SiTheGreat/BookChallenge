@@ -399,32 +399,32 @@
 
 	// Hidden Event //////////////////////////////////////////////////////////
 
-	{
-		"Action": "EditData",
-		"Target": "Data/Events/Farm",
-		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-		},
-		"Entries": {
-			"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
-		}
-	},
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/Events/Farm",
+	// 	"When": {
+	// 			"HasWalletItem |contains=MagnifyingGlass": true,
+	// 	},
+	// 	"Entries": {
+	// 		"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
+	// 	}
+	// },
 
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
-			"{{ModId}}_MagGlass2": {
-				"Id": "{{ModId}}_MagGlass2",
-				"MarkActionApplied": true,
-				"Trigger": "DayEnding",
-				"Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MagGlass1",
-				"Actions": [
-					"AddMail Current {{ModId}}_MagGlass3",
-				]
-			}
-		},
-	},
+	// {
+	// 	"Action": "EditData",
+	// 	"Target": "Data/TriggerActions",
+	// 	"Entries": {
+	// 		"{{ModId}}_MagGlass2": {
+	// 			"Id": "{{ModId}}_MagGlass2",
+	// 			"MarkActionApplied": true,
+	// 			"Trigger": "DayEnding",
+	// 			"Condition": "PLAYER_STAT Current notesFound 1",
+	// 			"Actions": [
+	// 				"AddMail Current {{ModId}}_MagGlass3",
+	// 			]
+	// 		}
+	// 	},
+	// },
 
 	// Includes //////////////////////////////////////////////////////////
 
@@ -434,7 +434,7 @@
 		"FromFile": "Data/Objects.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -444,7 +444,7 @@
 		"FromFile": "Data/SecretNotes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -454,7 +454,7 @@
 		"FromFile": "Data/MapEntries.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -464,7 +464,7 @@
 		"FromFile": "Data/Events.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -474,7 +474,7 @@
 		"FromFile": "Data/GiftTastes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -484,7 +484,7 @@
 		"FromFile": "Data/GiftResponses.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -494,7 +494,7 @@
 		"FromFile": "Data/Shops.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasFlag: |contains={{ModId}}_MagGlass3": true,
+				"HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -503,9 +503,9 @@
 		"Action": "Include",
 		"FromFile": "Data/BookFair.json",
 		"When": {
-			"HasFlag: |contains={{ModId}}_StartBookFair": true,
 			"HasWalletItem |contains=MagnifyingGlass": true,
-			"HasFlag: |contains={{ModId}}_MagGlass3": true,
+			"HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_StartBookFair": true,
 		},
 	},
 	
