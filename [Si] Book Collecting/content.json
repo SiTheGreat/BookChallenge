@@ -39,8 +39,19 @@
 
 		{
 			"Name": "BooksellerBooks",
-			"Value": "5",
+			"Value": "1",
 			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock0": false,
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "BooksellerBooks",
+			"Value": "4",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock0": true,
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
 			},
@@ -302,7 +313,7 @@
 
 		{
 			"Name": "RecipeShopBooks",
-			"Value": 14,
+			"Value": 12,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -369,6 +380,22 @@
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
+			"{{ModId}}_StockLimit0": {
+				"Id": "{{ModId}}_StockLimit0",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_STAT Current bc_hasbooks 10",
+				"Actions": [
+					"AddMail All {{ModId}}_BookStock0",
+				]
+			}
+		},
+	},
+
+	{
+		"Action": "EditData",
+		"Target": "Data/TriggerActions",
+		"Entries": {
 			"{{ModId}}_StockLimit1": {
 				"Id": "{{ModId}}_StockLimit1",
 				"MarkActionApplied": true,
@@ -396,35 +423,6 @@
 			}
 		},
 	},
-
-	// Hidden Event //////////////////////////////////////////////////////////
-
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/Events/Farm",
-	// 	"When": {
-	// 			"HasWalletItem |contains=MagnifyingGlass": true,
-	// 	},
-	// 	"Entries": {
-	// 		"{{ModId}}_MagGlass1/f Elliott 100": "none/-1000 -1000/farmer -100 -100 2/end",
-	// 	}
-	// },
-
-	// {
-	// 	"Action": "EditData",
-	// 	"Target": "Data/TriggerActions",
-	// 	"Entries": {
-	// 		"{{ModId}}_MagGlass2": {
-	// 			"Id": "{{ModId}}_MagGlass2",
-	// 			"MarkActionApplied": true,
-	// 			"Trigger": "DayEnding",
-	// 			"Condition": "PLAYER_STAT Current notesFound 1",
-	// 			"Actions": [
-	// 				"AddMail Current {{ModId}}_MagGlass3",
-	// 			]
-	// 		}
-	// 	},
-	// },
 
 	// Includes //////////////////////////////////////////////////////////
 
