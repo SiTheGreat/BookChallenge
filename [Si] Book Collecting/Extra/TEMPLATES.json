@@ -50,7 +50,7 @@
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasinsertBook": true,
-				"HasFlag: |contains={{ModId}}_ReadinsertBook": false,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": false,
 			},
 		},
 	
@@ -62,7 +62,7 @@
 				"unread_book": null,
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
 			},
 		},
 
@@ -96,7 +96,7 @@
                 "read_book": "read_book",
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReadinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
 			},
         },
 
@@ -124,6 +124,7 @@
 			"Target": "Maps/BusStop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -142,6 +143,7 @@
 			"Target": "Maps/BusStop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
@@ -157,7 +159,7 @@
 
 		// insertBook
 
-		"{{ModId}}_insertBook": {
+		"{{ModId}}_insertBookSNF": {
 			"Title": "{{i18n:Si.BC.insertBookName}}",
 			"Contents": "{{i18n:Si.BC.insertBookContent}}",
 			"ObjectId": "(O){{ModId}}_insertBookNote",
@@ -167,7 +169,7 @@
 			"NoteTextColor": "rgb(12, 12, 80)",
 			// "Conditions": "PLAYER_HEARTS Current Abigail 6"
 			"ActionsOnFirstRead": [
-				"AddMail Current {{ModId}}_ReadinsertBook",
+				"AddMail Current {{ModId}}_ReceivedinsertBook",
 				"IncrementStat bc_hasbooks 1",
 			]
 		},
