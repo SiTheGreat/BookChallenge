@@ -2,20 +2,22 @@
 
 	"Changes": [
 
+	// Hello! If you're looking in this file I assume you're trying to figure out how I did things so you can too. Feel free to copy entries (but change the book/NPC names to your own). The first entry below has some helpful comments in it.
+
 	// Responses //////////////////////////////////////////////////////////
 
 	{
 		"Action": "EditData",
 		"Target": "Characters/Dialogue/Abigail",
 		"Entries": {
-			"AcceptGift_(O){{ModId}}_GuineaBook": "{{i18n:Si.BC.Abigail.Guinea}}",
-			"AcceptGift_business_book": "{{i18n:Si.BC.Abigail.business}}",
-			"AcceptGift_adventure_book": "{{i18n:Si.BC.Abigail.adventure}}",
+			"AcceptGift_(O){{ModId}}_GuineaBook": "{{i18n:Si.BC.Abigail.Guinea}}", // Dialogue specifically for the guinea pig book
+			"AcceptGift_business_book": "{{i18n:Si.BC.Abigail.business}}", // Dialogue for any books with the business_book tag
+			"AcceptGift_adventure_book": "{{i18n:Si.BC.Abigail.adventure}}", // Dialogue for any books with the adventure_book_book tag
 			"AcceptGift_scifi_book": "{{i18n:Si.BC.Abigail.scifi}}",
 			"AcceptGift_mystery_book": "{{i18n:Si.BC.Abigail.mystery}}",
 			"AcceptGift_guild_book": "{{i18n:Si.BC.Abigail.guild}}",
 			"AcceptGift_music_book": "{{i18n:Si.BC.Abigail.music}}",
-			"AcceptGift_bc_book": "{{i18n:Si.BC.Abigail.book}}",
+			"AcceptGift_bc_book": "{{i18n:Si.BC.Abigail.book}}", // Dialogue for any of the above books that don't have tags.
 		},
 	},
 

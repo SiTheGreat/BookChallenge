@@ -354,6 +354,7 @@
 	"Changes": [
 
 	// Note Texture //////////////////////////////////////////////////////////
+	// Load the open book texture image
 	// Dark mode option disabled till I can figure out how to flow textcolor to other mods
 
 	{
@@ -375,6 +376,7 @@
 	// },
 
 	// Stock Limit Triggers //////////////////////////////////////////////////////////
+	// Set flags based on how many books the player has read
 
 	{
 		"Action": "EditData",
@@ -432,7 +434,7 @@
 		"FromFile": "Data/Objects.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				"HasWalletItem |contains=BearsKnowledge": true, // Used to ensure the player has read at least one vanilla secret note before collecting books.
 		},
 	},
 
@@ -503,7 +505,7 @@
 		"When": {
 			"HasWalletItem |contains=MagnifyingGlass": true,
 			"HasWalletItem |contains=BearsKnowledge": true,
-			"HasFlag: |contains={{ModId}}_StartBookFair": true,
+			"HasFlag: |contains={{ModId}}_StartBookFair": true, // Flag is set in Events.json in the Data folder.
 		},
 	},
 	

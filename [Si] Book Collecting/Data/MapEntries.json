@@ -2,6 +2,8 @@
 
 	"Changes": [
 
+	// Hello! If you're looking in this file I assume you're trying to figure out how I did things so you can too. Feel free to copy entries (but change the book names to your own). The first entry below has some helpful comments in it. You can also find an example of a shop entry down in the BookkeepingBook entry if you'd like the player to obtain your book from a specific shop (general shop entries are in the Shops.json file).
+
 	// Content //////////////////////////////////////////////////////////
 
 		// SaltBook
@@ -14,10 +16,10 @@
 					"Id": "{{ModId}}_SaltBookTrigger",
 					"MarkActionApplied": true,
 					"Trigger": "Manual",
-					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSaltBook",
+					"Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_HasSaltBook", // Once the player has this mailflag (which is in Actions below), the trigger action no longer works, so they can't keep spamming books from the same source.
 					"Actions": [
-						"AddItem {{ModId}}_SaltBookNote",
-						"AddMail Current {{ModId}}_HasSaltBook",
+						"AddItem {{ModId}}_SaltBookNote", // Adds the SNF book object to the player
+						"AddMail Current {{ModId}}_HasSaltBook", // Mailflag that the book has been obtained from this trigger action.
 					]
 				}
 			},
@@ -27,16 +29,16 @@
 			"Action": "EditMap",
 			"Target": "Maps/Saloon",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false,
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false, // Most of my books have two EditMap entries, one for SVE and one for non-SVE, due to the map changes between them.
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false, // Mailflag set in the SNF entry (see SecretNotes.json), which is activated when the player reads the book. Prevents this EditMap entry from continuing to affect the tile once the book's been read, so that it's compatible with other map strings/actions/etc.
 			},
-			"Priority": "Late",
+			"Priority": "Late", // Puts this on top of other map strings or actions while active to ensure the player receives the book.
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 16 },
 					"Layer": "Buildings",
 					"SetProperties": {
-						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SaltBookTrigger"
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SaltBookTrigger" // The above trigger action
 					}
 				},
 			],
@@ -700,14 +702,14 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"When": {
-					"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false,
+					"HasFlag: |contains={{ModId}}_ReceivedBookkeepingBook": false, // So the player can only buy the book as long as it hasn't been read yet. Once read, the non-secret note version of the book will join the general pool of books that can be bought from various stores; see Shops.json for more on that.
 			},
 			"TargetField": [ "SeedShop", "Items" ],
 			"Entries":{
-				"{{ModId}}_SandyBook": {
-					"ItemId": "(O){{ModId}}_BookkeepingBookNote",
-					"AvailableStock": 1,
-					"PerItemCondition": "PLAYER_FRIENDSHIP_POINTS Current Pierre 2000",
+				"{{ModId}}_PierreBook": {
+					"ItemId": "(O){{ModId}}_BookkeepingBookNote", // The note version of the book - see Objects.json for how the book objects are set up.
+					"AvailableStock": 1, // Ensures only one copy of the book is available at a time.
+					"PerItemCondition": "PLAYER_FRIENDSHIP_POINTS Current Pierre 2000", // Optional condition for the book to show up.
 				},
 			},
 		},

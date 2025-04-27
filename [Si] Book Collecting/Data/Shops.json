@@ -2,6 +2,8 @@
 
 	"Changes": [
 
+    // Hello! If you're looking in this file I assume you're trying to figure out how I did things so you can too. Feel free to copy entries (but change the book names to your own). The first entry below has some helpful comments in it.
+
 	// Bookseller //////////////////////////////////////////////////////////
 
 	{
@@ -11,9 +13,9 @@
         "Entries":{
             "{{ModId}}_BooksellerBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{BooksellerBooks}}",
-                "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\"",
+                "MaxItems": "{{BooksellerBooks}}", // This is a dynamic token that you can see in the content.json file. It makes the total number of available books change depending on how many books the player has read so far.
+                "AvailableStock": 1, // Ensures only one copy of each book is available at a time.
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\"", // Books with any of these tags can show up.
 		    },
         },
 	},

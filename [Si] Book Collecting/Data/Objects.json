@@ -2,6 +2,8 @@
 
 	"Changes": [
 
+	// Hello! If you're looking in this file I assume you're trying to figure out how I did things so you can too. Feel free to copy entries (but change the book names to your own). The first entry below has some helpful comments in it.
+
 	// Content //////////////////////////////////////////////////////////
 
 		// SaltBook
@@ -9,25 +11,25 @@
 		{
 			"Action": "Load",
 			"Target": "Mods/{{ModId}}/SaltBook",
-			"FromFile": "Data/Assets/SaltBook.png"
+			"FromFile": "Data/Assets/SaltBook.png" // Loads the book sprite image.
 		},
 
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Entries": {
-				"{{ModId}}_SaltBookNote": {
+				"{{ModId}}_SaltBookNote": { // This is the secret note version object of the book. If you're adding book-specific gift tastes, this is NOT the ID you should use. Instead, use the one from the next object entry down below.
 					"Name": "{{ModId}}_SaltBookNote",
-					"DisplayName": "{{i18n:Si.BC.SaltBookName}}",
-					"Description": "{{i18n:Si.BC.SaltBookDesc}}",
-					"Type": "asdf",
+					"DisplayName": "{{i18n:Si.BC.SaltBookName}}", // Title of the book.
+					"Description": "{{i18n:Si.BC.SaltBookDesc}}", // Description of the book. This is NOT the excerpt that the player reads when they open the book; that is defined in the SecretNotes.json entry for the book. This is what you see when you hover over the book when you receive it.
+					"Type": "asdf", // Yes this is a real category lol
 					"Category": 0,
 					"Price": 303,
-					"Texture": "Mods/{{ModId}}/SaltBook",
-					"ExcludeFromShippingCollection": true,
+					"Texture": "Mods/{{ModId}}/SaltBook", // The book sprite that was loaded above.
+					"ExcludeFromShippingCollection": true, // Make sure this is in there.
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"bc_book",
+						"bc_book", // Keep this tag in here, all books (SNF and giftable) should have it. If you want the book to be part of the pool of SNF books that have to be bought at either the Bookseller or Book Fair, add the sold_book tag here too.
 					],
 				}
 			}
@@ -38,11 +40,11 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_SaltBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": "unread_book",
+				"unread_book": "unread_book", // This adds the unread_book tag to the SNF book when it's been obtained but not read yet.
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_HasSaltBook": true,
-				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false,
+				"HasFlag: |contains={{ModId}}_HasSaltBook": true, // Mailflag for 'book has been obtained'.
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false, // Mailflag for 'book has been read'.
 			},
 		},
 	
@@ -51,10 +53,10 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_SaltBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"unread_book": null, // This removes the unread_book tag from the SNF book when it's been read.
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true, // Mailflag for 'book has been read'.
 			},
 		},
 
@@ -63,19 +65,19 @@
 			"Target": "Data/Objects",
 			"Entries": {
 				"{{ModId}}_SaltBook": {
-					"Name": "{{ModId}}_SaltBook",
+					"Name": "{{ModId}}_SaltBook", // This is the giftable version of the book. If you're adding book-specific gift tastes, this is the object ID you want (replace {{ModId}} with Si.BC)
 					"DisplayName": "{{i18n:Si.BC.SaltBookName}}",
 					"Description": "{{i18n:Si.BC.SaltBookDesc}}",
 					"Type": "asdf",
 					"Category": 0,
 					"Price": 809,
-					"Texture": "Mods/{{ModId}}/SaltBook",
-					"ExcludeFromShippingCollection": true,
+					"Texture": "Mods/{{ModId}}/SaltBook", // You can use the same book sprite for both the SNF book and the giftable book.
+					"ExcludeFromShippingCollection": true, // Make sure this is in there.
 					"SpriteIndex": 0,
-					"ContextTags": [
-						"recipe_book",
-						"nonfiction_book",
-						"bc_book",
+					"ContextTags": [ // This is where you add genre tags to the book.
+						"recipe_book", // Can add as many tags as you'd like, but keep the most relevant/specific ones at the top.
+						"nonfiction_book", // Generally a good idea to specify either fiction_book or nonfiction_book, but not required.
+						"bc_book", // Make sure this is in here, at the bottom.
 					],
 				}
 			}
@@ -86,10 +88,10 @@
             "Target": "Data/Objects",
             "TargetField": [ "{{ModId}}_SaltBook", "ContextTags" ],
             "Entries": {
-                "read_book": "read_book",
+                "read_book": "read_book", // This adds the read_book tag to the giftable book when it's been read.
             },
 			"When": {
-				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true, // Mailflag for 'book has been read'.
 			},
         },
 
