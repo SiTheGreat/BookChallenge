@@ -31,7 +31,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{TravellerBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target fiction_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target fiction_book unread_book\" \"ITEM_CONTEXT_TAG Target dnd_book read_book\" \"ITEM_CONTEXT_TAG Target dnd_book unread_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target music_book unread_book\"",
 		    },
         },
 	},

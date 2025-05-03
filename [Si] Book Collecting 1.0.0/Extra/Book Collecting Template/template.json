@@ -1,0 +1,137 @@
+{
+
+	"Changes": [
+
+	// See the Modder's Guide in the Articles Tab of the Book Collecting mod for more info. Files in the Book Collecting mod also have helpful comments in them!
+	// Replace all instances of 'insertBook' with your book's internal name (including the book object sprite, which you have to create for your own book. Feel free to use my book pngs as templates)
+	// I didn't include the shope/mail/map tile entries since those are pretty specific to how I wanted my books to be obtained, but feel free to look at my files if you want to do something similar. It's up to you to decide how you want the player to obtain your books :)
+
+		// Load book sprite
+
+		{
+			"Action": "Load",
+			"Target": "Mods/{{ModId}}/insertBook",
+			"FromFile": "Assets/insertBook.png" // Change path depending your mod's file structure
+		},
+
+		// Create both book objects (remember, each book has 2 object entries!)
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+
+				// Create SNF book object
+				"{{ModId}}_insertBookNote": { // Make sure this name is different from the giftable book's name
+					"Name": "{{ModId}}_insertBookNote",
+					"DisplayName": "Your book title",
+					"Description": "Your book description", // When hovered over in inventory
+					"Type": "asdf", // Yes this is an actual object type
+					"Category": 0,
+					"Price": 303,
+					"Texture": "Mods/{{ModId}}/insertBook", // You can use the same sprite for both book object entries
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"bc_book", // If you want your book to be part of the pool of SNF books randomly sold by the bookseller/book fair, include the sold_book tag here
+					],
+				},
+
+				// Create giftable book object
+				"{{ModId}}_insertBook": { // Make sure this name is different from the SNF book's name
+					"Name": "{{ModId}}_insertBook",
+					"DisplayName": "Your book title",
+					"Description": "Your book description", // When hovered over in inventory
+					"Type": "asdf",
+					"Category": 0,
+					"Price": 303, // Whatever price you want
+					"Texture": "Mods/{{ModId}}/insertBook", // You can use the same sprite for both book object entries
+					"ExcludeFromShippingCollection": true,
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"cool_book", // Add as many genre context tags as you want here. See the Modder's Guide article on the mod page for a list of supported ones
+						"bc_book", // Keep this tag at the bottom of the tags list
+					],
+				},
+
+			}
+		},
+
+		// Add the read_book tag to books that have been read
+
+		{
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [ "{{ModId}}_insertBook", "ContextTags" ],
+            "Entries": {
+                "read_book": "read_book",
+            },
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true, // Mailflag added when book is read by the secret note entry below
+			},
+        },
+
+		// The two entries below will add and remove the unread_book tag
+		// These aren't required, but they are good for just in case the player manages to lose the SNF book and doesn't have another way to get it
+		// To use them you'll have to add the _HasinsertBook flag to whatever event gives the player the book (eg map tile trigger action, mail etc)
+		// Mailflags can have whatever name you want btw; _HasinsertBook and _ReceivedinsertBook are just the mailflag names I decided to use for my books
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": "unread_book",
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_HasinsertBook": true,
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": false,
+			},
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
+			"Entries": {
+				"unread_book": null,
+			},
+			"When": {
+				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
+			},
+		},
+
+		// Create secret note entry
+		// Template entry included with permission from ichortower. Thanks ichor!
+
+		{
+			"Target": "Mods/ichortower.SecretNoteFramework/Notes",
+			"Action": "EditData",
+			"Entries": {
+
+				"{{ModId}}_insertBookSNF": {
+					"Title": "Your book title",
+					"Contents": "Your book excerpt that appears when reading the secret note book",
+					"ObjectId": "(O){{ModId}}_insertBookNote", // Make sure this is the SNF version of the book object
+					"Location": "null", // Keep null if you want to set your book to be obtained in specified ways like shops, mail, map tiles etc. If you want it to be obtainable the way regular secret notes are (chopping trees, digging etc) then see the SNF modpage for a guide on using this field
+					"NoteTexture": "Mods/Si.BC/blankbook", // Keep this line as is if you want to use my pre-loaded open book texture. Change if you use your own. If using mine, be sure to add my mod as a dependency (can be a false dependency if you want to set a 'When Book Collecting is installed' condition for this book)
+					"NoteTextureIndex": 0,
+					"NoteTextColor": "rgb(12, 12, 80)", // Set to whatever color you want, I just happen to like this one
+					"ActionsOnFirstRead": [
+						"AddMail Current {{ModId}}_ReceivedinsertBook", // To append read_book to context tags above. Could also use SNF's built in GSQ if you'd prefer
+						"IncrementStat bc_hasbooks 1", // Keep this line as is so that reading the book counts towards to the total number of books the player has read
+					]
+				},
+
+			}
+
+		},
+
+		// Don't forget to add a way for the player to read the book! Like adding it to shops, sending it in the mail, or placing it on map tiles using Spacecore (or any other methods you come up with). 
+
+	// End //////////////////////////////////////////////////////////
+
+	]
+
+
+}
