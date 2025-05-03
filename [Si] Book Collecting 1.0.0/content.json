@@ -113,7 +113,7 @@
 
 		{
 			"Name": "PierreBooks",
-			"Value": "2",
+			"Value": "1",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -140,7 +140,7 @@
 
 		{
 			"Name": "GuildBooks",
-			"Value": "2",
+			"Value": "1",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -167,7 +167,7 @@
 
 		{
 			"Name": "OceanBooks",
-			"Value": "2",
+			"Value": "1",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
