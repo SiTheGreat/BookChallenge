@@ -95,7 +95,7 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null, // If your SNF book has the sold_book tag, set it to null here instead
+				"unread_book": null, // If your SNF book has the sold_book tag, replace unread_book with sold_book here ("sold_book": null)
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,
