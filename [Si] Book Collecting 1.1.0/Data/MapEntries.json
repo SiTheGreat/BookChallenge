@@ -258,12 +258,33 @@
 			"Target": "Maps/Hospital",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 21, "Y": 14 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Hospital",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedAdvHealBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 13, "Y": 14 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_AdvHealBookTrigger"
@@ -795,12 +816,33 @@
 			"Target": "Maps/SebastianRoom",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 11, "Y": 7 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCSharpBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 12, "Y": 7 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CSharpBookTrigger"
@@ -1086,12 +1128,33 @@
 			"Target": "Maps/HaleyHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 14, "Y": 10 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/HaleyHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedCrystalBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 12, "Y": 8 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_CrystalBookTrigger"
@@ -1257,12 +1320,33 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedLossBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 12, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LossBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedLossBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 17, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_LossBookTrigger"
@@ -1428,6 +1512,27 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SmallBizBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
 				"HasFlag: |contains={{ModId}}_ReceivedSmallBizBook": false,
 			},
 			"Priority": "Late",
@@ -2018,12 +2123,33 @@
 			"Target": "Maps/JoshHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 19, "Y": 7 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GridballBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedGridballBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 5 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GridballBookTrigger"
@@ -3265,12 +3391,33 @@
 			"Target": "Maps/SeedShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 21, "Y": 4 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeenagerBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedTeenagerBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 19, "Y": 3 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_TeenagerBookTrigger"
@@ -3436,12 +3583,33 @@
 			"Target": "Maps/AnimalShop",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": false,
 			},
 			"Priority": "Late",
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 5 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PrincessBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/AnimalShop",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": true,
+				"HasFlag: |contains={{ModId}}_ReceivedPrincessBook": false,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 7, "Y": 4 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_PrincessBookTrigger"
@@ -3962,6 +4130,7 @@
 			"Target": "Maps/SamHouse",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
 				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": false,
 				"HasSeenEvent: |contains=100": true,
 			},
@@ -3969,6 +4138,27 @@
 			"MapTiles": [
 				{
 					"Position": { "X": 1, "Y": 16 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SoldierBookTrigger"
+					}
+				},
+			],
+		},
+
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SamHouse",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=uglynt.town.interiors": false,
+				"HasFlag: |contains={{ModId}}_ReceivedSoldierBook": false,
+				"HasSeenEvent: |contains=100": true,
+			},
+			"Priority": "Late",
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 20 },
 					"Layer": "Buildings",
 					"SetProperties": {
 						"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_SoldierBookTrigger"

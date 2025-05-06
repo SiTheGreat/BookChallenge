@@ -75,13 +75,14 @@
 		// These aren't required, but they are good for just in case the player manages to lose the SNF book and doesn't have another way to get it
 		// To use them you'll have to add the _HasinsertBook flag to whatever event gives the player the book (eg map tile trigger action, mail etc)
 		// Mailflags can have whatever name you want btw; _HasinsertBook and _ReceivedinsertBook are just the mailflag names I decided to use for my books
+		// If you book is part of the sold_book pool that can be sold at the Bookseller/Book Fair in SNF form, you'll only need the second entry, and replace unread_book with sold_books
 
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": "unread_book",
+				"unread_book": "unread_book", // Not needed for SNF books sold in shops (sold_book tag)
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_HasinsertBook": true,
@@ -94,7 +95,7 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_insertBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null,
+				"unread_book": null, // If your SNF book has the sold_book tag, set it to null here instead
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedinsertBook": true,

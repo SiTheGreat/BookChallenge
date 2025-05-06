@@ -29,7 +29,7 @@
 					"ExcludeFromShippingCollection": true, // Make sure this is in there.
 					"SpriteIndex": 0,
 					"ContextTags": [
-						"bc_book", // Keep this tag in here, all books (SNF and giftable) should have it. If you want the book to be part of the pool of SNF books that have to be bought at either the Bookseller or Book Fair, add the sold_book tag here too.
+						"bc_book", // Keep this tag in here, all books (SNF and giftable) should have it. If you want the book to be part of the pool of SNF books that have to be bought at either the Bookseller or Book Fair, add the sold_book tag here too, and make sure to include an entry removing it once the bok's been read.
 					],
 				}
 			}
@@ -40,10 +40,10 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_SaltBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": "unread_book", // This adds the unread_book tag to the SNF book when it's been obtained but not read yet.
+				"unread_book": "unread_book", // This adds the unread_book tag to the SNF book when it's been obtained but not read yet. Not needed for sold_book books.
 			},
 			"When": {
-				"HasFlag: |contains={{ModId}}_HasSaltBook": true, // Mailflag for 'book has been obtained'.
+				"HasFlag: |contains={{ModId}}_HasSaltBook": true, // Mailflag for 'book has been obtained'. Set this in the mail/dialogue/map tile/etc action where the book is obtained.
 				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": false, // Mailflag for 'book has been read'.
 			},
 		},
@@ -53,7 +53,7 @@
 			"Target": "Data/Objects",
 			"TargetField": [ "{{ModId}}_SaltBookNote", "ContextTags" ],
 			"Entries": {
-				"unread_book": null, // This removes the unread_book tag from the SNF book when it's been read.
+				"unread_book": null, // This removes the unread_book tag from the SNF book when it's been read. Set to "sold_book": null if using sold_book above.
 			},
 			"When": {
 				"HasFlag: |contains={{ModId}}_ReceivedSaltBook": true, // Mailflag for 'book has been read'.
