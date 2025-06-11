@@ -515,7 +515,7 @@
 		"FromFile": "Data/Objects.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true, // Used to ensure the player has read at least one vanilla secret note before collecting books.
+				// "HasWalletItem |contains=BearsKnowledge": true, // Used to ensure the player has read at least one vanilla secret note before collecting books.
 		},
 	},
 
@@ -525,7 +525,7 @@
 		"FromFile": "Data/SecretNotes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -535,7 +535,7 @@
 		"FromFile": "Data/MapEntries.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -545,7 +545,7 @@
 		"FromFile": "Data/Events.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -555,7 +555,7 @@
 		"FromFile": "Data/GiftTastes.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -565,7 +565,7 @@
 		"FromFile": "Data/GiftResponses.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -575,7 +575,7 @@
 		"FromFile": "Data/Shops.json",
 		"When": {
 				"HasWalletItem |contains=MagnifyingGlass": true,
-				"HasWalletItem |contains=BearsKnowledge": true,
+				// "HasWalletItem |contains=BearsKnowledge": true,
 		},
 	},
 
@@ -585,7 +585,7 @@
 		"FromFile": "Data/BookFair.json",
 		"When": {
 			"HasWalletItem |contains=MagnifyingGlass": true,
-			"HasWalletItem |contains=BearsKnowledge": true,
+			// "HasWalletItem |contains=BearsKnowledge": true,
 			"HasFlag: |contains={{ModId}}_StartBookFair": true, // Flag is set in Events.json in the Data folder.
 		},
 	},
