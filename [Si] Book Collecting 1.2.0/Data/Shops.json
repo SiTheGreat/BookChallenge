@@ -5,6 +5,8 @@
     // Hello! If you're looking in this file I assume you're trying to figure out how I did things so you can too. Feel free to copy entries (but change the book names to your own). The first entry below has some helpful comments in it.
 
 	// Bookseller //////////////////////////////////////////////////////////
+    // Any read, unread, and sold books (Check the Modders Guide in the modpage Articles tab to see what these tags mean)
+    // Whenever the Bookseller is in town
 
 	{
         "Action": "EditData",
@@ -13,7 +15,7 @@
         "Entries":{
             "{{ModId}}_BooksellerBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{BooksellerBooks}}", // This is a dynamic token that you can see in the content.json file. It makes the total number of available books change depending on how many books the player has read so far.
+                "MaxItems": "{{BooksellerBooks}}", // This is a dynamic token that I set up in the content.json file. It makes the total number of available books change depending on how many books the player has read so far.
                 "AvailableStock": 1, // Ensures only one copy of each book is available at a time.
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\"", // Books with any of these tags can show up.
 		    },
@@ -21,6 +23,8 @@
 	},
 
     // Travelling Cart //////////////////////////////////////////////////////////
+    // Fiction, D&D, humor, relationship, selfhelp, and recipe books
+    // Friday and Sunday (but also any day the Cart is available, so it shows up for other mods)
 
 	{
         "Action": "EditData",
@@ -31,12 +35,14 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{TravellerBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target fiction_book unread_book\" \"ITEM_CONTEXT_TAG Target dnd_book read_book\" \"ITEM_CONTEXT_TAG Target dnd_book unread_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target music_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target fiction_book unread_book\" \"ITEM_CONTEXT_TAG Target dnd_book read_book\" \"ITEM_CONTEXT_TAG Target dnd_book unread_book\" \"ITEM_CONTEXT_TAG Target humor_book read_book\" \"ITEM_CONTEXT_TAG Target humor_book unread_book\" \"ITEM_CONTEXT_TAG Target relationship_book read_book\" \"ITEM_CONTEXT_TAG Target relationship_book unread_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book unread_book\" \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target recipe_book unread_book\"",
 		    },
         },
 	},
 
     // Pierre //////////////////////////////////////////////////////////
+    // Guide and business books
+    // Tuesday and Thursday
 
 	{
         "Action": "EditData",
@@ -50,9 +56,14 @@
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target guide_book unread_book\" \"ITEM_CONTEXT_TAG Target business_book read_book\" \"ITEM_CONTEXT_TAG Target business_book unread_book\"",
 		    },
         },
+        "When": {
+				"DayOfWeek": "Tuesday, Thursday"
+		},
 	},
 
     // Adventurer's Guild //////////////////////////////////////////////////////////
+    // Guild, magic, and history books
+    // Tuesday and Saturday
 
 	{
         "Action": "EditData",
@@ -63,12 +74,17 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{GuildBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book unread_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book unread_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book unread_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target history_book unread_book\"",
 		    },
         },
+        "When": {
+				"DayOfWeek": "Tuesday, Saturday"
+		},
 	},
 
     // Willy //////////////////////////////////////////////////////////
+    // Fish, travel, and culture books
+    // Monday and Wednesday
 
 	{
         "Action": "EditData",
@@ -82,6 +98,72 @@
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target fish_book unread_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book unread_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book unread_book\"",
 		    },
         },
+        "When": {
+				"DayOfWeek": "Monday, Wednesday"
+		},
+	},
+
+    // Robin //////////////////////////////////////////////////////////
+    // Science and craft books
+    // Monday and Thursday
+
+	{
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Carpenter", "Items" ],
+        "Entries":{
+            "{{ModId}}_OceanBooks": {
+                "ItemId": "RANDOM_ITEMS (O)",
+                "MaxItems": "{{CarpenterBooks}}",
+                "AvailableStock": 1,
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target science_book unread_book\" \"ITEM_CONTEXT_TAG Target craft_book read_book\" \"ITEM_CONTEXT_TAG Target craft_book unread_book\"",
+		    },
+        },
+        "When": {
+				"DayOfWeek": "Monday, Thursday"
+		},
+	},
+
+    // Marnie //////////////////////////////////////////////////////////
+    // Nature and animal books
+    // Wednesday and Saturday
+
+	{
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "AnimalShop", "Items" ],
+        "Entries":{
+            "{{ModId}}_OceanBooks": {
+                "ItemId": "RANDOM_ITEMS (O)",
+                "MaxItems": "{{AnimalBooks}}",
+                "AvailableStock": 1,
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target animal_book read_book\" \"ITEM_CONTEXT_TAG Target animal_book unread_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book unread_book\"",
+		    },
+        },
+        "When": {
+				"DayOfWeek": "Wednesday, Saturday"
+		},
+	},
+
+    // Oasis //////////////////////////////////////////////////////////
+    // Art, music, fashion, poem, photo, and graphicnovel books
+    // Friday and Sunday
+
+	{
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Sandy", "Items" ],
+        "Entries":{
+            "{{ModId}}_OceanBooks": {
+                "ItemId": "RANDOM_ITEMS (O)",
+                "MaxItems": "{{OasisBooks}}",
+                "AvailableStock": 1,
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target art_book read_book\" \"ITEM_CONTEXT_TAG Target art_book unread_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target music_book unread_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book unread_book\" \"ITEM_CONTEXT_TAG Target poem_book read_book\" \"ITEM_CONTEXT_TAG Target poem_book unread_book\" \"ITEM_CONTEXT_TAG Target photo_book read_book\" \"ITEM_CONTEXT_TAG Target photo_book unread_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book read_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book unread_book\"",
+		    },
+        },
+        "When": {
+				"DayOfWeek": "Friday, Sunday"
+		},
 	},
 
 	// End //////////////////////////////////////////////////////////

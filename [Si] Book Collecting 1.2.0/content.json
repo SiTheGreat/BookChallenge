@@ -183,6 +183,87 @@
 			},
 		},
 
+		{
+			"Name": "CarpenterBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "CarpenterBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "CarpenterBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "AnimalBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "AnimalBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "AnimalBooks",
+			"Value": "2",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
+		{
+			"Name": "OasisBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "OasisBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "OasisBooks",
+			"Value": "1",
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
+				"HasFlag: |contains={{ModId}}_BookStock2": true,
+			},
+		},
+
 		// Book Fair Book Amounts
 
 		{
