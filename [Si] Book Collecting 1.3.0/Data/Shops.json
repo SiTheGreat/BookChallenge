@@ -42,7 +42,7 @@
 
     // Pierre //////////////////////////////////////////////////////////
     // Guide and business books
-    // Tuesday and Thursday
+    // Tuesday, Thursday, and Sunday
 
 	{
         "Action": "EditData",
@@ -57,7 +57,7 @@
 		    },
         },
         "When": {
-				"DayOfWeek": "Tuesday, Thursday"
+				"DayOfWeek": "Tuesday, Thursday, Sunday"
 		},
 	},
 
@@ -147,7 +147,7 @@
 
     // Oasis //////////////////////////////////////////////////////////
     // Art, music, fashion, poem, photo, and graphicnovel books
-    // Friday and Sunday
+    // Wednesday, Friday, and Sunday
 
 	{
         "Action": "EditData",
@@ -162,7 +162,7 @@
 		    },
         },
         "When": {
-				"DayOfWeek": "Friday, Sunday"
+				"DayOfWeek": "Wednesday, Friday, Sunday"
 		},
 	},
 
