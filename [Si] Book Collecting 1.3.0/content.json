@@ -203,7 +203,7 @@
 
 		{
 			"Name": "CarpenterBooks",
-			"Value": "1",
+			"Value": "2",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -257,7 +257,7 @@
 
 		{
 			"Name": "OasisBooks",
-			"Value": "1",
+			"Value": "2",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -268,7 +268,7 @@
 
 		{
 			"Name": "PowerShopBooks",
-			"Value": "5",
+			"Value": "3",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -277,7 +277,7 @@
 
 		{
 			"Name": "PowerShopBooks",
-			"Value": "8",
+			"Value": "6",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -286,7 +286,7 @@
 
 		{
 			"Name": "PowerShopBooks",
-			"Value": "12",
+			"Value": "9",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -304,7 +304,7 @@
 
 		{
 			"Name": "NonfictionShopBooks",
-			"Value": 8,
+			"Value": 7,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -313,7 +313,7 @@
 
 		{
 			"Name": "NonfictionShopBooks",
-			"Value": 12,
+			"Value": 11,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -331,7 +331,7 @@
 
 		{
 			"Name": "ScienceShopBooks",
-			"Value": 7,
+			"Value": 6,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -340,7 +340,7 @@
 
 		{
 			"Name": "ScienceShopBooks",
-			"Value": 10,
+			"Value": 9,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -349,7 +349,7 @@
 
 		{
 			"Name": "MagShopBooks",
-			"Value": 4,
+			"Value": 3,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -358,7 +358,7 @@
 
 		{
 			"Name": "MagShopBooks",
-			"Value": 7,
+			"Value": 6,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -367,7 +367,7 @@
 
 		{
 			"Name": "MagShopBooks",
-			"Value": 10,
+			"Value": 9,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
@@ -376,9 +376,18 @@
 
 		{
 			"Name": "RecipeShopBooks",
-			"Value": 5,
+			"Value": 3,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
+				"HasFlag: |contains={{ModId}}_BookStock2": false,
+			},
+		},
+
+		{
+			"Name": "RecipeShopBooks",
+			"Value": 6,
+			"When": {
+				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
 			},
 		},
@@ -388,22 +397,13 @@
 			"Value": 9,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "RecipeShopBooks",
-			"Value": 12,
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
 			},
 		},
 
 		{
 			"Name": "FictionShopBooks",
-			"Value": 4,
+			"Value": 3,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -412,7 +412,7 @@
 
 		{
 			"Name": "FictionShopBooks",
-			"Value": 8,
+			"Value": 6,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
@@ -421,7 +421,7 @@
 
 		{
 			"Name": "FictionShopBooks",
-			"Value": 12,
+			"Value": 9,
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,

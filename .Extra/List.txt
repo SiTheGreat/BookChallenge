@@ -126,6 +126,11 @@ Context Tags:
 - fish_book
 - music_book
 - fantasy_book
+- pet_book
+- bird_book
+- reptile_book
+- insect_book
+- horror_book
 - personal_book - Marnie's log etc
 - read_book - appended to books that have been read
 
