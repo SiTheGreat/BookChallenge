@@ -17,7 +17,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{BooksellerBooks}}", // This is a dynamic token that I set up in the content.json file. It makes the total number of available books change depending on how many books the player has read so far.
                 "AvailableStock": 1, // Ensures only one copy of each book is available at a time.
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target read_book\" \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\"", // Books with any of these tags can show up.
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target sold_book\" \"ITEM_CONTEXT_TAG Target read_book\"", // Books with any of these tags can show up.
 		    },
         },
 	},
@@ -35,7 +35,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{TravellerBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target fiction_book unread_book\" \"ITEM_CONTEXT_TAG Target dnd_book read_book\" \"ITEM_CONTEXT_TAG Target dnd_book unread_book\" \"ITEM_CONTEXT_TAG Target humor_book read_book\" \"ITEM_CONTEXT_TAG Target humor_book unread_book\" \"ITEM_CONTEXT_TAG Target relationship_book read_book\" \"ITEM_CONTEXT_TAG Target relationship_book unread_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book unread_book\" \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target recipe_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target fiction_book read_book\" \"ITEM_CONTEXT_TAG Target dnd_book read_book\" \"ITEM_CONTEXT_TAG Target recipe_book read_book\" \"ITEM_CONTEXT_TAG Target humor_book read_book\" \"ITEM_CONTEXT_TAG Target relationship_book read_book\" \"ITEM_CONTEXT_TAG Target selfhelp_book read_book\"",
 		    },
         },
 	},
@@ -53,7 +53,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{PierreBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target guide_book unread_book\" \"ITEM_CONTEXT_TAG Target business_book read_book\" \"ITEM_CONTEXT_TAG Target business_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target business_book read_book\"",
 		    },
         },
         "When": {
@@ -74,7 +74,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{GuildBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target guild_book unread_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book unread_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target history_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\"",
 		    },
         },
         "When": {
@@ -95,7 +95,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{OceanBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target fish_book unread_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book unread_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\"",
 		    },
         },
         "When": {
@@ -116,7 +116,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{CarpenterBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target science_book unread_book\" \"ITEM_CONTEXT_TAG Target craft_book read_book\" \"ITEM_CONTEXT_TAG Target craft_book unread_book\" \"ITEM_CONTEXT_TAG Target medical_book read_book\" \"ITEM_CONTEXT_TAG Target medical_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target craft_book read_book\" \"ITEM_CONTEXT_TAG Target medical_book read_book\"",
 		    },
         },
         "When": {
@@ -137,7 +137,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{AnimalBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target animal_book read_book\" \"ITEM_CONTEXT_TAG Target animal_book unread_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book unread_book\" \"ITEM_CONTEXT_TAG Target pet_book read_book\" \"ITEM_CONTEXT_TAG Target pet_book unread_book\" \"ITEM_CONTEXT_TAG Target bird_book read_book\" \"ITEM_CONTEXT_TAG Target bird_book unread_book\" \"ITEM_CONTEXT_TAG Target reptile_book read_book\" \"ITEM_CONTEXT_TAG Target reptile_book unread_book\" \"ITEM_CONTEXT_TAG Target insect_book read_book\" \"ITEM_CONTEXT_TAG Target insect_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target animal_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target pet_book read_book\" \"ITEM_CONTEXT_TAG Target bird_book read_book\" \"ITEM_CONTEXT_TAG Target reptile_book read_book\" \"ITEM_CONTEXT_TAG Target insect_book read_book\"",
 		    },
         },
         "When": {
@@ -158,7 +158,7 @@
                 "ItemId": "RANDOM_ITEMS (O)",
                 "MaxItems": "{{OasisBooks}}",
                 "AvailableStock": 1,
-                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target art_book read_book\" \"ITEM_CONTEXT_TAG Target art_book unread_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target music_book unread_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book unread_book\" \"ITEM_CONTEXT_TAG Target poem_book read_book\" \"ITEM_CONTEXT_TAG Target poem_book unread_book\" \"ITEM_CONTEXT_TAG Target photo_book read_book\" \"ITEM_CONTEXT_TAG Target photo_book unread_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book read_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book unread_book\" \"ITEM_CONTEXT_TAG Target horror_book read_book\" \"ITEM_CONTEXT_TAG Target horror_book unread_book\"",
+                "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target art_book read_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\" \"ITEM_CONTEXT_TAG Target poem_book read_book\" \"ITEM_CONTEXT_TAG Target photo_book read_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book read_book\" \"ITEM_CONTEXT_TAG Target horror_book read_book\"",
 		    },
         },
         "When": {
