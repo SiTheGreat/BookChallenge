@@ -1644,6 +1644,7 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"animal_book",
+						"bird_book",
 						"guide_book",
 						"bc_book",
 					],
@@ -3687,6 +3688,7 @@
 					"SpriteIndex": 0,
 					"ContextTags": [
 						"animal_book",
+						"pet_book",
 						"guide_book",
 						"bc_book",
 					],
