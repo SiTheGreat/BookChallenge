@@ -51,7 +51,7 @@
         "Entries":{
             "{{ModId}}_PierreBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{PierreBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target guide_book read_book\" \"ITEM_CONTEXT_TAG Target business_book read_book\"",
 		    },
@@ -72,7 +72,7 @@
         "Entries":{
             "{{ModId}}_GuildBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{GuildBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target guild_book read_book\" \"ITEM_CONTEXT_TAG Target history_book read_book\" \"ITEM_CONTEXT_TAG Target magic_book read_book\"",
 		    },
@@ -93,7 +93,7 @@
         "Entries":{
             "{{ModId}}_OceanBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{OceanBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target fish_book read_book\" \"ITEM_CONTEXT_TAG Target travel_book read_book\" \"ITEM_CONTEXT_TAG Target culture_book read_book\"",
 		    },
@@ -114,7 +114,7 @@
         "Entries":{
             "{{ModId}}_OceanBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{CarpenterBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target science_book read_book\" \"ITEM_CONTEXT_TAG Target craft_book read_book\" \"ITEM_CONTEXT_TAG Target medical_book read_book\"",
 		    },
@@ -135,7 +135,7 @@
         "Entries":{
             "{{ModId}}_OceanBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{AnimalBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target animal_book read_book\" \"ITEM_CONTEXT_TAG Target nature_book read_book\" \"ITEM_CONTEXT_TAG Target pet_book read_book\" \"ITEM_CONTEXT_TAG Target bird_book read_book\" \"ITEM_CONTEXT_TAG Target reptile_book read_book\" \"ITEM_CONTEXT_TAG Target insect_book read_book\"",
 		    },
@@ -156,7 +156,7 @@
         "Entries":{
             "{{ModId}}_OceanBooks": {
                 "ItemId": "RANDOM_ITEMS (O)",
-                "MaxItems": "{{OasisBooks}}",
+                "MaxItems": "{{BookAmount}}",
                 "AvailableStock": 1,
                 "PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target art_book read_book\" \"ITEM_CONTEXT_TAG Target music_book read_book\" \"ITEM_CONTEXT_TAG Target fashion_book read_book\" \"ITEM_CONTEXT_TAG Target poem_book read_book\" \"ITEM_CONTEXT_TAG Target photo_book read_book\" \"ITEM_CONTEXT_TAG Target graphicnovel_book read_book\" \"ITEM_CONTEXT_TAG Target horror_book read_book\"",
 		    },

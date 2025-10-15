@@ -80,7 +80,6 @@
 			"Value": "1",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
 			},
 		},
 
@@ -89,182 +88,26 @@
 			"Value": "2",
 			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock1": true,
+			},
+		},
+
+		{
+			"Name": "BookAmount",
+			"Value": "1",
+			"When": {
 				"HasFlag: |contains={{ModId}}_BookStock2": false,
 			},
 		},
-		
+
 		{
-			"Name": "TravellerBooks",
+			"Name": "BookAmount",
 			"Value": "2",
 			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
 				"HasFlag: |contains={{ModId}}_BookStock2": true,
 			},
 		},
 
-		{
-			"Name": "PierreBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "PierreBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "PierreBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		{
-			"Name": "GuildBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "GuildBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "GuildBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		{
-			"Name": "OceanBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "OceanBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "OceanBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		{
-			"Name": "CarpenterBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "CarpenterBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "CarpenterBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		{
-			"Name": "AnimalBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "AnimalBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "AnimalBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		{
-			"Name": "OasisBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": false,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "OasisBooks",
-			"Value": "1",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": false,
-			},
-		},
-
-		{
-			"Name": "OasisBooks",
-			"Value": "2",
-			"When": {
-				"HasFlag: |contains={{ModId}}_BookStock1": true,
-				"HasFlag: |contains={{ModId}}_BookStock2": true,
-			},
-		},
-
-		// Book Fair Book Amounts
+		// Book Amounts
 
 		{
 			"Name": "PowerShopBooks",
