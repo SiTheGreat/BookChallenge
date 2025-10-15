@@ -180,7 +180,7 @@
 						"ItemId": "RANDOM_ITEMS (O)",
                 		"MaxItems": "{{PowerShopBooks}}",
 						"AvailableStock": 1,
-                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target book_item\" \"ITEM_CONTEXT_TAG Target unread_book\"",
+                		"PerItemCondition": "ANY \"ITEM_CONTEXT_TAG Target unread_book\" \"ITEM_CONTEXT_TAG Target book_item\"",
 					},
 				],
 			},
