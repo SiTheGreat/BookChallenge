@@ -306,6 +306,17 @@
 		"Action": "EditData",
 		"Target": "Data/TriggerActions",
 		"Entries": {
+			// Unlock books
+			"{{ModId}}_UnlockedBooksToRead": {
+				"Id": "{{ModId}}_UnlockedBooksToRead",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL ALL HasMagnifyingGlass", // Conditions to unlock books.
+				"Actions": [
+					"AddMail All {{ModId}}_UnlockedBooks",
+				]
+			},
+			// Set stock limits based on number of books read
 			"{{ModId}}_StockLimit0": {
 				"Id": "{{ModId}}_StockLimit0",
 				"MarkActionApplied": true,
@@ -314,14 +325,7 @@
 				"Actions": [
 					"AddMail All {{ModId}}_BookStock0",
 				]
-			}
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
+			},
 			"{{ModId}}_StockLimit1": {
 				"Id": "{{ModId}}_StockLimit1",
 				"MarkActionApplied": true,
@@ -330,14 +334,7 @@
 				"Actions": [
 					"AddMail All {{ModId}}_BookStock1",
 				]
-			}
-		},
-	},
-
-	{
-		"Action": "EditData",
-		"Target": "Data/TriggerActions",
-		"Entries": {
+			},
 			"{{ModId}}_StockLimit2": {
 				"Id": "{{ModId}}_StockLimit2",
 				"MarkActionApplied": true,
@@ -346,7 +343,17 @@
 				"Actions": [
 					"AddMail All {{ModId}}_BookStock2",
 				]
-			}
+			},
+			// BC Achievement Counter
+			"{{ModId}}_AchievementCounter": {
+				"Id": "{{ModId}}_AchievementCounter",
+				"MarkActionApplied": true,
+				"Trigger": "DayEnding",
+				"Condition": "PLAYER_HAS_MAIL ALL {{ModId}}_UnlockedBooks",
+				"Actions": [
+					"IncrementStat bc_achievement 70", // Add total number of books this mod adds to the achievement counter, for eventual use in an achievement.
+				]
+			},
 		},
 	},
 
@@ -357,8 +364,7 @@
 		"Action": "Include",
 		"FromFile": "Data/Objects.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true, // Used to ensure the player has read at least one vanilla secret note before collecting books.
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -367,8 +373,7 @@
 		"Action": "Include",
 		"FromFile": "Data/SecretNotes.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -377,8 +382,7 @@
 		"Action": "Include",
 		"FromFile": "Data/MapEntries.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -387,8 +391,7 @@
 		"Action": "Include",
 		"FromFile": "Data/Events.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -397,8 +400,7 @@
 		"Action": "Include",
 		"FromFile": "Data/GiftTastes.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -407,8 +409,7 @@
 		"Action": "Include",
 		"FromFile": "Data/GiftResponses.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -417,8 +418,7 @@
 		"Action": "Include",
 		"FromFile": "Data/Shops.json",
 		"When": {
-				"HasWalletItem |contains=MagnifyingGlass": true,
-				// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 		},
 	},
 
@@ -427,8 +427,7 @@
 		"Action": "Include",
 		"FromFile": "Data/BookFair.json",
 		"When": {
-			"HasWalletItem |contains=MagnifyingGlass": true,
-			// "HasWalletItem |contains=BearsKnowledge": true,
+			"HasFlag: |contains={{ModId}}_UnlockedBooks": true,
 			"HasFlag: |contains={{ModId}}_StartBookFair": true, // Flag is set in Events.json in the Data folder.
 		},
 	},
